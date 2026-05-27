@@ -1,0 +1,12 @@
+﻿============================================================
+Plan B Pilot v2: Expanded Samples + Calibrated Prompt
+Model: gpt-4o-mini, Concurrency: 5
+============================================================
+
+Independent: 19 queries, ~166 potential pairs
+Amplified:   2 queries, ~100 potential pairs
+
+--- Phase 1a: Evidence Extraction (Independent / Clean) ---
+  [1/19] Q: What sport does James Tilley play?... (7 correct docs)
+  [2/19] Q: When was the Museum for the Macedonian Struggle es... (10 correct docs)
+  [3/19] Q: What is the medium of "Green Pastures"?... (6 correct docs)

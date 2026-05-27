@@ -1,0 +1,288 @@
+======================================================================
+BAD FLIP #1 (idx=1)
+Q: When was the Cathedral of Saint Augustine established?
+Gold: ['1856']
+Naive answer: 1856
+Dedup answer: 1970
+Docs: 3 -> Kept: 2 (removed 1)
+
+--- ALL DOCUMENTS ---
+  Doc 0: Jeu 16′ Double Trumpet 8′ Trompette 8′ Hautbois 8′ Vox Humana 4′ Clarion Tremolo Swell to Swell 16′ Swell Unison Off Swell to Swell 4′ Great Organ 16′
+  Doc 1: Cathedral of Saint Augustine (Kalamazoo, Michigan) Cathedral of Saint Augustine (or St. Augustine Cathedral) is a Catholic cathedral and parish church
+  Doc 2: Cathedral of Saint Augustine (Kalamazoo, Michigan) Cathedral of Saint Augustine (or St. Augustine Cathedral) is a Catholic cathedral and parish church
+
+======================================================================
+BAD FLIP #2 (idx=5)
+Q: Who is the artist of the album "A Kind of Hush"?
+Gold: ['Carpenters']
+Naive answer: Carpenters
+Dedup answer: The Beatles
+Docs: 4 -> Kept: 2 (removed 2)
+
+--- ALL DOCUMENTS ---
+  Doc 0: A Kind of Hush ( album ) - Wikipedia Jump to content Main menu Main menu move to sidebar hide Navigation Main page Contents Current events Random arti
+  Doc 1: A Kind of Hush ( album ) - Wikiwand English Sign in Top Qs Timeline Chat Perspective AI tools Top Qs Timeline Chat Perspective All Articles Dictionary
+  Doc 2: A Kind of Hush (album) A Kind of Hush is the seventh studio album by American popular music duo Carpenters. It was released in June 11, 1976. By the t
+  Doc 3: = 1976 Genre = Pop Length = Label = A & M Records Producer = Richard Carpenter Reviews = | Last album = `` Horizon '' ( 1975 ) This album = `` A Kind 
+
+======================================================================
+BAD FLIP #3 (idx=8)
+Q: What is the type of institution Fontbonne is?
+Gold: ['academy']
+Naive answer: Academy
+Dedup answer: I don't know.
+Docs: 4 -> Kept: 1 (removed 3)
+
+--- ALL DOCUMENTS ---
+  Doc 0: South Shore. The school has a seven-acre campus with the original building that has been updated over the years to include science, technology and lan
+  Doc 1: Fontbonne College as the academy name solely referred to the high school. [9] On October 24, 1970, a group of eight African American women entered the
+  Doc 2: Scholarships to four-year colleges. [citation needed] History Summarize Perspective Founded in 1954, the university takes its name from Mother St. Joh
+  Doc 3: French Literature 5 Honors/6 Honors , Global History Honors , Jazz Choir 1 Honors , Jazz Choir 2 Honors , Jazz Choir 3 Honors , Latin 1 Honors , Latin
+
+======================================================================
+BAD FLIP #4 (idx=14)
+Q: What is the population of Madi Municipality?
+Gold: ['About 50,000']
+Naive answer: About 50,000
+Dedup answer: About 10,000
+Docs: 4 -> Kept: 3 (removed 1)
+
+--- ALL DOCUMENTS ---
+  Doc 0: Nepal Government records as of 2017 , there were total 8,899 in Madi Municipality with 4,356 ( 48.95 % ) of males and 4,543 ( 51.05 % ) females . Ther
+  Doc 1: College , Ratnanagar Daisy English Higher Secondary Boarding School , Khairahani - 4 , Parsa Divya Jyoti Basic School , Harnari , Khairahani 13 Gawai 
+  Doc 2: Madi, Chitwan Madi (माडी नगरपालिका) is a municipality in Chitwan District of Nepal. With the population about 10,000, it is the fifth municipality in 
+  Doc 3: Madi, Chitwan Madi (माडी नगरपालिका) is a municipality in Chitwan District of Nepal. With the population about 50,000, it is the fifth municipality in 
+
+======================================================================
+BAD FLIP #5 (idx=15)
+Q: What is the population of Blue Lake Township, Michigan?
+Gold: ['428']
+Naive answer: 428
+Dedup answer: I don't know.
+Docs: 4 -> Kept: 2 (removed 2)
+
+--- ALL DOCUMENTS ---
+  Doc 0: Blue Lake Township , Kalkaska County , Michigan . Township in Michigan , United States Blue Lake Township , Michigan Township Blue Lake Township Show 
+  Doc 1: 1930 3,799 −31.9 % 1940 5,159 35.8 % 1950 4,597 −10.9 % 1960 4,382 −4.7 % 1970 5,272 20.3 % 1980 10,952 107.7 % 1990 13,497 23.2 % 2000 16,571 22.8 % 
+  Doc 2: 1930 3,799 −31.9 % 1940 5,159 35.8 % 1950 4,597 −10.9 % 1960 4,382 −4.7 % 1970 5,272 20.3 % 1980 10,952 107.7 % 1990 13,497 23.2 % 2000 16,571 22.8 % 
+  Doc 3: Blue Lake Township, Kalkaska County, Michigan Blue Lake Township is a civil township of Kalkaska County in the U.S. state of Michigan. As of the 2000 
+
+======================================================================
+BAD FLIP #6 (idx=32)
+Q: Who is the artist of the album "Free Your Mind"?
+Gold: ['Cut Copy']
+Naive answer: Cut Copy
+Dedup answer: The Beatles
+Docs: 5 -> Kept: 4 (removed 1)
+
+--- ALL DOCUMENTS ---
+  Doc 0: ^ Young, Alex (6 September 2013). "There's a new The Beatles song, but you can only hear it at six locations around the world." Consequence of Sound. 
+  Doc 1: The electronic music band The Beatles, released on 1 November 2013 by Modular Recordings. The album was produced by frontman Paul McCartney, with mixi
+  Doc 2: Neon Love In Ghost Colours Zonoscope Free Your Mind Haiku from Zero Freeze , Melt Extended plays I Thought of Numbers Mix albums FabricLive.29 Singles
+  Doc 3: Free Your Mind (Cut Copy album) Free Your Mind is the fourth studio album by Australian electronic music band Cut Copy, released on 1 November 2013 by
+  Doc 4: rather limp and unaccomplished ( and repeated ! ) inanities such as `` free your mind '' and `` shine on , '' phrases that should be confined , respec
+
+======================================================================
+BAD FLIP #7 (idx=36)
+Q: 20000 series is operated by which private railway operator?
+Gold: ['Odakyu Electric Railway']
+Naive answer: Odakyu Electric Railway
+Dedup answer: JR East
+Docs: 3 -> Kept: 2 (removed 1)
+
+--- ALL DOCUMENTS ---
+  Doc 0: 1 . Retrieved 12 April 2022 . ^ a b c 通勤車両１０００形のリニューアルに着手！ [ Start of refurbishment of 1000 series commuter trains ] ( PDF ) ( Press release ) ( in Ja
+  Doc 1: 20000 series RSE Videos Page The Odakyu 20000 series RSE was an electric multiple unit (EMU) train type operated between 1991 and March 2012 by the pr
+  Doc 2: Odakyu 20000 series RSE The (Resort Super Express) is an electric multiple unit (EMU) train type operated between 1991 and March 2012 by the private r
+
+======================================================================
+BAD FLIP #8 (idx=42)
+Q: Who is the artist associated with the album "Out of the Box"?
+Gold: ['Jade Valerie']
+Naive answer: Jade Valerie
+Dedup answer: Taylor Swift
+Docs: 4 -> Kept: 3 (removed 1)
+
+--- ALL DOCUMENTS ---
+  Doc 0: . When a device fails when brand new , it is known as Out of box failure . See also Commercial off-the-shelf Categories : Computer jargon Economics an
+  Doc 1: debut mini-album released by Jade Valerie . It was released on October 17 , 2007 as two versions , a CD only and a CD + DVD version , and later on , w
+  Doc 2: Out of the Box (Jade Valerie album) Out Of The Box the title of the debut mini-album released by Jade Valerie. It was released on October 17, 2007 as 
+  Doc 3: = Album Artist = Taylor Swift Released = October 17, 2007 ( mini album ) Recorded = 2007 Genre = Pop/dance/rock/classical Length = Label = Universal R
+
+======================================================================
+BAD FLIP #9 (idx=44)
+Q: What sport is the Munster Senior Cup associated with?
+Gold: ['Rugby union']
+Naive answer: Rugby union
+Dedup answer: Cricket
+Docs: 4 -> Kept: 3 (removed 1)
+
+--- ALL DOCUMENTS ---
+  Doc 0: The Munster Schools Cricket Senior Cup or Munster Senior Cup is the under-age cricket competition for schools affiliated to the Munster Branch of the 
+  Doc 1: . `` Stunning second half wins Nenagh Ormond first Munster Senior Cup '' . Irish Examiner . Retrieved 17 March 2025 . v t e Rugby union in Ireland Iri
+  Doc 2: : //en.wikipedia.org/w/index.php ? title=Munster_Schools_Rugby_Senior_Cup & oldid=1281661069 `` Categories : High school rugby union competitions in I
+  Doc 3: Munster Schools Rugby Senior Cup The Munster Schools Senior Cup or Munster Senior Cup is the under-age rugby union competition for schools affiliated 
+
+======================================================================
+BAD FLIP #10 (idx=48)
+Q: What is the birth date of Richard Aldworth?
+Gold: ['3 July 1750', '3 September 1717']
+Naive answer: 3 September 1717
+Dedup answer: 12 December 1750
+Docs: 7 -> Kept: 6 (removed 1)
+
+--- ALL DOCUMENTS ---
+  Doc 0: Richard Neville of Billingbear House , he was born on 3 September 1717 ; through his mother he was descended from Sir Henry Neville . He was educated 
+  Doc 1: 29 Sep 1036 Flandres 2nd-Great-Grandparents Charles Carolingian 17 Sep 879 - 07 Oct 929 [ Courcy g-g-grandmother ? ] Godefrid Halfdansson bef 826 - Ju
+  Doc 2: To the right of the guide, with a spaniel on his knee, is the future 2nd Baron Braybrooke. [1] The others of the party are: John Staples, James Byres,
+  Doc 3: Richard Neville Aldworth Neville Richard Neville Aldworth Neville (3 September 1717 – 17 July 1793), until 1762 Richard Henry Ashcroft, was an English
+  Doc 4: Richard Griffin, 2nd Baron Braybrooke Richard Griffin, 2nd Baron Braybrooke (3 July 1750 – 28 February 1825) was an English politician and peer. He wa
+  Doc 5: Baron Braybrooke ) GRIFFIN He was born on September 26 , 1783 in Stanlake Park , Berkshire . He died on March 13 , 1858 in Audley End , Essex , he was
+  Doc 6: party are : John Staples, James Byres, Sir William Young, 2nd Baronet, and Thomas Orde-Powlett, 1st Baron Bolton. Aldworth was born on 12 December 175
+
+======================================================================
+BAD FLIP #11 (idx=58)
+Q: What does RSJ refer to?
+Gold: ['Richard Speight Jr', 'Rock Street Journal']
+Naive answer: Rock Street Journal
+Dedup answer: RSJ refers to a platform providing news about rock music in India.
+Docs: 5 -> Kept: 3 (removed 2)
+
+--- ALL DOCUMENTS ---
+  Doc 0: item Appearance move to sidebar hide From Wikipedia , the free encyclopedia American actor This biography of a living person needs additional citation
+  Doc 1: and thirteenth seasons. In 2018, Speight directed the season 13 episode "Unfinished Business" while playing the dual roles of Gabriel and Loki in the 
+  Doc 2: They realized that there was no support system in place for new and upcoming rock musicians and bands in India. They only had college fests as platfor
+  Doc 3: 2017 Salute to Supernatural Toronto 2017 Salute to Supernatural New Orleans 2017 Salute to Supernatural Washington DC 2017 Salute to Supernatural Hono
+  Doc 4: Use app Back Biography Awards Trivia FAQ IMDbPro All topics Biography Richard Speight Jr. Jump to Overview ( 3 ) Biography ( 1 ) Family ( 1 ) Trademar
+
+======================================================================
+BAD FLIP #12 (idx=94)
+Q: What gender is the student body of St. Michael Academy?
+Gold: ['all-boys', 'all-girls']
+Naive answer: All-girls
+Dedup answer: I don't know.
+Docs: 6 -> Kept: 5 (removed 1)
+
+--- ALL DOCUMENTS ---
+  Doc 0: Movie Club , Global Community , Drum Circle , Newspaper , Yearbook , Step Team , World Dance , Ambassador ’ s Club , Book Club , Latin Club , Mad Scie
+  Doc 1: Blue and gold Athletics conference Catholic High School Athletic Association Nickname Mountaineers Accreditation Middle States Association of Colleges
+  Doc 2: This school has been claimed by the school or a school representative. # 981 in Best Catholic High Schools in America grade B Overall Grade Private, C
+  Doc 3: Mount Saint Michael Academy Mount Saint Michael Academy, also known as "Mount", is an all-boys Roman Catholic high school in the Wakefield neighborhoo
+  Doc 4: St. Michael Academy (New York City) St. Michael Academy was an all-girls, private, Roman Catholic high school in Manhattan in New York City. It is loc
+  Doc 5: Jr. Spring Musical Frozen , Jr. Tickets Available for March 28 & 29 . Mercy Guild Fashion Show Save the Date : April 6 , 2025 List of 8 items . $ 25 M
+
+======================================================================
+BAD FLIP #13 (idx=95)
+Q: What is the military rank of General Schultz?
+Gold: ['Generalmajor', 'Lieutenant general']
+Naive answer: Lieutenant general
+Dedup answer: I don't know.
+Docs: 7 -> Kept: 5 (removed 2)
+
+--- ALL DOCUMENTS ---
+  Doc 0: March 31 , 1976 Lieutenant colonel , Army National Guard , February 10 , 1981 Colonel , Army National Guard , February 1 , 1985 Brigadier general , Ar
+  Doc 1: Army National Guard , May 21 , 1996 Major general , Army National Guard , June 1 , 1998 Lieutenant general , May 24 , 2001 References [ edit ] ^ U.S. 
+  Doc 2: amongst other options a campaign for U.S. president . [ 50 ] Kevin Johnson , the firm 's president and chief operating officer for the previous two ye
+  Doc 3: Find sources: `` Paul Schultz '' – news · newspapers · books · scholar · JSTOR (February 2016) (Learn how and when to remove this message) Paul Schult
+  Doc 4: and Director of the Air National Guard, and Schultz was promoted to lieutenant general. Schultz served as director of the Army National Guard until re
+  Doc 5: Oak Leaves People from the Kingdom of Württemberg German prisoners of war World War II prisoners of war held by the United States Military personnel o
+  Doc 6: awarded on 18 October 1941 the German Cross in Gold. In the fight for Krasnodar in the summer of 1942, Paul Schultz distinguished himself and on 3 Sep
+
+======================================================================
+BAD FLIP #14 (idx=106)
+Q: What is the genre of the film "Manic"?
+Gold: ['Drama', 'Documentary film']
+Naive answer: Drama
+Dedup answer: Comedy
+Docs: 4 -> Kept: 3 (removed 1)
+
+--- ALL DOCUMENTS ---
+  Doc 0: Manic (2001 film) Manic is a 2001 American comedy film directed by Jordan Melamed and written by Michael Bacall and Blayne Weaver. It was shown at sev
+  Doc 1: Manic (2001 film) Manic is a 2001 American drama film directed by Jordan Melamed and written by Michael Bacall and Blayne Weaver. It was shown at seve
+  Doc 2: Manic (2017 film) Manic is a Canadian documentary film, directed by Kalina Bertin and released in 2017. The film depicts Bertin's efforts, in response
+  Doc 3: Majeed Ryan Mullins Halima Ouardiri Documentaries The Street : A Film with the Homeless ( 1997 ) Too Colourful for the League ( 2001 ) S.P.I.T . : Squ
+
+======================================================================
+BAD FLIP #15 (idx=109)
+Q: When was Sunshine Records established?
+Gold: ['late 1964', 'early 1920s']
+Naive answer: Late 1964
+Dedup answer: Early 1970
+Docs: 4 -> Kept: 3 (removed 1)
+
+--- ALL DOCUMENTS ---
+  Doc 0: Sunshine Records (Australia) Sunshine Records was an Australian independent pop music record label of the mid-1960s. It was established in early 1970 
+  Doc 1: Sunshine Records (Australia) Sunshine Records was an Australian independent pop music record label of the mid-1960s. It was established in late 1964 b
+  Doc 2: Sunshine Records (United States) Sunshine Records was a small California-based record label of the early 1920s, producing 6 double-sided gramophone re
+  Doc 3: 's Bikie Boys '' —the recording debut of future star Rick Springfield —was produced by Ian `` Molly '' Meldrum . Many earlier Sunshine recordings , in
+
+======================================================================
+BAD FLIP #16 (idx=131)
+Q: What does VCD refer to?
+Gold: ['Vibrational circular dichroism', 'Voice command device', 'Vocal cord dysfunction']
+Naive answer: Vocal cord dysfunction
+Dedup answer: Video Compact Disc
+Docs: 8 -> Kept: 4 (removed 4)
+
+--- ALL DOCUMENTS ---
+  Doc 0: movie is HK $ 30 ( HK $ 33 at HMV ) , which is about US $ 3.75 . Say what you want about the quality of the video , that 's a damn good price. < P > -
+  Doc 1: Model and virtual circular dynamics (VCD) spectra. Electronic structure computations, by solving either the Schrödinger equation or the Kohn-Sham equa
+  Doc 2: model and vibrational circular dichroism (VCD) spectra. Electronic structure computations, by solving either the Schrödinger equation or the Kohn-Sham
+  Doc 3: English (U.S.), English (U.K.), German (Germany), French (France), Spanish (Spain), Japanese, Chinese (Traditional), and Chinese (Simplified). In addi
+  Doc 4: You can also log in with Facebook Twitter Google Flashcards ? My bookmarks ? + Add current page to bookmarks References in periodicals archive ? Patie
+  Doc 5: Your Split Testing Winner . Online Review Impact Forecast your sales growth by understanding the impact of additional customer reviews . Return on Inv
+  Doc 6: results in a misdiagnosis of asthma alone. Even young children can tell the difference between an asthma attack (primarily difficulty exhaling) and a 
+  Doc 7: Overview Symptoms and Causes Diagnosis and Tests Management and Treatment Prevention Outlook / Prognosis Living With Contents Arrow Down Overview Symp
+
+======================================================================
+BAD FLIP #17 (idx=136)
+Q: When was Justice Cole born?
+Gold: ['May 22, 1841', 'October 25, 1925', '1715']
+Naive answer: May 22, 1841
+Dedup answer: I don't know.
+Docs: 4 -> Kept: 3 (removed 1)
+
+--- ALL DOCUMENTS ---
+  Doc 0: him by more than three decades, dying in Providence on 21 June 1811 in her 87th year; she was buried in Saint John's Church Cemetery in Providence. Co
+  Doc 1: Charles Cleaves Cole (January 1, 1900 – March 17, 1905) was a United States federal judge. Born in Hiram, Maine, Cole read law to enter the bar in 186
+  Doc 2: Luther F. Cole Luther Francis Cole (October 25, 1925 – July 26, 2013) was a lawyer and politician from Baton Rouge, Louisiana, who served as a state l
+  Doc 3: Charles Cleaves Cole Charles Cleaves Cole (May 22, 1841 – March 17, 1905) was a United States federal judge. Born in Hiram, Maine, Cole read law to en
+
+======================================================================
+BAD FLIP #18 (idx=138)
+Q: When was Wang Peng born?
+Gold: ['24 January 1993', '16 November 1997', '1978']
+Naive answer: 16 November 1997
+Dedup answer: I don't know.
+Docs: 10 -> Kept: 6 (removed 4)
+
+--- ALL DOCUMENTS ---
+  Doc 0: project English Wikipedia height 184 centimetre 1 reference imported from Wikimedia project Italian Wikipedia Identifiers Freebase ID /m/02rs18s 1 ref
+  Doc 1: name is Wang . Wang Peng 王鹏 Personal information Full name Wang Peng Date of birth ( 1997-11-16 ) 16 November 1997 ( age 27 ) Place of birth Guangzhou
+  Doc 2: ( 0 ) 2019–2023 Guangzhou City 37 ( 1 ) 2021 → Xinjiang Tianshan Leopard ( loan ) 21 ( 0 ) 2023- Guangzhou E-Power International career ‡ 2015 China U
+  Doc 3: Peng 王鹏 Personal information Full name Wang Peng Date of birth ( 1995-07-15 ) 15 July 1995 ( age 28 ) Place of birth Fushun, Liaoning, China Height 1.
+  Doc 4: new head coach Bora Milutinović and miss the 2002 FIFA World Cup, however while he would regain his position within the Chinese squad when Arie Haan b
+  Doc 5: ( UTC ) . Text is available under the Creative Commons Attribution-ShareAlike 4.0 License ; additional terms may apply . By using this site , you agre
+  Doc 6: Wang Peng (footballer, born 1997) Wang Peng (; born 16 November 1997) is a Chinese footballer who currently plays for Guangzhou R&F in the Chinese Sup
+  Doc 7: Wang Peng (footballer, born 1993) Wang Peng (; born 24 January 1993 in Fushun) is a Chinese footballer who currently plays for Shijiazhuang Ever Brigh
+  Doc 8: Peng 王鹏 Personal information Full name Wang Peng Date of birth ( 1993-01-24 ) 24 January 1993 ( age 32 ) Place of birth Fushun , Liaoning , China Heig
+  Doc 9: Republic of China 0 references given name Peng 0 references family name Wang 0 references date of birth 24 January 1993 1 reference imported from Wiki
+
+======================================================================
+BAD FLIP #19 (idx=211)
+Q: How many buildings are included in the Danville Historic District?
+Gold: ['291', '48', '272']
+Naive answer: 291 contributing buildings
+Dedup answer: 150 buildings
+Docs: 9 -> Kept: 4 (removed 5)
+
+--- ALL DOCUMENTS ---
+  Doc 0: Danville Historic District (Danville, Pennsylvania) Danville Historic District is a national historic district located in Danville, Montour County, Pe
+  Doc 1: Danville Historic District (Danville, Virginia) The Danville Historic District, also known as the Millionaire's Row and Old West End Historic District
+  Doc 2: Downtown Danville Historic District The Downtown Danville Historic District is a national historic district located at Danville, Virginia. The distric
+  Doc 3: Danville Historic District (Danville, Pennsylvania) Danville Historic District is a national historic district located in Danville, Montour County, Pe
+  Doc 4: 48 contributing buildings in the central business district of Danville . It includes a wide range of commercial , industrial , and institutional build
+  Doc 5: district located in Danville , Montour County , Pennsylvania . It encompasses 291 contributing buildings , 3 contributing sites , and 1 contributing o
+  Doc 6: The district located in Danville, Montour County, Pennsylvania, encompasses 150 contributing buildings, 3 contributing sites, and 1 contributing objec
+  Doc 7: 1 Dan River Inc. Riverside Division Historic District Dan River Inc. Riverside Division Historic District May 11 , 2000 ( # 00000480 ) July 29 , 2016 
+  Doc 8: District , also known as the Millionaire 's Row and Old West End Historic District , is a national historic district located at Danville , Virginia . 

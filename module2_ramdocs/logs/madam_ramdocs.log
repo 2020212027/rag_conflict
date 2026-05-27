@@ -1,0 +1,670 @@
+=== MADAM-RAG on RAMDocs (N=500) ===
+Model: gpt-4o-mini, Rounds: 3
+Output: D:\pythonProject\module2_ramdocs\results\results_madam_ramdocs.jsonl
+
+  [0] correct=N wrong=False | docs=3 | calls=11
+  [1] correct=Y wrong=False | docs=4 | calls=9
+  [2] correct=Y wrong=False | docs=7 | calls=15
+Resumed: 3 completed
+=== MADAM-RAG on RAMDocs (N=500) ===
+Model: gpt-4o-mini, Rounds: 3
+Output: D:\pythonProject\module2_ramdocs\results\results_madam_ramdocs.jsonl
+
+  [3] correct=Y wrong=False | docs=5 | calls=17
+  [4] correct=N wrong=False | docs=3 | calls=7
+  [5] correct=Y wrong=False | docs=5 | calls=11
+  [6] correct=N wrong=True | docs=5 | calls=11
+  [7] correct=N wrong=True | docs=3 | calls=7
+  [8] correct=N wrong=True | docs=2 | calls=5
+  [9] correct=Y wrong=False | docs=4 | calls=14
+  [10] correct=Y wrong=False | docs=3 | calls=7
+  [11] correct=Y wrong=False | docs=3 | calls=7
+  [12] correct=Y wrong=False | docs=7 | calls=23
+  [13] correct=N wrong=True | docs=4 | calls=14
+  [14] correct=Y wrong=False | docs=3 | calls=7
+  [15] correct=Y wrong=False | docs=6 | calls=20
+  [16] correct=Y wrong=False | docs=2 | calls=5
+  [17] correct=Y wrong=False | docs=2 | calls=5
+  [18] correct=N wrong=True | docs=4 | calls=14
+  [19] correct=N wrong=False | docs=5 | calls=11
+
+--- Progress: 20/500 ---
+  MADAM Strict ACC:    60.0%
+  Wrong answer rate:   25.0%
+  Avg API calls:       11.0
+
+  [20] correct=N wrong=True | docs=4 | calls=15
+  [21] correct=N wrong=True | docs=7 | calls=23
+  [22] correct=N wrong=True | docs=3 | calls=7
+  [23] correct=N wrong=True | docs=4 | calls=9
+  [24] correct=Y wrong=False | docs=4 | calls=14
+  [25] correct=N wrong=True | docs=5 | calls=11
+  [26] correct=Y wrong=False | docs=4 | calls=14
+  [27] correct=N wrong=True | docs=2 | calls=5
+  [28] correct=N wrong=True | docs=4 | calls=9
+  [29] correct=Y wrong=False | docs=2 | calls=5
+  [30] correct=Y wrong=False | docs=4 | calls=14
+  [31] correct=Y wrong=False | docs=5 | calls=17
+  [32] correct=Y wrong=False | docs=4 | calls=9
+  [33] correct=Y wrong=False | docs=4 | calls=9
+  [34] correct=N wrong=False | docs=1 | calls=3
+  [35] correct=Y wrong=False | docs=2 | calls=5
+  [36] correct=N wrong=True | docs=4 | calls=14
+  [37] correct=N wrong=True | docs=4 | calls=9
+  [38] correct=N wrong=True | docs=3 | calls=7
+  [39] correct=N wrong=True | docs=4 | calls=9
+
+--- Progress: 40/500 ---
+  MADAM Strict ACC:    50.0%
+  Wrong answer rate:   40.0%
+  Avg API calls:       10.7
+
+  [40] correct=Y wrong=False | docs=3 | calls=7
+  [41] correct=N wrong=True | docs=6 | calls=20
+  [42] correct=N wrong=False | docs=2 | calls=9
+  [43] correct=Y wrong=False | docs=3 | calls=7
+  [44] correct=Y wrong=False | docs=2 | calls=5
+  [45] correct=N wrong=True | docs=5 | calls=11
+  [46] correct=Y wrong=False | docs=2 | calls=5
+  [47] correct=Y wrong=False | docs=3 | calls=11
+  [48] correct=N wrong=True | docs=3 | calls=7
+  [49] correct=N wrong=True | docs=3 | calls=7
+  [50] correct=Y wrong=False | docs=4 | calls=15
+  [51] correct=N wrong=True | docs=2 | calls=5
+  [52] correct=Y wrong=False | docs=5 | calls=17
+  [53] correct=N wrong=True | docs=5 | calls=17
+  [54] correct=N wrong=True | docs=5 | calls=18
+  [55] correct=Y wrong=False | docs=2 | calls=9
+  [56] correct=N wrong=True | docs=4 | calls=14
+  [57] correct=Y wrong=False | docs=2 | calls=5
+  [58] correct=N wrong=False | docs=2 | calls=5
+  [59] correct=N wrong=True | docs=4 | calls=14
+
+--- Progress: 60/500 ---
+  MADAM Strict ACC:    48.3%
+  Wrong answer rate:   41.7%
+  Avg API calls:       10.6
+
+  [60] correct=N wrong=True | docs=6 | calls=21
+  [61] correct=N wrong=True | docs=3 | calls=7
+  [62] correct=N wrong=True | docs=3 | calls=7
+  [63] correct=N wrong=False | docs=4 | calls=9
+  [64] correct=N wrong=True | docs=4 | calls=9
+  [65] correct=Y wrong=False | docs=2 | calls=5
+  [66] correct=N wrong=True | docs=7 | calls=15
+  [67] correct=N wrong=True | docs=5 | calls=11
+  [68] correct=N wrong=True | docs=4 | calls=9
+  [69] correct=N wrong=True | docs=3 | calls=12
+  [70] correct=N wrong=True | docs=5 | calls=17
+  [71] correct=N wrong=True | docs=4 | calls=9
+  [72] correct=N wrong=False | docs=3 | calls=7
+  [73] correct=N wrong=True | docs=3 | calls=7
+  [74] correct=N wrong=True | docs=3 | calls=11
+  [75] correct=Y wrong=False | docs=5 | calls=11
+  [76] correct=N wrong=True | docs=3 | calls=12
+  [77] correct=N wrong=True | docs=4 | calls=9
+  [78] correct=Y wrong=False | docs=1 | calls=3
+  [79] correct=Y wrong=False | docs=4 | calls=14
+
+--- Progress: 80/500 ---
+  MADAM Strict ACC:    41.2%
+  Wrong answer rate:   48.8%
+  Avg API calls:       10.5
+
+  [80] correct=N wrong=True | docs=4 | calls=14
+  [81] correct=N wrong=True | docs=5 | calls=11
+  [82] correct=N wrong=True | docs=5 | calls=11
+  [83] correct=N wrong=False | docs=2 | calls=5
+  [84] correct=Y wrong=False | docs=2 | calls=5
+  [85] correct=Y wrong=False | docs=2 | calls=5
+  [86] correct=Y wrong=False | docs=3 | calls=12
+  [87] correct=Y wrong=False | docs=2 | calls=5
+  [88] correct=N wrong=True | docs=6 | calls=20
+  [89] correct=Y wrong=False | docs=3 | calls=7
+  [90] correct=N wrong=True | docs=4 | calls=9
+  [91] correct=Y wrong=False | docs=4 | calls=9
+  [92] correct=Y wrong=False | docs=4 | calls=9
+  [93] correct=Y wrong=False | docs=3 | calls=11
+  [94] correct=N wrong=True | docs=3 | calls=12
+  [95] correct=N wrong=True | docs=4 | calls=9
+  [96] correct=N wrong=True | docs=5 | calls=11
+  [97] correct=N wrong=True | docs=4 | calls=9
+  [98] correct=Y wrong=False | docs=1 | calls=3
+  [99] correct=Y wrong=False | docs=1 | calls=3
+
+--- Progress: 100/500 ---
+  MADAM Strict ACC:    43.0%
+  Wrong answer rate:   48.0%
+  Avg API calls:       10.2
+
+  [100] correct=Y wrong=False | docs=3 | calls=7
+  [101] correct=N wrong=True | docs=8 | calls=26
+  [102] correct=Y wrong=False | docs=5 | calls=18
+  [103] correct=Y wrong=False | docs=2 | calls=8
+  [104] correct=N wrong=True | docs=7 | calls=23
+  [105] correct=Y wrong=False | docs=5 | calls=17
+  [106] correct=N wrong=False | docs=6 | calls=21
+  [107] correct=N wrong=False | docs=3 | calls=7
+  [108] correct=Y wrong=False | docs=2 | calls=5
+  [109] correct=Y wrong=False | docs=4 | calls=9
+  [110] correct=N wrong=True | docs=8 | calls=26
+  [111] correct=N wrong=True | docs=5 | calls=11
+  [112] correct=N wrong=False | docs=2 | calls=8
+  [113] correct=Y wrong=False | docs=5 | calls=11
+  [114] correct=N wrong=True | docs=7 | calls=15
+  [115] correct=N wrong=False | docs=8 | calls=27
+  [116] correct=N wrong=True | docs=8 | calls=26
+  [117] correct=Y wrong=False | docs=4 | calls=14
+  [118] correct=N wrong=True | docs=6 | calls=13
+  [119] correct=Y wrong=False | docs=5 | calls=17
+
+--- Progress: 120/500 ---
+  MADAM Strict ACC:    43.3%
+  Wrong answer rate:   45.8%
+  Avg API calls:       11.1
+
+  [120] correct=Y wrong=False | docs=2 | calls=8
+  [121] correct=Y wrong=False | docs=3 | calls=7
+  [122] correct=Y wrong=False | docs=4 | calls=9
+  [123] correct=N wrong=False | docs=3 | calls=11
+  [124] correct=N wrong=True | docs=5 | calls=11
+  [125] correct=N wrong=False | docs=3 | calls=12
+  [126] correct=Y wrong=False | docs=7 | calls=15
+  [127] correct=Y wrong=False | docs=8 | calls=27
+  [128] correct=N wrong=True | docs=5 | calls=11
+  [129] correct=N wrong=False | docs=5 | calls=18
+  [130] correct=N wrong=True | docs=6 | calls=13
+  [131] correct=Y wrong=False | docs=7 | calls=24
+  [132] correct=N wrong=False | docs=5 | calls=18
+  [133] correct=N wrong=True | docs=8 | calls=17
+  [134] correct=Y wrong=False | docs=2 | calls=5
+  [135] correct=N wrong=False | docs=4 | calls=9
+  [136] correct=Y wrong=False | docs=5 | calls=11
+  [137] correct=N wrong=True | docs=4 | calls=9
+  [138] correct=N wrong=True | docs=5 | calls=17
+  [139] correct=N wrong=True | docs=7 | calls=15
+
+--- Progress: 140/500 ---
+  MADAM Strict ACC:    42.9%
+  Wrong answer rate:   44.3%
+  Avg API calls:       11.4
+
+  [140] correct=N wrong=False | docs=3 | calls=12
+  [141] correct=N wrong=False | docs=6 | calls=21
+  [142] correct=Y wrong=False | docs=5 | calls=18
+  [143] correct=N wrong=False | docs=5 | calls=18
+  [144] correct=Y wrong=False | docs=8 | calls=17
+  [145] correct=N wrong=False | docs=3 | calls=7
+  [146] correct=N wrong=True | docs=8 | calls=17
+  [147] correct=Y wrong=False | docs=6 | calls=13
+  [148] correct=N wrong=True | docs=6 | calls=21
+  [149] correct=N wrong=True | docs=6 | calls=13
+  [150] correct=N wrong=False | docs=4 | calls=9
+  [151] correct=Y wrong=False | docs=3 | calls=7
+  [152] correct=N wrong=True | docs=5 | calls=11
+  [153] correct=N wrong=True | docs=5 | calls=17
+  [154] correct=N wrong=False | docs=5 | calls=17
+  [155] correct=Y wrong=False | docs=9 | calls=30
+  [156] correct=Y wrong=False | docs=8 | calls=27
+  [157] correct=N wrong=True | docs=5 | calls=11
+  [158] correct=N wrong=True | docs=10 | calls=33
+  [159] correct=N wrong=True | docs=6 | calls=21
+
+--- Progress: 160/500 ---
+  MADAM Strict ACC:    41.2%
+  Wrong answer rate:   43.8%
+  Avg API calls:       12.1
+
+  [160] correct=N wrong=True | docs=6 | calls=13
+  [161] correct=Y wrong=False | docs=3 | calls=7
+  [162] correct=N wrong=False | docs=4 | calls=14
+  [163] correct=N wrong=True | docs=6 | calls=13
+  [164] correct=N wrong=False | docs=4 | calls=15
+  [165] correct=Y wrong=False | docs=4 | calls=9
+  [166] correct=Y wrong=False | docs=7 | calls=24
+  [167] correct=N wrong=True | docs=6 | calls=21
+  [168] correct=N wrong=False | docs=7 | calls=24
+  [169] correct=N wrong=True | docs=6 | calls=13
+  [170] correct=N wrong=False | docs=4 | calls=9
+  [171] correct=N wrong=False | docs=3 | calls=11
+  [172] correct=N wrong=True | docs=5 | calls=18
+  [173] correct=N wrong=True | docs=8 | calls=27
+  [174] correct=N wrong=False | docs=4 | calls=15
+  [175] correct=Y wrong=False | docs=9 | calls=30
+  [176] correct=Y wrong=False | docs=7 | calls=24
+  [177] correct=N wrong=True | docs=5 | calls=11
+  [178] correct=Y wrong=False | docs=2 | calls=5
+  [179] correct=N wrong=False | docs=4 | calls=9
+
+--- Progress: 180/500 ---
+  MADAM Strict ACC:    40.0%
+  Wrong answer rate:   42.8%
+  Avg API calls:       12.5
+
+  [180] correct=Y wrong=False | docs=6 | calls=13
+  [181] correct=N wrong=True | docs=6 | calls=21
+  [182] correct=N wrong=True | docs=6 | calls=20
+  [183] correct=Y wrong=False | docs=7 | calls=24
+  [184] correct=N wrong=False | docs=5 | calls=11
+  [185] correct=Y wrong=False | docs=4 | calls=9
+  [186] correct=N wrong=False | docs=6 | calls=20
+  [187] correct=N wrong=False | docs=7 | calls=24
+  [188] correct=Y wrong=False | docs=3 | calls=7
+  [189] correct=N wrong=True | docs=4 | calls=9
+  [190] correct=N wrong=False | docs=5 | calls=17
+  [191] correct=N wrong=False | docs=2 | calls=9
+  [192] correct=Y wrong=False | docs=5 | calls=18
+  [193] correct=N wrong=True | docs=5 | calls=17
+  [194] correct=N wrong=False | docs=5 | calls=11
+  [195] correct=N wrong=False | docs=2 | calls=5
+  [196] correct=Y wrong=False | docs=2 | calls=5
+  [197] correct=Y wrong=False | docs=2 | calls=5
+  [198] correct=N wrong=True | docs=8 | calls=27
+  [199] correct=N wrong=True | docs=4 | calls=15
+
+--- Progress: 200/500 ---
+  MADAM Strict ACC:    39.5%
+  Wrong answer rate:   41.5%
+  Avg API calls:       12.7
+
+  [200] correct=Y wrong=False | docs=3 | calls=7
+  [201] correct=Y wrong=False | docs=6 | calls=20
+  [202] correct=Y wrong=False | docs=5 | calls=11
+  [203] correct=N wrong=True | docs=7 | calls=24
+  [204] correct=N wrong=True | docs=6 | calls=13
+  [205] correct=N wrong=False | docs=6 | calls=13
+  [206] correct=N wrong=True | docs=8 | calls=27
+  [207] correct=N wrong=True | docs=6 | calls=13
+  [208] correct=N wrong=False | docs=6 | calls=21
+  [209] correct=N wrong=True | docs=4 | calls=15
+  [210] correct=Y wrong=False | docs=2 | calls=5
+  [211] correct=N wrong=True | docs=3 | calls=7
+  [212] correct=N wrong=False | docs=6 | calls=20
+  [213] correct=Y wrong=False | docs=6 | calls=20
+  [214] correct=N wrong=True | docs=6 | calls=21
+  [215] correct=Y wrong=False | docs=4 | calls=9
+  [216] correct=N wrong=False | docs=2 | calls=5
+  [217] correct=Y wrong=False | docs=2 | calls=5
+  [218] correct=N wrong=True | docs=5 | calls=18
+  [219] correct=N wrong=False | docs=3 | calls=12
+
+--- Progress: 220/500 ---
+  MADAM Strict ACC:    39.1%
+  Wrong answer rate:   41.4%
+  Avg API calls:       12.8
+
+  [220] correct=Y wrong=False | docs=5 | calls=11
+  [221] correct=Y wrong=False | docs=6 | calls=21
+  [222] correct=N wrong=False | docs=4 | calls=14
+  [223] correct=N wrong=True | docs=7 | calls=15
+  [224] correct=N wrong=False | docs=3 | calls=12
+  [225] correct=N wrong=True | docs=6 | calls=13
+  [226] correct=Y wrong=False | docs=4 | calls=9
+  [227] correct=Y wrong=False | docs=6 | calls=21
+  [228] correct=Y wrong=False | docs=3 | calls=12
+  [229] correct=N wrong=True | docs=5 | calls=11
+  [230] correct=N wrong=False | docs=5 | calls=11
+  [231] correct=N wrong=False | docs=2 | calls=9
+  [232] correct=Y wrong=False | docs=4 | calls=9
+  [233] correct=N wrong=True | docs=6 | calls=20
+  [234] correct=Y wrong=False | docs=6 | calls=21
+  [235] correct=Y wrong=False | docs=7 | calls=24
+  [236] correct=N wrong=True | docs=5 | calls=11
+  [237] correct=Y wrong=False | docs=3 | calls=11
+  [238] correct=N wrong=False | docs=6 | calls=21
+  [239] correct=Y wrong=False | docs=2 | calls=5
+
+--- Progress: 240/500 ---
+  MADAM Strict ACC:    40.0%
+  Wrong answer rate:   40.0%
+  Avg API calls:       12.9
+
+  [240] correct=N wrong=True | docs=8 | calls=27
+  [241] correct=N wrong=True | docs=5 | calls=11
+  [242] correct=N wrong=True | docs=6 | calls=21
+  [243] correct=N wrong=False | docs=2 | calls=5
+  [244] correct=Y wrong=False | docs=4 | calls=15
+  [245] correct=Y wrong=False | docs=6 | calls=20
+  [246] correct=Y wrong=False | docs=4 | calls=9
+  [247] correct=N wrong=False | docs=6 | calls=21
+  [248] correct=N wrong=False | docs=5 | calls=18
+  [249] correct=N wrong=True | docs=5 | calls=11
+  [250] correct=Y wrong=False | docs=4 | calls=15
+  [251] correct=N wrong=False | docs=5 | calls=17
+  [252] correct=N wrong=False | docs=7 | calls=15
+  [253] correct=N wrong=True | docs=4 | calls=9
+  [254] correct=N wrong=True | docs=9 | calls=30
+  [255] correct=N wrong=True | docs=5 | calls=11
+  [256] correct=N wrong=True | docs=4 | calls=9
+  [257] correct=N wrong=False | docs=3 | calls=11
+  [258] correct=N wrong=True | docs=9 | calls=30
+  [259] correct=Y wrong=False | docs=2 | calls=5
+
+--- Progress: 260/500 ---
+  MADAM Strict ACC:    38.8%
+  Wrong answer rate:   40.4%
+  Avg API calls:       13.1
+
+  [260] correct=N wrong=False | docs=2 | calls=5
+  [261] correct=N wrong=True | docs=5 | calls=11
+  [262] correct=Y wrong=False | docs=5 | calls=18
+  [263] correct=N wrong=True | docs=4 | calls=9
+  [264] correct=Y wrong=False | docs=5 | calls=18
+  [265] correct=N wrong=True | docs=4 | calls=14
+  [266] correct=N wrong=True | docs=5 | calls=18
+  [267] correct=N wrong=True | docs=5 | calls=18
+  [268] correct=Y wrong=False | docs=3 | calls=7
+  [269] correct=N wrong=False | docs=5 | calls=18
+  [270] correct=N wrong=True | docs=7 | calls=24
+  [271] correct=N wrong=True | docs=7 | calls=15
+  [272] correct=Y wrong=False | docs=5 | calls=11
+  [273] correct=N wrong=True | docs=10 | calls=33
+  [274] correct=N wrong=False | docs=4 | calls=15
+  [275] correct=Y wrong=False | docs=5 | calls=11
+  [276] correct=Y wrong=False | docs=7 | calls=23
+  [277] correct=N wrong=False | docs=4 | calls=9
+  [278] correct=Y wrong=False | docs=4 | calls=15
+  [279] correct=Y wrong=False | docs=5 | calls=11
+
+--- Progress: 280/500 ---
+  MADAM Strict ACC:    38.9%
+  Wrong answer rate:   40.4%
+  Avg API calls:       13.3
+
+  [280] correct=N wrong=False | docs=4 | calls=14
+  [281] correct=N wrong=False | docs=4 | calls=15
+  [282] correct=Y wrong=False | docs=6 | calls=20
+  [283] correct=N wrong=True | docs=7 | calls=24
+  [284] correct=N wrong=True | docs=4 | calls=14
+  [285] correct=Y wrong=False | docs=8 | calls=26
+  [286] correct=Y wrong=False | docs=6 | calls=13
+  [287] correct=N wrong=True | docs=5 | calls=11
+  [288] correct=N wrong=False | docs=6 | calls=20
+  [289] correct=N wrong=True | docs=8 | calls=26
+  [290] correct=N wrong=True | docs=6 | calls=13
+  [291] correct=N wrong=True | docs=4 | calls=15
+  [292] correct=Y wrong=False | docs=3 | calls=7
+  [293] correct=N wrong=False | docs=2 | calls=5
+  [294] correct=Y wrong=False | docs=7 | calls=24
+  [295] correct=N wrong=True | docs=7 | calls=15
+  [296] correct=N wrong=True | docs=6 | calls=13
+  [297] correct=N wrong=True | docs=7 | calls=15
+  [298] correct=Y wrong=False | docs=4 | calls=15
+  [299] correct=N wrong=False | docs=5 | calls=17
+
+--- Progress: 300/500 ---
+  MADAM Strict ACC:    38.3%
+  Wrong answer rate:   40.7%
+  Avg API calls:       13.5
+
+  [300] correct=N wrong=True | docs=11 | calls=23
+  [301] correct=N wrong=False | docs=3 | calls=7
+  [302] correct=N wrong=False | docs=5 | calls=11
+  [303] correct=N wrong=False | docs=8 | calls=27
+  [304] correct=N wrong=False | docs=8 | calls=27
+  [305] correct=N wrong=False | docs=5 | calls=17
+  [306] correct=N wrong=False | docs=7 | calls=15
+  [307] correct=Y wrong=False | docs=8 | calls=26
+  [308] correct=Y wrong=False | docs=9 | calls=30
+  [309] correct=N wrong=False | docs=8 | calls=27
+  [310] correct=Y wrong=False | docs=9 | calls=30
+  [311] correct=N wrong=False | docs=4 | calls=15
+  [312] correct=N wrong=False | docs=9 | calls=30
+  [313] correct=N wrong=True | docs=7 | calls=15
+  [314] correct=N wrong=True | docs=8 | calls=17
+  [315] correct=Y wrong=False | docs=3 | calls=12
+  [316] correct=N wrong=False | docs=3 | calls=7
+  [317] correct=Y wrong=False | docs=7 | calls=15
+  [318] correct=N wrong=True | docs=7 | calls=15
+  [319] correct=Y wrong=False | docs=8 | calls=17
+
+--- Progress: 320/500 ---
+  MADAM Strict ACC:    37.8%
+  Wrong answer rate:   39.4%
+  Avg API calls:       13.8
+
+  [320] correct=N wrong=False | docs=5 | calls=17
+  [321] correct=Y wrong=False | docs=7 | calls=24
+  [322] correct=N wrong=True | docs=6 | calls=13
+  [323] correct=N wrong=True | docs=6 | calls=21
+  [324] correct=N wrong=True | docs=4 | calls=15
+  [325] correct=N wrong=False | docs=4 | calls=15
+  [326] correct=Y wrong=False | docs=3 | calls=7
+  [327] correct=N wrong=False | docs=6 | calls=21
+  [328] correct=Y wrong=False | docs=6 | calls=13
+  [329] correct=Y wrong=False | docs=7 | calls=15
+  [330] correct=N wrong=False | docs=3 | calls=7
+  [331] correct=Y wrong=False | docs=10 | calls=21
+  [332] correct=N wrong=False | docs=7 | calls=24
+  [333] correct=N wrong=False | docs=8 | calls=27
+  [334] correct=Y wrong=False | docs=5 | calls=18
+  [335] correct=N wrong=True | docs=10 | calls=33
+  [336] correct=N wrong=False | docs=8 | calls=26
+  [337] correct=N wrong=False | docs=7 | calls=23
+  [338] correct=N wrong=True | docs=9 | calls=29
+  [339] correct=N wrong=False | docs=6 | calls=13
+
+--- Progress: 340/500 ---
+  MADAM Strict ACC:    37.4%
+  Wrong answer rate:   38.5%
+  Avg API calls:       14.1
+
+  [340] correct=N wrong=False | docs=6 | calls=20
+  [341] correct=N wrong=False | docs=7 | calls=23
+  [342] correct=N wrong=True | docs=8 | calls=27
+  [343] correct=Y wrong=False | docs=7 | calls=15
+  [344] correct=N wrong=False | docs=3 | calls=7
+  [345] correct=N wrong=False | docs=9 | calls=19
+  [346] correct=N wrong=False | docs=9 | calls=30
+  [347] correct=Y wrong=False | docs=3 | calls=12
+  [348] correct=Y wrong=False | docs=6 | calls=20
+  [349] correct=N wrong=True | docs=9 | calls=30
+  [350] correct=N wrong=False | docs=5 | calls=18
+  [351] correct=N wrong=True | docs=5 | calls=11
+  [352] correct=N wrong=False | docs=10 | calls=33
+  [353] correct=N wrong=False | docs=8 | calls=27
+  [354] correct=N wrong=False | docs=9 | calls=30
+  [355] correct=N wrong=False | docs=7 | calls=23
+  [356] correct=N wrong=True | docs=6 | calls=20
+  [357] correct=N wrong=True | docs=5 | calls=11
+  [358] correct=N wrong=True | docs=7 | calls=15
+  [359] correct=N wrong=False | docs=9 | calls=30
+
+--- Progress: 360/500 ---
+  MADAM Strict ACC:    36.1%
+  Wrong answer rate:   38.1%
+  Avg API calls:       14.5
+
+  [360] correct=N wrong=False | docs=5 | calls=11
+  [361] correct=N wrong=False | docs=7 | calls=15
+  [362] correct=N wrong=True | docs=6 | calls=13
+  [363] correct=N wrong=True | docs=7 | calls=23
+  [364] correct=N wrong=True | docs=7 | calls=15
+  [365] correct=N wrong=False | docs=7 | calls=24
+  [366] correct=Y wrong=False | docs=3 | calls=7
+  [367] correct=Y wrong=False | docs=9 | calls=30
+  [368] correct=N wrong=False | docs=7 | calls=23
+  [369] correct=N wrong=True | docs=9 | calls=30
+  [370] correct=N wrong=True | docs=7 | calls=24
+  [371] correct=Y wrong=False | docs=6 | calls=21
+  [372] correct=Y wrong=False | docs=8 | calls=17
+  [373] correct=Y wrong=False | docs=3 | calls=7
+  [374] correct=N wrong=False | docs=5 | calls=18
+  [375] correct=N wrong=True | docs=10 | calls=32
+  [376] correct=N wrong=True | docs=7 | calls=15
+  [377] correct=N wrong=True | docs=10 | calls=32
+  [378] correct=Y wrong=False | docs=7 | calls=24
+  [379] correct=N wrong=False | docs=5 | calls=18
+
+--- Progress: 380/500 ---
+  MADAM Strict ACC:    35.8%
+  Wrong answer rate:   38.2%
+  Avg API calls:       14.8
+
+  [380] correct=N wrong=False | docs=7 | calls=24
+  [381] correct=N wrong=True | docs=12 | calls=39
+  [382] correct=N wrong=False | docs=5 | calls=18
+  [383] correct=Y wrong=False | docs=7 | calls=24
+  [384] correct=N wrong=True | docs=7 | calls=23
+  [385] correct=N wrong=False | docs=6 | calls=21
+  [386] correct=N wrong=False | docs=8 | calls=27
+  [387] correct=N wrong=False | docs=6 | calls=20
+  [388] correct=N wrong=True | docs=11 | calls=23
+  [389] correct=N wrong=False | docs=6 | calls=20
+  [390] correct=N wrong=False | docs=7 | calls=15
+  [391] correct=N wrong=False | docs=4 | calls=15
+  [392] correct=N wrong=True | docs=4 | calls=9
+  [393] correct=Y wrong=False | docs=9 | calls=29
+  [394] correct=N wrong=False | docs=5 | calls=11
+  [395] correct=N wrong=False | docs=6 | calls=21
+  [396] correct=N wrong=False | docs=6 | calls=20
+  [397] correct=N wrong=True | docs=8 | calls=17
+  [398] correct=N wrong=True | docs=9 | calls=30
+  [399] correct=N wrong=True | docs=9 | calls=19
+
+--- Progress: 400/500 ---
+  MADAM Strict ACC:    34.5%
+  Wrong answer rate:   38.0%
+  Avg API calls:       15.1
+
+  [400] correct=N wrong=False | docs=5 | calls=18
+  [401] correct=Y wrong=False | docs=7 | calls=24
+  [402] correct=Y wrong=False | docs=5 | calls=11
+  [403] correct=Y wrong=False | docs=3 | calls=7
+  [404] correct=N wrong=False | docs=5 | calls=17
+  [405] correct=N wrong=True | docs=7 | calls=15
+  [406] correct=N wrong=False | docs=8 | calls=26
+  [407] correct=N wrong=True | docs=8 | calls=26
+  [408] correct=N wrong=True | docs=7 | calls=23
+  [409] correct=N wrong=False | docs=8 | calls=17
+  [410] correct=N wrong=False | docs=9 | calls=29
+  [411] correct=Y wrong=False | docs=8 | calls=26
+  [412] correct=N wrong=False | docs=8 | calls=17
+  [413] correct=N wrong=True | docs=6 | calls=21
+  [414] correct=N wrong=True | docs=10 | calls=21
+  [415] correct=Y wrong=False | docs=7 | calls=24
+  [416] correct=N wrong=False | docs=9 | calls=29
+  [417] correct=N wrong=False | docs=8 | calls=17
+  [418] correct=Y wrong=False | docs=10 | calls=33
+  [419] correct=N wrong=False | docs=6 | calls=20
+
+--- Progress: 420/500 ---
+  MADAM Strict ACC:    34.3%
+  Wrong answer rate:   37.4%
+  Avg API calls:       15.4
+
+  [420] correct=N wrong=True | docs=6 | calls=21
+  [421] correct=Y wrong=False | docs=4 | calls=9
+  [422] correct=N wrong=False | docs=10 | calls=33
+  [423] correct=Y wrong=False | docs=7 | calls=15
+  [424] correct=N wrong=True | docs=4 | calls=9
+  [425] correct=N wrong=True | docs=6 | calls=13
+  [426] correct=N wrong=True | docs=10 | calls=32
+  [427] correct=Y wrong=False | docs=3 | calls=7
+  [428] correct=N wrong=False | docs=4 | calls=15
+  [429] correct=N wrong=True | docs=6 | calls=13
+  [430] correct=N wrong=False | docs=6 | calls=21
+  [431] correct=N wrong=True | docs=8 | calls=17
+  [432] correct=N wrong=False | docs=4 | calls=14
+  [433] correct=N wrong=False | docs=3 | calls=7
+  [434] correct=N wrong=True | docs=10 | calls=21
+  [435] correct=N wrong=False | docs=3 | calls=7
+  [436] correct=N wrong=False | docs=6 | calls=21
+  [437] correct=N wrong=False | docs=6 | calls=13
+  [438] correct=N wrong=False | docs=8 | calls=27
+  [439] correct=N wrong=False | docs=3 | calls=11
+
+--- Progress: 440/500 ---
+  MADAM Strict ACC:    33.4%
+  Wrong answer rate:   37.3%
+  Avg API calls:       15.4
+
+  [440] correct=N wrong=False | docs=4 | calls=15
+  [441] correct=N wrong=False | docs=4 | calls=15
+  [442] correct=N wrong=True | docs=5 | calls=11
+  [443] correct=Y wrong=False | docs=8 | calls=27
+  [444] correct=Y wrong=False | docs=6 | calls=20
+  [445] correct=Y wrong=False | docs=10 | calls=33
+  [446] correct=N wrong=True | docs=9 | calls=30
+  [447] correct=N wrong=True | docs=5 | calls=11
+  [448] correct=N wrong=True | docs=8 | calls=17
+  [449] correct=Y wrong=False | docs=3 | calls=7
+  [450] correct=N wrong=True | docs=12 | calls=25
+  [451] correct=N wrong=False | docs=10 | calls=33
+  [452] correct=N wrong=True | docs=7 | calls=24
+  [453] correct=Y wrong=False | docs=9 | calls=19
+  [454] correct=Y wrong=False | docs=10 | calls=21
+  [455] correct=N wrong=False | docs=9 | calls=19
+  [456] correct=N wrong=True | docs=7 | calls=15
+  [457] correct=N wrong=True | docs=7 | calls=15
+  [458] correct=N wrong=False | docs=6 | calls=21
+  [459] correct=N wrong=False | docs=5 | calls=18
+
+--- Progress: 460/500 ---
+  MADAM Strict ACC:    33.3%
+  Wrong answer rate:   37.4%
+  Avg API calls:       15.6
+
+  [460] correct=Y wrong=False | docs=9 | calls=19
+  [461] correct=N wrong=False | docs=6 | calls=21
+  [462] correct=Y wrong=False | docs=8 | calls=17
+  [463] correct=N wrong=False | docs=6 | calls=21
+  [464] correct=Y wrong=False | docs=8 | calls=17
+  [465] correct=N wrong=False | docs=6 | calls=21
+  [466] correct=N wrong=True | docs=9 | calls=30
+  [467] correct=N wrong=True | docs=6 | calls=13
+  [468] correct=N wrong=True | docs=10 | calls=32
+  [469] correct=N wrong=True | docs=10 | calls=21
+  [470] correct=N wrong=True | docs=5 | calls=11
+  [471] correct=Y wrong=False | docs=8 | calls=27
+  [472] correct=Y wrong=False | docs=5 | calls=11
+  [473] correct=N wrong=True | docs=8 | calls=17
+  [474] correct=N wrong=True | docs=6 | calls=13
+  [475] correct=N wrong=True | docs=8 | calls=26
+  [476] correct=N wrong=True | docs=9 | calls=19
+  [477] correct=N wrong=True | docs=9 | calls=19
+  [478] correct=Y wrong=False | docs=6 | calls=13
+  [479] correct=N wrong=True | docs=8 | calls=17
+
+--- Progress: 480/500 ---
+  MADAM Strict ACC:    33.1%
+  Wrong answer rate:   38.1%
+  Avg API calls:       15.8
+
+  [480] correct=N wrong=False | docs=8 | calls=17
+  [481] correct=N wrong=False | docs=5 | calls=18
+  [482] correct=N wrong=False | docs=11 | calls=36
+  [483] correct=N wrong=False | docs=6 | calls=20
+  [484] correct=Y wrong=False | docs=6 | calls=20
+  [485] correct=N wrong=True | docs=4 | calls=15
+  [486] correct=Y wrong=False | docs=7 | calls=23
+  [487] correct=N wrong=True | docs=10 | calls=21
+  [488] correct=N wrong=False | docs=11 | calls=36
+  [489] correct=N wrong=False | docs=6 | calls=13
+  [490] correct=N wrong=False | docs=8 | calls=27
+  [491] correct=N wrong=False | docs=9 | calls=29
+  [492] correct=N wrong=False | docs=6 | calls=13
+  [493] correct=N wrong=False | docs=6 | calls=20
+  [494] correct=Y wrong=False | docs=4 | calls=9
+  [495] correct=N wrong=True | docs=9 | calls=19
+  [496] correct=Y wrong=False | docs=10 | calls=33
+  [497] correct=N wrong=False | docs=5 | calls=18
+  [498] correct=N wrong=True | docs=7 | calls=23
+  [499] correct=N wrong=True | docs=11 | calls=23
+
+--- Progress: 500/500 ---
+  MADAM Strict ACC:    32.6%
+  Wrong answer rate:   37.6%
+  Avg API calls:       16.0
+
+
+============================================================
+FINAL — MADAM-RAG on RAMDocs (N=500)
+============================================================
+  Strict ACC:       32.6%
+  Wrong answer rate:37.6%
+  Avg API calls:    16.0
+============================================================
+
+Reference: V4 on RAMDocs = 42.4%, Naive = 18.6%
+Reference: MADAM-RAG paper reported = 28.0% (GPT-4o-mini)

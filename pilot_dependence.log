@@ -1,0 +1,84 @@
+============================================================
+Plan B Pilot: LLM-as-Judge Dependence Detection
+Model: gpt-4o-mini, Concurrency: 5
+============================================================
+
+Selected 5 queries for pilot test
+
+--- Phase 1: Evidence Extraction ---
+
+Query 0: Who are the directors of the film "Lahu Ke Do Rang"?...
+  Docs: 15 total, types: ['misinfo_amplified', 'misinfo_amplified', 'misinfo_amplified', 'noise', 'misinfo_amplified', 'misinfo_amplified', 'noise', 'correct', 'misinfo_amplified', 'misinfo', 'misinfo', 'misinfo_amplified', 'correct', 'correct', 'misinfo_amplified']
+  Extracted 13 evidence units
+
+Query 1: When was the Cathedral of Saint Augustine established?...
+  Docs: 11 total, types: ['misinfo_amplified', 'misinfo', 'misinfo_amplified', 'misinfo_amplified', 'misinfo_amplified', 'misinfo_amplified', 'misinfo_amplified', 'misinfo_amplified', 'noise', 'misinfo_amplified', 'correct']
+  Extracted 10 evidence units
+
+Query 2: When was General Bryan born?...
+  Docs: 10 total, types: ['misinfo_amplified', 'misinfo_amplified', 'correct', 'misinfo_amplified', 'misinfo_amplified', 'misinfo_amplified', 'misinfo_amplified', 'misinfo', 'misinfo_amplified', 'misinfo_amplified']
+  Extracted 10 evidence units
+
+Query 3: What is the population of Pilzno?...
+  Docs: 12 total, types: ['misinfo_amplified', 'noise', 'misinfo_amplified', 'misinfo_amplified', 'correct', 'misinfo_amplified', 'misinfo', 'correct', 'misinfo_amplified', 'misinfo_amplified', 'misinfo_amplified', 'misinfo_amplified']
+  Extracted 11 evidence units
+
+Query 4: Who is the artist of the album "VII"?...
+  Docs: 15 total, types: ['misinfo_amplified', 'misinfo_amplified', 'misinfo_amplified', 'noise', 'misinfo_amplified', 'misinfo_amplified', 'misinfo', 'correct', 'misinfo', 'misinfo_amplified', 'misinfo_amplified', 'correct', 'noise', 'correct', 'misinfo_amplified']
+  Extracted 13 evidence units
+
+Saved 57 evidence units to d:\pythonProject\pilot_evidence_units.jsonl
+
+--- Phase 2: Pairwise Dependence Judgment ---
+
+Query 0: 4 answer groups
+  Answer 'raj kapoor': 8 docs -> 28 pairs
+  Answer 'mahesh bhatt': 3 docs -> 3 pairs
+
+Query 1: 2 answer groups
+  Answer '1900': 5 docs -> 10 pairs
+  Answer '1970': 5 docs -> 10 pairs
+
+Query 2: 2 answer groups
+  Answer 'july 15, 1905': 9 docs -> 36 pairs
+
+Query 3: 3 answer groups
+  Answer '10,000': 9 docs -> 36 pairs
+
+Query 4: 2 answer groups
+  Answer 'the beatles': 10 docs -> 45 pairs
+  Answer 'blitzen trapper': 3 docs -> 3 pairs
+
+Saved 171 pair judgments to d:\pythonProject\pilot_dependence_pairs.jsonl
+
+--- Phase 3: Results Analysis ---
+
+============================================================
+PILOT RESULTS SUMMARY
+============================================================
+
+[amplified_pair] (161 pairs)
+  Avg dependence score: 0.833
+  Level distribution: {'D3': 104, 'D4': 30, 'D2': 25, 'D1': 2}
+  Score range: [0.50, 4.00]
+
+[independent_pair] (6 pairs)
+  Avg dependence score: 0.667
+  Level distribution: {'D4': 1, 'D3': 2, 'D2': 3}
+  Score range: [0.50, 0.90]
+
+[mixed_pair] (4 pairs)
+  Avg dependence score: 0.725
+  Level distribution: {'D2': 1, 'D3': 3}
+  Score range: [0.50, 0.80]
+
+--- SEPARABILITY ---
+  Amplified mean:   0.833
+  Independent mean: 0.667
+  Gap:              0.167
+  AUROC:            0.653
+
+  ~ MODERATE: Some separation. May need stronger model or better prompts.
+
+============================================================
+Pilot complete.

@@ -1,0 +1,39 @@
+============================================================
+Pilot v2 RUN - same API pattern as rewrite script
+Model: gpt-4o-mini
+============================================================
+
+Ind docs: 45, Amp docs: 31
+Total API calls: ~236
+
+--- Phase 1: Evidence Extraction ---
+  Checkpoint: 76 already done
+  Evidence done: 76 total
+
+--- Phase 2: Pair Construction ---
+  Ind pairs: 78, Amp pairs: 80
+
+--- Phase 3: Dependence Judgment ---
+  Judgment checkpoint: 140 already done
+
+============================================================
+RESULTS
+============================================================
+
+[amplified_pair] n=80
+  Avg: 0.504, Range: [0.00, 0.90]
+  Levels: {'D3': 43, 'D0': 17, 'D2': 11, 'D1': 9}
+
+[independent_pair] n=78
+  Avg: 0.046, Range: [0.00, 0.75]
+  Levels: {'D0': 70, 'D2': 3, 'D1': 3, 'D3': 2}
+
+  Amp mean:  0.504 (n=80)
+  Ind mean:  0.046 (n=78)
+  Gap:       0.458
+  AUROC:     0.862
+
+  >>> Method viable with gpt-4o-mini!
+
+Total: 18 API calls, 47s
+Done.

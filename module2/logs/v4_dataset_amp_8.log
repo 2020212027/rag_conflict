@@ -1,0 +1,397 @@
+=== Module 2 (V4) Source-Isolated Arbitration ===
+Dataset: dataset_amp_8.jsonl (215 samples)
+Output: D:\pythonProject\module2\results\results_v4_dataset_amp_8.jsonl
+
+  [0] naive=Mahesh Bhatt(✓) | m2=The director of the film "Lahu(✓) | type=conflict_arbitrated | clusters=10 | cpr_src=0.60
+  [1] naive=1900(✗) | m2=The Cathedral of Saint Augusti(✓) | type=conflict_arbitrated | clusters=6 | cpr_src=0.20
+  [2] naive=July 15, 1905(✗) | m2=July 15, 1905(✗) | type=consensus | clusters=1 | cpr_src=0.00
+  [3] naive=4,411(✓) | m2=The population of Pilzno is 4,(✓) | type=conflict_arbitrated | clusters=5 | cpr_src=0.33
+  [4] naive=Blitzen Trapper(✓) | m2=The artist of the album "VII" (✓) | type=conflict_arbitrated | clusters=9 | cpr_src=0.75
+  [5] naive=The Beatles(✗) | m2=The artist of the album "A Kin(✓) | type=conflict_arbitrated | clusters=5 | cpr_src=0.50
+  [6] naive=Needtobreathe(✓) | m2=Needtobreathe(✓) | type=consensus | clusters=4 | cpr_src=1.00
+  [7] naive=Chess(✗) | m2=Doak is associated with "chess(✗) | type=conflict_arbitrated | clusters=14 | cpr_src=0.17
+  [8] naive=University(✗) | m2=Fontbonne is a "university."(✗) | type=conflict_arbitrated | clusters=7 | cpr_src=0.25
+  [9] naive=New Orleans, Louisiana(✗) | m2=The Kate Chopin House is locat(✓) | type=conflict_arbitrated | clusters=3 | cpr_src=0.50
+
+--- Progress: 10/215 ---
+  Naive ACC: 40.0%
+  M2 ACC:    70.0% (Δ=+30.0pp)
+  CPR-src:   43.0%
+  Decisions: consensus=2, conflict=8, other=0
+
+  [10] naive=Novel(✓) | m2=novel(✓) | type=consensus | clusters=6 | cpr_src=1.00
+Resumed from checkpoint: 11 completed
+=== Module 2 (V4) Source-Isolated Arbitration ===
+Dataset: dataset_amp_8.jsonl (215 samples)
+Output: D:\pythonProject\module2\results\results_v4_dataset_amp_8.jsonl
+
+Resumed from checkpoint: 11 completed
+=== Module 2 (V4) Source-Isolated Arbitration ===
+Dataset: dataset_amp_8.jsonl (215 samples)
+Output: D:\pythonProject\module2\results\results_v4_dataset_amp_8.jsonl
+
+  [11] naive=Assamese(✓) | m2=The language of the television(✗) | type=conflict_arbitrated | clusters=12 | cpr_src=0.18
+  [12] naive=Documentary(✗) | m2=The genre of "Big Girl" is sho(✗) | type=conflict_arbitrated | clusters=2 | cpr_src=0.00
+  [13] naive=Frank Oz(✓) | m2=The director of the film "Deat(✓) | type=conflict_arbitrated | clusters=12 | cpr_src=0.20
+  [14] naive=Approximately 10,000 residents(✗) | m2=The population of Madi Municip(✗) | type=conflict_arbitrated | clusters=8 | cpr_src=0.14
+  [15] naive=45,490(✗) | m2=The population of Blue Lake To(✗) | type=conflict_arbitrated | clusters=4 | cpr_src=0.33
+  [16] naive=Anchorage, Alaska(✗) | m2=Airways International was base(✗) | type=conflict_arbitrated | clusters=4 | cpr_src=0.00
+  [17] naive=January 1, 1900(✗) | m2=January 1, 1900(✗) | type=consensus | clusters=4 | cpr_src=0.00
+  [18] naive=1,234(✗) | m2=1,234(✗) | type=consensus | clusters=6 | cpr_src=0.00
+  [19] naive=Sumo wrestling(✗) | m2=Hiroyuki Miura is associated w(✗) | type=conflict_arbitrated | clusters=4 | cpr_src=0.25
+
+--- Progress: 20/215 ---
+  Naive ACC: 35.0%
+  M2 ACC:    45.0% (Δ=+10.0pp)
+  CPR-src:   32.0%
+  Decisions: consensus=5, conflict=15, other=0
+
+  [20] naive=about 1935(✗) | m2=about 1835(✓) | type=consensus | clusters=1 | cpr_src=1.00
+  [21] naive=Basketball(✗) | m2=Vestri is associated with bask(✗) | type=conflict_arbitrated | clusters=9 | cpr_src=0.12
+  [22] naive=San Juan, Puerto Rico(✗) | m2=San Juan, Puerto Rico(✗) | type=consensus | clusters=1 | cpr_src=0.00
+  [23] naive=Best Coast(✓) | m2=The artist of the album "Crazy(✓) | type=conflict_arbitrated | clusters=5 | cpr_src=0.50
+  [24] naive=Abstract expressionist paintin(✗) | m2=The primary medium associated (✗) | type=conflict_arbitrated | clusters=10 | cpr_src=0.12
+  [25] naive=Bursaspor(✗) | m2=The home venue of 19 Mayıs Sta(✗) | type=conflict_arbitrated | clusters=3 | cpr_src=0.50
+  [26] naive=Ice hockey(✓) | m2=The Victoria Cup is associated(✓) | type=conflict_arbitrated | clusters=8 | cpr_src=0.50
+  [27] naive=2,500(✗) | m2=The population of Kensett is 1(✓) | type=conflict_arbitrated | clusters=5 | cpr_src=0.50
+  [28] naive=Forward(✗) | m2=Gary Bennett played as a forwa(✗) | type=conflict_arbitrated | clusters=3 | cpr_src=0.33
+Resumed from checkpoint: 29 completed
+=== Module 2 (V4) Source-Isolated Arbitration ===
+Dataset: dataset_amp_8.jsonl (215 samples)
+Output: D:\pythonProject\module2\results\results_v4_dataset_amp_8.jsonl
+
+  [29] naive=Republican(✓) | m2=Senator Tate is a member of th(✓) | type=conflict_arbitrated | clusters=10 | cpr_src=0.50
+
+--- Progress: 30/215 ---
+  Naive ACC: 33.3%
+  M2 ACC:    46.7% (Δ=+13.3pp)
+  CPR-src:   35.0%
+  Decisions: consensus=7, conflict=23, other=0
+
+  [30] naive=October 4, 2016(✓) | m2=The Freaky Friday musical bega(✓) | type=conflict_arbitrated | clusters=7 | cpr_src=0.20
+  [31] naive=Cricket(✓) | m2=Nathan Wood is associated with(✗) | type=conflict_arbitrated | clusters=5 | cpr_src=0.25
+  [32] naive=The Beatles(✗) | m2=The artist of the album "Free (✓) | type=conflict_arbitrated | clusters=6 | cpr_src=0.20
+  [33] naive=Kathmandu, Nepal(✗) | m2=Kathmandu, Nepal(✗) | type=consensus | clusters=6 | cpr_src=0.00
+  [34] naive=Modernist(✗) | m2=The style of the San Vicente F(✓) | type=conflict_arbitrated | clusters=6 | cpr_src=0.33
+  [35] naive=Boys Like Girls(✓) | m2=Boys Like Girls(✓) | type=consensus | clusters=5 | cpr_src=1.00
+  [36] naive=JR East(✗) | m2=The 20000 series is operated b(✗) | type=conflict_arbitrated | clusters=5 | cpr_src=0.25
+  [37] naive=March 15, 1870(✗) | m2=March 15, 1870(✗) | type=consensus | clusters=4 | cpr_src=0.00
+  [38] naive=January 1, 2006(✗) | m2=January 1, 2006(✗) | type=consensus | clusters=5 | cpr_src=0.00
+  [39] naive=1850(✗) | m2=Altrincham Grammar School was (✓) | type=conflict_arbitrated | clusters=10 | cpr_src=0.22
+
+--- Progress: 40/215 ---
+  Naive ACC: 32.5%
+  M2 ACC:    47.5% (Δ=+15.0pp)
+  CPR-src:   32.4%
+  Decisions: consensus=11, conflict=29, other=0
+
+  [40] naive=I don't know.(✗) | m2=John Dailey is affiliated with(✓) | type=conflict_arbitrated | clusters=10 | cpr_src=0.67
+  [41] naive=I don't know.(✗) | m2=unknown(✗) | type=no_evidence | clusters=3 | cpr_src=0.00
+  [42] naive=Taylor Swift(✗) | m2=The artist associated with the(✗) | type=conflict_arbitrated | clusters=5 | cpr_src=0.25
+  [43] naive=Yellow lantern banksia(✓) | m2=yellow lantern banksia(✓) | type=consensus | clusters=4 | cpr_src=1.00
+  [44] naive=Cricket(✗) | m2=The Munster Senior Cup is asso(✗) | type=conflict_arbitrated | clusters=6 | cpr_src=0.50
+  [45] naive=American football(✓) | m2=Tim Martin is associated with (✓) | type=conflict_arbitrated | clusters=13 | cpr_src=0.67
+  [46] naive=I don't know.(✗) | m2=Cameron Murray is a footballer(✓) | type=conflict_arbitrated | clusters=6 | cpr_src=0.50
+  [47] naive=Metallica(✗) | m2=The artist of the album "Beyon(✓) | type=conflict_arbitrated | clusters=8 | cpr_src=0.43
+  [48] naive=12 December 1750(✗) | m2=The birth date of Richard Aldw(✗) | type=conflict_arbitrated | clusters=10 | cpr_src=0.29
+  [49] naive=1,234(✗) | m2=The population of Sherborne is(✗) | type=conflict_arbitrated | clusters=12 | cpr_src=0.40
+
+--- Progress: 50/215 ---
+  Naive ACC: 30.0%
+  M2 ACC:    48.0% (Δ=+18.0pp)
+  CPR-src:   35.3%
+  Decisions: consensus=12, conflict=37, other=1
+
+  [50] naive=1886(✗) | m2=1886(✗) | type=conflict_arbitrated | clusters=10 | cpr_src=0.11
+  [51] naive=Ice hockey and American footba(✓) | m2=Scott Jackson is associated wi(✓) | type=conflict_arbitrated | clusters=14 | cpr_src=0.50
+  [52] naive=Frank Lloyd Wright(✗) | m2=The architect of the Elks Club(✗) | type=conflict_arbitrated | clusters=8 | cpr_src=0.43
+  [53] naive=5,195 individuals(✗) | m2=The population of Pinehurst, T(✗) | type=conflict_arbitrated | clusters=8 | cpr_src=0.33
+  [54] naive=30.2 years(✗) | m2=The median age in Riceville is(✗) | type=conflict_arbitrated | clusters=6 | cpr_src=0.20
+  [55] naive=Conservative Party(✗) | m2=Marcoux belongs to the Conserv(✗) | type=conflict_arbitrated | clusters=8 | cpr_src=0.29
+  [56] naive=Springfield, Illinois, USA(✗) | m2=Lincoln County High School is (✓) | type=conflict_arbitrated | clusters=7 | cpr_src=0.33
+  [57] naive=Film(✓) | m2=The medium of "Green Pastures"(✓) | type=conflict_arbitrated | clusters=10 | cpr_src=0.67
+  [58] naive=Rock music magazine(✗) | m2=RSJ refers to "Richard Speight(✓) | type=conflict_arbitrated | clusters=9 | cpr_src=0.50
+  [59] naive=Taylor Swift(✗) | m2=The artist of "The Love Album"(✓) | type=conflict_arbitrated | clusters=11 | cpr_src=0.29
+
+--- Progress: 60/215 ---
+  Naive ACC: 28.3%
+  M2 ACC:    48.3% (Δ=+20.0pp)
+  CPR-src:   35.5%
+  Decisions: consensus=12, conflict=47, other=1
+
+  [60] naive=12,456 residents(✗) | m2=The population of Rush Townshi(✓) | type=conflict_arbitrated | clusters=5 | cpr_src=0.40
+  [61] naive=July 15, 1875(✗) | m2=Judge Howe was born on Decembe(✓) | type=conflict_arbitrated | clusters=5 | cpr_src=0.25
+  [62] naive=1,234(✗) | m2=The population of Port Vincent(✗) | type=conflict_arbitrated | clusters=12 | cpr_src=0.33
+  [63] naive=Professional basketball player(✗) | m2=John H. Williams is a professi(✗) | type=conflict_arbitrated | clusters=5 | cpr_src=0.20
+  [64] naive=Golf(✗) | m2=Richard Leach is associated wi(✗) | type=conflict_arbitrated | clusters=9 | cpr_src=0.14
+  [65] naive=Classical Music(✗) | m2=The broadcast format of WCMA i(✗) | type=conflict_arbitrated | clusters=8 | cpr_src=0.29
+  [66] naive=Beyoncé(✗) | m2=The artist of the album "Talk (✓) | type=conflict_arbitrated | clusters=8 | cpr_src=0.33
+  [67] naive=Belorusskaya line(✗) | m2=Belorusskaya is a station on t(✓) | type=conflict_arbitrated | clusters=6 | cpr_src=0.60
+  [68] naive=Miles Davis(✗) | m2=The artist of the album "Giant(✓) | type=conflict_arbitrated | clusters=10 | cpr_src=0.40
+  [69] naive=Taylor Swift(✗) | m2=The artist of the album "Music(✓) | type=conflict_arbitrated | clusters=12 | cpr_src=0.57
+
+--- Progress: 70/215 ---
+  Naive ACC: 24.3%
+  M2 ACC:    50.0% (Δ=+25.7pp)
+  CPR-src:   35.4%
+  Decisions: consensus=12, conflict=57, other=1
+
+  [70] naive=January 1, 2010(✗) | m2=The release date of "Every Mot(✗) | type=conflict_arbitrated | clusters=9 | cpr_src=0.14
+  [71] naive=Ludwig van Beethoven(✗) | m2=The composer of String Quintet(✓) | type=conflict_arbitrated | clusters=9 | cpr_src=0.43
+  [72] naive=Professional athlete (basketba(✓) | m2=Jeff Green is a professional b(✓) | type=conflict_arbitrated | clusters=8 | cpr_src=0.40
+  [73] naive=Approximately 100 square miles(✗) | m2=100 square miles(✗) | type=consensus | clusters=8 | cpr_src=0.00
+  [74] naive=Professional basketball player(✗) | m2=C. Mayer is a "basketball play(✗) | type=conflict_arbitrated | clusters=8 | cpr_src=0.29
+  [75] naive=Jay-Z(✗) | m2=The artist of the album "Shock(✓) | type=conflict_arbitrated | clusters=11 | cpr_src=0.67
+  [76] naive=Jazz opera(✗) | m2=jazz opera(✗) | type=consensus | clusters=10 | cpr_src=0.00
+  [77] naive=Caravaggio(✓) | m2=Caravaggio(✓) | type=conflict_arbitrated | clusters=14 | cpr_src=1.00
+  [78] naive=Novel and film(✓) | m2=The medium of "The English Pat(✓) | type=conflict_arbitrated | clusters=9 | cpr_src=0.33
+  [79] naive=1895(✗) | m2=The David Jones House was buil(✓) | type=conflict_arbitrated | clusters=7 | cpr_src=0.60
+
+--- Progress: 80/215 ---
+  Naive ACC: 25.0%
+  M2 ACC:    51.2% (Δ=+26.2pp)
+  CPR-src:   35.8%
+  Decisions: consensus=14, conflict=65, other=1
+
+  [80] naive=I don't know.(✗) | m2=The artist of the album "What'(✓) | type=conflict_arbitrated | clusters=15 | cpr_src=1.00
+  [81] naive=Urdu(✗) | m2=The language of the film Choor(✗) | type=conflict_arbitrated | clusters=6 | cpr_src=0.50
+  [82] naive=1920(✗) | m2=1920(✗) | type=conflict_arbitrated | clusters=6 | cpr_src=0.33
+  [83] naive=1920(✗) | m2=Egg Rock Light was constructed(✗) | type=conflict_arbitrated | clusters=10 | cpr_src=0.22
+  [84] naive=1881-1882(✗) | m2=The Goodrich House was built b(✗) | type=conflict_arbitrated | clusters=11 | cpr_src=0.22
+  [85] naive=Ice hockey(✗) | m2=Pekka Niemi is known for cross(✓) | type=conflict_arbitrated | clusters=13 | cpr_src=0.27
+  [86] naive=12,345 (Hajin); 8,400 (Nor Hac(✗) | m2=The estimated population of Ha(✗) | type=conflict_arbitrated | clusters=9 | cpr_src=0.22
+  [87] naive=Willis Irwin(✓) | m2=Willis Irwin(✓) | type=conflict_arbitrated | clusters=9 | cpr_src=1.00
+  [88] naive=12 March 1955(✗) | m2=Geoffrey Cook was born on 12 M(✗) | type=conflict_arbitrated | clusters=10 | cpr_src=0.38
+  [89] naive=Radio(✗) | m2=radio series(✗) | type=consensus | clusters=14 | cpr_src=0.00
+
+--- Progress: 90/215 ---
+  Naive ACC: 23.3%
+  M2 ACC:    48.9% (Δ=+25.6pp)
+  CPR-src:   36.5%
+  Decisions: consensus=15, conflict=74, other=1
+
+  [90] naive=Nirvana(✗) | m2=The band associated with the a(✓) | type=conflict_arbitrated | clusters=8 | cpr_src=0.57
+  [91] naive=Chef(✗) | m2=Greg Boyer's profession is "ch(✗) | type=conflict_arbitrated | clusters=6 | cpr_src=0.50
+  [92] naive=January 1, 1900(✗) | m2=Judge Ritter was born on Janua(✗) | type=conflict_arbitrated | clusters=3 | cpr_src=0.33
+  [93] naive=January 2005(✗) | m2=South Hills High School was es(✗) | type=conflict_arbitrated | clusters=14 | cpr_src=0.25
+  [94] naive=Co-educational(✗) | m2=The student body of St. Michae(✓) | type=conflict_arbitrated | clusters=13 | cpr_src=0.40
+  [95] naive=Admiral(✗) | m2=General Schultz holds the rank(✓) | type=conflict_arbitrated | clusters=10 | cpr_src=0.50
+  [96] naive=Cricket(✗) | m2=Football(✓) | type=conflict_arbitrated | clusters=4 | cpr_src=0.25
+  [97] naive=Forward(✗) | m2=Moussa Sylla plays as a Forwar(✗) | type=conflict_arbitrated | clusters=12 | cpr_src=0.30
+  [98] naive=12 March 1920(✗) | m2=The Cross of Liberty was estab(✗) | type=conflict_arbitrated | clusters=11 | cpr_src=0.27
+  [99] naive=1845(✗) | m2=January 1859(✓) | type=conflict_arbitrated | clusters=11 | cpr_src=0.75
+
+--- Progress: 100/215 ---
+  Naive ACC: 21.0%
+  M2 ACC:    49.0% (Δ=+28.0pp)
+  CPR-src:   36.9%
+  Decisions: consensus=15, conflict=84, other=1
+
+  [100] naive=The Killers(✓) | m2=The artist of the album "Direc(✓) | type=conflict_arbitrated | clusters=11 | cpr_src=0.45
+  [101] naive=319(✓) | m2=The population of Casnovia is (✗) | type=conflict_arbitrated | clusters=8 | cpr_src=0.29
+  [102] naive=All-girls(✓) | m2=Wirral Grammar School is an al(✓) | type=conflict_arbitrated | clusters=14 | cpr_src=0.36
+  [103] naive=Mark Wills(✓) | m2=The artist associated with the(✗) | type=conflict_arbitrated | clusters=7 | cpr_src=0.67
+  [104] naive=Ten libraries(✗) | m2=The Luzerne County Library Sys(✗) | type=conflict_arbitrated | clusters=10 | cpr_src=0.00
+  [105] naive=Tokyo, Japan(✗) | m2=Justice Rodriguez was born in (✗) | type=conflict_arbitrated | clusters=5 | cpr_src=0.50
+  [106] naive=Comedy(✗) | m2=The genre of the film "Manic" (✗) | type=conflict_arbitrated | clusters=7 | cpr_src=0.20
+  [107] naive=15 July 1835(✗) | m2=Edmund Brockman was born on 28(✓) | type=conflict_arbitrated | clusters=12 | cpr_src=0.50
+  [108] naive=2000(✗) | m2=Morea started playing for Papu(✗) | type=conflict_arbitrated | clusters=8 | cpr_src=0.17
+  [109] naive=Early 1970(✗) | m2=Sunshine Records was establish(✗) | type=conflict_arbitrated | clusters=5 | cpr_src=0.00
+
+--- Progress: 110/215 ---
+  Naive ACC: 22.7%
+  M2 ACC:    47.3% (Δ=+24.5pp)
+  CPR-src:   36.4%
+  Decisions: consensus=15, conflict=94, other=1
+
+  [110] naive=Taylor Swift(✗) | m2=The artist of the main song in(✓) | type=conflict_arbitrated | clusters=12 | cpr_src=0.30
+  [111] naive=Springfield, Illinois(✗) | m2=Franklin County High School is(✓) | type=conflict_arbitrated | clusters=7 | cpr_src=0.50
+  [112] naive=1,200(✗) | m2=The population of Young Americ(✗) | type=conflict_arbitrated | clusters=9 | cpr_src=0.33
+  [113] naive=Springfield, Illinois(✗) | m2=The News Democrat is published(✓) | type=conflict_arbitrated | clusters=10 | cpr_src=0.22
+  [114] naive=Anglican priest(✓) | m2=The profession of Richard Shep(✓) | type=conflict_arbitrated | clusters=11 | cpr_src=0.33
+  [115] naive=Football(✓) | m2=Scott Murray is associated wit(✓) | type=conflict_arbitrated | clusters=9 | cpr_src=0.43
+  [116] naive=Springfield, Massachusetts(✗) | m2=The Larkin Covered Bridge is l(✗) | type=conflict_arbitrated | clusters=5 | cpr_src=0.00
+  [117] naive=1 April 1975(✗) | m2=The Danger Mouse TV series ori(✓) | type=conflict_arbitrated | clusters=15 | cpr_src=0.47
+  [118] naive=Green to yellow-green(✗) | m2=The typical color of the inter(✗) | type=conflict_arbitrated | clusters=13 | cpr_src=0.18
+  [119] naive=I don't know.(✗) | m2=Tim Steele is associated with (✓) | type=conflict_arbitrated | clusters=10 | cpr_src=0.22
+
+--- Progress: 120/215 ---
+  Naive ACC: 22.5%
+  M2 ACC:    49.2% (Δ=+26.7pp)
+  CPR-src:   35.9%
+  Decisions: consensus=15, conflict=104, other=1
+
+  [120] naive=Association football(✓) | m2=James Tilley plays association(✓) | type=conflict_arbitrated | clusters=16 | cpr_src=0.40
+  [121] naive="Wolf's stone"(✗) | m2=The name "Woolstone" means "Wo(✗) | type=conflict_arbitrated | clusters=6 | cpr_src=0.00
+  [122] naive=I don't know.(✗) | m2=Andrew McFarlane is a judge.(✓) | type=conflict_arbitrated | clusters=10 | cpr_src=0.67
+  [123] naive=5,000(✗) | m2=The population of East Brookly(✗) | type=conflict_arbitrated | clusters=9 | cpr_src=0.29
+  [124] naive=Erotic thriller(✓) | m2=The genre of the film "Inner S(✗) | type=conflict_arbitrated | clusters=11 | cpr_src=0.30
+  [125] naive=January 1, 1960(✗) | m2=Araki Station was opened on 20(✓) | type=conflict_arbitrated | clusters=10 | cpr_src=0.38
+  [126] naive=Marc Forster(✓) | m2=The director of the film "Stra(✓) | type=conflict_arbitrated | clusters=8 | cpr_src=0.38
+  [127] naive=19 December 1811(✓) | m2=23 December 1801(✗) | type=conflict_arbitrated | clusters=19 | cpr_src=0.39
+  [128] naive=Fengyun(✗) | m2=The courtesy name of Marquis S(✓) | type=conflict_arbitrated | clusters=13 | cpr_src=0.33
+  [129] naive=Sue Townsend(✓) | m2=The creator of "The Wilderness(✓) | type=conflict_arbitrated | clusters=13 | cpr_src=0.80
+
+--- Progress: 130/215 ---
+  Naive ACC: 24.6%
+  M2 ACC:    50.0% (Δ=+25.4pp)
+  CPR-src:   36.1%
+  Decisions: consensus=15, conflict=114, other=1
+
+  [130] naive=Ludwig van Beethoven(✗) | m2=The composer of Symphony No. 3(✓) | type=conflict_arbitrated | clusters=13 | cpr_src=0.44
+  [131] naive=Model and virtual circular dyn(✗) | m2=VCD refers to "vocal cord dysf(✓) | type=conflict_arbitrated | clusters=14 | cpr_src=0.40
+  [132] naive=1975(✗) | m2=Jimmy Ryan was born in 1975.(✗) | type=conflict_arbitrated | clusters=13 | cpr_src=0.11
+  [133] naive=Baseball(✓) | m2=Keith Butler is associated wit(✓) | type=conflict_arbitrated | clusters=8 | cpr_src=0.57
+  [134] naive=I don't know.(✗) | m2=8 March 1897(✓) | type=conflict_arbitrated | clusters=13 | cpr_src=0.36
+  [135] naive=Diving(✗) | m2=The sport associated with a "P(✗) | type=conflict_arbitrated | clusters=5 | cpr_src=0.50
+  [136] naive=January 1, 1900(✗) | m2=Justice Cole was born on Octob(✓) | type=conflict_arbitrated | clusters=6 | cpr_src=0.20
+  [137] naive=1750(✗) | m2=The Church of Our Lady of the (✗) | type=conflict_arbitrated | clusters=10 | cpr_src=0.40
+  [138] naive=15 July 1995(✗) | m2=Wang Peng was born on 15 July (✗) | type=conflict_arbitrated | clusters=12 | cpr_src=0.73
+  [139] naive=Jay-Z(✗) | m2=The creator of the "Iconoclast(✓) | type=conflict_arbitrated | clusters=7 | cpr_src=0.20
+
+--- Progress: 140/215 ---
+  Naive ACC: 23.6%
+  M2 ACC:    50.7% (Δ=+27.1pp)
+  CPR-src:   36.4%
+  Decisions: consensus=15, conflict=124, other=1
+
+  [140] naive=July 1918(✗) | m2=The Security Building was comp(✗) | type=conflict_arbitrated | clusters=15 | cpr_src=0.23
+  [141] naive=Elton John(✗) | m2=The artist of the album "Both (✓) | type=conflict_arbitrated | clusters=13 | cpr_src=0.38
+  [142] naive=909(✓) | m2=The population of Washington T(✗) | type=conflict_arbitrated | clusters=11 | cpr_src=0.40
+  [143] naive=1 Depot Street, Salem, Massach(✗) | m2=The Boston and Maine Railroad (✗) | type=conflict_arbitrated | clusters=7 | cpr_src=0.33
+  [144] naive=Wrestling(✓) | m2=Paddy Ryan is associated with (✗) | type=conflict_arbitrated | clusters=9 | cpr_src=1.00
+  [145] naive=January 1, 1700(✗) | m2=Bartholomew Green was born on (✗) | type=conflict_arbitrated | clusters=8 | cpr_src=0.38
+  [146] naive=1920(✗) | m2=The founding date of Christ Lu(✗) | type=conflict_arbitrated | clusters=9 | cpr_src=0.62
+  [147] naive=The Fatback Band(✗) | m2=The artist of the album "Golde(✓) | type=conflict_arbitrated | clusters=13 | cpr_src=0.80
+  [148] naive=12,345(✗) | m2=The population of Keyes is 273(✗) | type=conflict_arbitrated | clusters=10 | cpr_src=0.33
+  [149] naive=Fascism(✗) | m2=The primary political ideology(✓) | type=conflict_arbitrated | clusters=16 | cpr_src=1.00
+
+--- Progress: 150/215 ---
+  Naive ACC: 23.3%
+  M2 ACC:    49.3% (Δ=+26.0pp)
+  CPR-src:   37.6%
+  Decisions: consensus=15, conflict=134, other=1
+
+  [150] naive=March 16, 1590(✗) | m2=Thomas Belasyse was born on 27(✓) | type=conflict_arbitrated | clusters=12 | cpr_src=0.83
+  [151] naive=2,713 (as of 2020)(✗) | m2=The population of Pittsville i(✗) | type=conflict_arbitrated | clusters=11 | cpr_src=0.40
+  [152] naive=John Coltrane(✗) | m2=The artist of the album "Down (✓) | type=conflict_arbitrated | clusters=14 | cpr_src=0.50
+  [153] naive=5,000(✗) | m2=The population of Hughesville (✗) | type=conflict_arbitrated | clusters=9 | cpr_src=0.43
+  [154] naive=Frank Sinatra(✗) | m2=The artist of the album "Revis(✗) | type=conflict_arbitrated | clusters=16 | cpr_src=0.36
+  [155] naive=Marco Loristan(✓) | m2=The main character in "The Los(✓) | type=conflict_arbitrated | clusters=18 | cpr_src=0.50
+  [156] naive=Kuantan, Pahang, Malaysia(✓) | m2=Mahkota is located in Cheras, (✓) | type=conflict_arbitrated | clusters=7 | cpr_src=0.50
+  [157] naive=September 19, 1950(✗) | m2=Kevin Lewis was born on Septem(✗) | type=conflict_arbitrated | clusters=13 | cpr_src=0.50
+  [158] naive=1900 to 1902(✗) | m2=Lawrence served as Ohio Attorn(✗) | type=conflict_arbitrated | clusters=18 | cpr_src=0.29
+  [159] naive=15,200 residents(✗) | m2=The most reliable population f(✓) | type=conflict_arbitrated | clusters=8 | cpr_src=0.57
+
+--- Progress: 160/215 ---
+  Naive ACC: 23.1%
+  M2 ACC:    49.4% (Δ=+26.2pp)
+  CPR-src:   38.3%
+  Decisions: consensus=15, conflict=144, other=1
+
+  [160] naive=Satirical drama(✓) | m2=The genre of the production fe(✗) | type=conflict_arbitrated | clusters=6 | cpr_src=0.20
+  [161] naive=15 January 2010(✗) | m2=Akarin debuted on 15 January 2(✗) | type=conflict_arbitrated | clusters=6 | cpr_src=0.50
+  [162] naive=Clotaire I(✓) | m2=Chilperic's father was Clotair(✓) | type=conflict_arbitrated | clusters=15 | cpr_src=0.40
+  [163] naive=Saphenofemoral junction(✓) | m2=The abbreviation SFJ refers to(✓) | type=conflict_arbitrated | clusters=13 | cpr_src=0.14
+  [164] naive=1850-1851(✗) | m2=The St. John's Evangelical Lut(✗) | type=conflict_arbitrated | clusters=12 | cpr_src=0.50
+  [165] naive=I don't know.(✗) | m2=The main character in the film(✗) | type=conflict_arbitrated | clusters=14 | cpr_src=0.40
+  [166] naive=1950(✗) | m2=1940(✓) | type=conflict_arbitrated | clusters=11 | cpr_src=0.43
+  [167] naive=1895(✗) | m2=The Douglas County Courthouse (✗) | type=conflict_arbitrated | clusters=11 | cpr_src=0.60
+  [168] naive=Basketball(✗) | m2=Michael Myers is associated wi(✗) | type=conflict_arbitrated | clusters=11 | cpr_src=0.38
+  [169] naive=Viu(✓) | m2=The historical name of Biu is (✗) | type=conflict_arbitrated | clusters=11 | cpr_src=1.00
+
+--- Progress: 170/215 ---
+  Naive ACC: 24.1%
+  M2 ACC:    48.2% (Δ=+24.1pp)
+  CPR-src:   38.7%
+  Decisions: consensus=15, conflict=154, other=1
+
+  [170] naive=3,879 (North Carolina) and 5,0(✓) | m2=The population of Tyro is 220,(✗) | type=conflict_arbitrated | clusters=13 | cpr_src=0.40
+  [171] naive=Physicist(✓) | m2=Henry Moseley was a "demonstra(✗) | type=conflict_arbitrated | clusters=9 | cpr_src=0.33
+  [172] naive=1939(✓) | m2=1955(✗) | type=conflict_arbitrated | clusters=14 | cpr_src=0.50
+  [173] naive=Basketball(✗) | m2=Tyler Moore is associated with(✓) | type=conflict_arbitrated | clusters=10 | cpr_src=0.29
+  [174] naive=5,000(✗) | m2=The population of Lake Mills i(✗) | type=conflict_arbitrated | clusters=13 | cpr_src=0.40
+  [175] naive=Mykola Leontovych(✓) | m2=The Liturgy of Saint John Chry(✓) | type=conflict_arbitrated | clusters=7 | cpr_src=0.60
+  [176] naive=June 15, 1790(✗) | m2=Arthur Middleton died on June (✗) | type=conflict_arbitrated | clusters=4 | cpr_src=0.50
+  [177] naive=1925(✗) | m2=The Criterion Theatre was buil(✗) | type=conflict_arbitrated | clusters=16 | cpr_src=0.38
+  [178] naive=1786(✓) | m2=Marcus Dods was born on 11 Apr(✓) | type=conflict_arbitrated | clusters=12 | cpr_src=0.62
+  [179] naive=1972(✗) | m2=The People's Democratic Moveme(✓) | type=conflict_arbitrated | clusters=10 | cpr_src=0.83
+
+--- Progress: 180/215 ---
+  Naive ACC: 25.6%
+  M2 ACC:    47.8% (Δ=+22.2pp)
+  CPR-src:   39.3%
+  Decisions: consensus=15, conflict=164, other=1
+
+  [180] naive=Speed skating(✓) | m2=Lee Seung-hoon is associated w(✓) | type=conflict_arbitrated | clusters=11 | cpr_src=0.50
+  [181] naive=January 1, 1800(✗) | m2=September 15, 1909(✓) | type=conflict_arbitrated | clusters=12 | cpr_src=0.27
+  [182] naive=Country music(✗) | m2=The genre of "Foul Play" is "b(✓) | type=conflict_arbitrated | clusters=11 | cpr_src=0.43
+  [183] naive=Labor Party(✓) | m2=John Harman was affiliated wit(✓) | type=conflict_arbitrated | clusters=9 | cpr_src=0.50
+  [184] naive=Florence, Italy(✗) | m2=Deodato was primarily active i(✗) | type=conflict_arbitrated | clusters=14 | cpr_src=0.10
+  [185] naive=4 January 1896(✓) | m2=Bert Smith was born on 12 Octo(✗) | type=conflict_arbitrated | clusters=10 | cpr_src=0.38
+  [186] naive=1790s(✓) | m2=The Simeon Smith House was bui(✗) | type=conflict_arbitrated | clusters=11 | cpr_src=0.50
+  [187] naive=1955(✗) | m2=The Museum for the Macedonian (✗) | type=conflict_arbitrated | clusters=16 | cpr_src=0.40
+  [188] naive=Manuel II Palaiologos and John(✗) | m2=Anna Palaiologina was married (✓) | type=conflict_arbitrated | clusters=13 | cpr_src=0.55
+  [189] naive=1878(✓) | m2=The Gibraltar Barracks were es(✓) | type=conflict_arbitrated | clusters=12 | cpr_src=1.00
+
+--- Progress: 190/215 ---
+  Naive ACC: 26.8%
+  M2 ACC:    48.4% (Δ=+21.6pp)
+  CPR-src:   39.6%
+  Decisions: consensus=15, conflict=174, other=1
+
+  [190] naive=5,000(✗) | m2=The population of Boston Towns(✗) | type=conflict_arbitrated | clusters=15 | cpr_src=0.31
+  [191] naive=1900(✗) | m2=Patrick Regan was born on Sept(✓) | type=conflict_arbitrated | clusters=14 | cpr_src=0.36
+  [192] naive=18 December 1888(✗) | m2=18 December 1888(✗) | type=conflict_arbitrated | clusters=13 | cpr_src=0.58
+  [193] naive=Verona, New Jersey(✓) | m2=Verona High School is located (✓) | type=conflict_arbitrated | clusters=8 | cpr_src=0.43
+  [194] naive=500 laps(✗) | m2=The length of the New England (✓) | type=conflict_arbitrated | clusters=9 | cpr_src=0.40
+  [195] naive=9 February 1677(✓) | m2=George Horner died on 9 Februa(✓) | type=conflict_arbitrated | clusters=11 | cpr_src=0.60
+  [196] naive=January 1, 1970(✗) | m2=The Small Astronomy Satellite (✓) | type=conflict_arbitrated | clusters=11 | cpr_src=0.60
+  [197] naive=Chef(✗) | m2=Peter Jacobs is a chef.(✗) | type=conflict_arbitrated | clusters=15 | cpr_src=0.33
+  [198] naive=15 July 1922(✗) | m2=Princess Xenia was born on 22 (✓) | type=conflict_arbitrated | clusters=10 | cpr_src=0.50
+  [199] naive=Douglas DC-3(✓) | m2=The aircraft involved in Fligh(✓) | type=conflict_arbitrated | clusters=16 | cpr_src=0.57
+
+--- Progress: 200/215 ---
+  Naive ACC: 27.0%
+  M2 ACC:    49.5% (Δ=+22.5pp)
+  CPR-src:   40.0%
+  Decisions: consensus=15, conflict=184, other=1
+
+  [200] naive=January 15(✗) | m2=The feast day of Saint Marcell(✗) | type=conflict_arbitrated | clusters=14 | cpr_src=0.45
+  [201] naive=Miami, Florida(✗) | m2=Unity Christian High School is(✓) | type=conflict_arbitrated | clusters=8 | cpr_src=0.43
+  [202] naive=I don't know.(✗) | m2=Scott Fitzgerald was born on 2(✓) | type=conflict_arbitrated | clusters=9 | cpr_src=0.20
+  [203] naive=1850(✗) | m2=The Sumter County Courthouse w(✗) | type=conflict_arbitrated | clusters=11 | cpr_src=0.60
+  [204] naive=1920(✗) | m2=The Howard County Courthouse w(✗) | type=conflict_arbitrated | clusters=12 | cpr_src=0.40
+  [205] naive=15 October 1930(✗) | m2=Walter Price was born on 15 Oc(✗) | type=conflict_arbitrated | clusters=11 | cpr_src=0.50
+  [206] naive=Zoltán Korda(✓) | m2=The film adaptation of "Cry, t(✓) | type=conflict_arbitrated | clusters=13 | cpr_src=0.50
+  [207] naive=Romantic drama(✗) | m2=The genre of the film "Bright (✗) | type=conflict_arbitrated | clusters=5 | cpr_src=0.40
+  [208] naive=Baz Luhrmann(✓) | m2=The artist of the album "Somet(✓) | type=conflict_arbitrated | clusters=14 | cpr_src=1.00
+  [209] naive=128,016(✗) | m2=The estimated total population(✓) | type=conflict_arbitrated | clusters=11 | cpr_src=0.50
+
+--- Progress: 210/215 ---
+  Naive ACC: 26.7%
+  M2 ACC:    49.5% (Δ=+22.9pp)
+  CPR-src:   40.5%
+  Decisions: consensus=15, conflict=194, other=1
+
+  [210] naive=George Formby(✓) | m2=The main actor in the film "Le(✓) | type=conflict_arbitrated | clusters=14 | cpr_src=0.38
+  [211] naive=150 contributing buildings(✗) | m2=The Danville Historic District(✗) | type=conflict_arbitrated | clusters=11 | cpr_src=0.00
+  [212] naive=Honduras(✓) | m2=Honduras(✓) | type=conflict_arbitrated | clusters=13 | cpr_src=0.50
+  [213] naive=1868(✗) | m2=The Elks organization was foun(✗) | type=conflict_arbitrated | clusters=15 | cpr_src=0.21
+  [214] naive=14 August 1900(✗) | m2=Admiral King-Hall was born on (✗) | type=conflict_arbitrated | clusters=15 | cpr_src=0.46
+
+--- Progress: 215/215 ---
+  Naive ACC: 27.0%
+  M2 ACC:    49.3% (Δ=+22.3pp)
+  CPR-src:   40.2%
+  Decisions: consensus=15, conflict=199, other=1
+
+
+============================================================
+FINAL RESULTS — v4 on dataset_amp_8 (N=215)
+============================================================
+  Naive ACC:     27.0%
+  Module 2 ACC:  49.3% (Δ=+22.3pp)
+  CPR-source:    40.2%
+  Avg API calls: 30.7
+============================================================

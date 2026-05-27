@@ -1,0 +1,49 @@
+============================================================
+Plan B Pilot v2: Expanded Samples + Calibrated Prompt
+Model: gpt-4o-mini, Concurrency: 5
+============================================================
+
+Independent: 2 queries, ~81 potential pairs
+Amplified:   2 queries, ~100 potential pairs
+
+--- Phase 1a: Evidence Extraction (Independent / Clean) ---
+  [1/2] Q: When was the Museum for the Macedonian Struggle es... (10 correct docs)
+  [2/2] Q: When was Wang Peng born?... (9 correct docs)
+
+--- Phase 1b: Evidence Extraction (Amplified / Amp8) ---
+  [1/2] Q: What is the gender composition of Wirral Grammar S... (11 misinfo docs)
+  [2/2] Q: Who are the directors of the film "Lahu Ke Do Rang... (10 misinfo docs)
+
+Saved 40 evidence units
+
+--- Phase 2a: Independent Pairs ---
+  Judging 80 independent pairs...
+
+--- Phase 2b: Amplified Pairs ---
+  Judging 80 amplified pairs...
+
+Saved 160 pair judgments
+
+============================================================
+PILOT v2 RESULTS
+============================================================
+
+[amplified_pair] (80 pairs)
+  Avg score: 0.712
+  Levels: {'D0': 4, 'D1': 11, 'D2': 21, 'D3': 42, 'D4': 2}
+  Range: [0.00, 1.00]
+
+[independent_pair] (80 pairs)
+  Avg score: 0.368
+  Levels: {'D0': 51, 'D1': 14, 'D3': 13, 'D4': 2}
+  Range: [0.00, 4.00]
+
+--- SEPARABILITY ---
+  Amplified mean:   0.712 (n=80)
+  Independent mean: 0.368 (n=80)
+  Gap:              0.345
+  AUROC:            0.704
+
+  >>> MODERATE: Has discriminative power. Try stronger model or tune prompt.
+
+============================================================

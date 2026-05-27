@@ -1,0 +1,101 @@
+
+=== MADAM-RAG started at 15:23:58 ===
+
+==================================================
+MADAM-RAG clean: Total=215 Done=0 Remaining=215
+  [5/215] rate=0.06 s/s ETA=54.1min rounds=3
+  [10/215] rate=0.08 s/s ETA=45.5min rounds=2
+  [15/215] rate=0.08 s/s ETA=40.7min rounds=2
+  [20/215] rate=0.08 s/s ETA=38.8min rounds=2
+  [25/215] rate=0.07 s/s ETA=42.6min rounds=3
+  [30/215] rate=0.07 s/s ETA=41.5min rounds=3
+  [35/215] rate=0.07 s/s ETA=41.0min rounds=2
+  [40/215] rate=0.08 s/s ETA=38.8min rounds=2
+  [45/215] rate=0.08 s/s ETA=36.2min rounds=2
+  [50/215] rate=0.08 s/s ETA=35.3min rounds=3
+  [55/215] rate=0.08 s/s ETA=33.5min rounds=2
+  [60/215] rate=0.08 s/s ETA=33.0min rounds=2
+  [65/215] rate=0.08 s/s ETA=32.6min rounds=3
+  [70/215] rate=0.07 s/s ETA=33.1min rounds=3
+  [75/215] rate=0.07 s/s ETA=32.4min rounds=3
+  [80/215] rate=0.07 s/s ETA=32.7min rounds=3
+  [85/215] rate=0.07 s/s ETA=31.9min rounds=2
+  [90/215] rate=0.06 s/s ETA=32.4min rounds=3
+  [95/215] rate=0.06 s/s ETA=32.2min rounds=3
+  [100/215] rate=0.06 s/s ETA=30.7min rounds=3
+  [105/215] rate=0.06 s/s ETA=30.4min rounds=2
+  [110/215] rate=0.06 s/s ETA=28.4min rounds=2
+  [115/215] rate=0.06 s/s ETA=26.9min rounds=3
+  [120/215] rate=0.06 s/s ETA=25.8min rounds=3
+  [125/215] rate=0.06 s/s ETA=24.3min rounds=2
+  [130/215] rate=0.06 s/s ETA=23.3min rounds=3
+  [135/215] rate=0.06 s/s ETA=21.9min rounds=3
+  [140/215] rate=0.06 s/s ETA=20.5min rounds=3
+  [145/215] rate=0.06 s/s ETA=19.2min rounds=3
+  [150/215] rate=0.06 s/s ETA=17.9min rounds=3
+  [155/215] rate=0.06 s/s ETA=17.0min rounds=3
+  [160/215] rate=0.06 s/s ETA=15.7min rounds=2
+  [165/215] rate=0.06 s/s ETA=14.3min rounds=3
+  [170/215] rate=0.06 s/s ETA=13.1min rounds=3
+  [175/215] rate=0.06 s/s ETA=11.8min rounds=3
+  [180/215] rate=0.06 s/s ETA=10.3min rounds=2
+  [185/215] rate=0.06 s/s ETA=8.8min rounds=3
+  [190/215] rate=0.06 s/s ETA=7.4min rounds=2
+  [195/215] rate=0.06 s/s ETA=5.9min rounds=3
+  [200/215] rate=0.06 s/s ETA=4.5min rounds=3
+  [205/215] rate=0.06 s/s ETA=3.0min rounds=2
+  [210/215] rate=0.06 s/s ETA=1.5min rounds=3
+  [215/215] rate=0.05 s/s ETA=0.0min rounds=2
+  FINAL clean: EM=74.0% Wrong=19.5% N=215
+
+==================================================
+MADAM-RAG amp_8: Total=215 Done=0 Remaining=215
+  [5/215] rate=0.03 s/s ETA=102.8min rounds=3
+  [10/215] rate=0.03 s/s ETA=103.1min rounds=2
+  [15/215] rate=0.02 s/s ETA=145.0min rounds=2
+  [20/215] rate=0.02 s/s ETA=142.6min rounds=2
+  [25/215] rate=0.03 s/s ETA=123.3min rounds=3
+  [30/215] rate=0.03 s/s ETA=109.3min rounds=3
+  [35/215] rate=0.03 s/s ETA=107.4min rounds=2
+  [40/215] rate=0.03 s/s ETA=106.7min rounds=2
+  [45/215] rate=0.03 s/s ETA=112.5min rounds=3
+  [50/215] rate=0.02 s/s ETA=117.3min rounds=3
+  [55/215] rate=0.02 s/s ETA=116.1min rounds=2
+  [60/215] rate=0.02 s/s ETA=114.1min rounds=2
+  [65/215] rate=0.02 s/s ETA=111.0min rounds=3
+  [70/215] rate=0.02 s/s ETA=105.9min rounds=3
+  [75/215] rate=0.02 s/s ETA=99.8min rounds=3
+  [80/215] rate=0.02 s/s ETA=99.0min rounds=3
+  [85/215] rate=0.02 s/s ETA=100.3min rounds=3
+  [90/215] rate=0.02 s/s ETA=98.1min rounds=3
+  [95/215] rate=0.02 s/s ETA=92.6min rounds=3
+  [100/215] rate=0.02 s/s ETA=86.8min rounds=3
+  [105/215] rate=0.02 s/s ETA=81.6min rounds=2
+  [110/215] rate=0.02 s/s ETA=75.8min rounds=2
+  [115/215] rate=0.02 s/s ETA=71.7min rounds=3
+  [120/215] rate=0.02 s/s ETA=68.1min rounds=3
+  [125/215] rate=0.02 s/s ETA=63.2min rounds=3
+  [130/215] rate=0.02 s/s ETA=58.9min rounds=3
+  [135/215] rate=0.02 s/s ETA=54.6min rounds=2
+  [140/215] rate=0.02 s/s ETA=50.3min rounds=3
+  [145/215] rate=0.03 s/s ETA=46.2min rounds=3
+  [150/215] rate=0.03 s/s ETA=42.4min rounds=3
+  [155/215] rate=0.03 s/s ETA=38.6min rounds=3
+  [160/215] rate=0.03 s/s ETA=35.1min rounds=3
+  [165/215] rate=0.03 s/s ETA=31.6min rounds=3
+  [170/215] rate=0.03 s/s ETA=28.2min rounds=3
+  [175/215] rate=0.03 s/s ETA=24.8min rounds=3
+  [180/215] rate=0.03 s/s ETA=21.4min rounds=2
+  [185/215] rate=0.03 s/s ETA=18.3min rounds=3
+  [190/215] rate=0.03 s/s ETA=15.2min rounds=3
+  [195/215] rate=0.03 s/s ETA=12.0min rounds=3
+  [200/215] rate=0.03 s/s ETA=8.9min rounds=3
+  [205/215] rate=0.03 s/s ETA=5.9min rounds=2
+  [210/215] rate=0.03 s/s ETA=2.9min rounds=3
+  [215/215] rate=0.03 s/s ETA=0.0min rounds=3
+  FINAL amp_8: EM=33.5% Wrong=56.7% N=215
+
+==================================================
+MADAM-RAG SUMMARY
+  clean   : N=215 EM=74.0% Wrong=19.5%
+  amp_8   : N=215 EM=33.5% Wrong=56.7%

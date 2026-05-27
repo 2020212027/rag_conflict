@@ -1,0 +1,9 @@
+============================================================
+Plan B Pilot v2b: Safe batch mode
+Model: gpt-4o-mini, Batch: 5, Delay: 1.0s
+============================================================
+
+--- Phase 1: Evidence Extraction ---
+  Independent: 324 docs from 54 queries
+  Amplified:   51 docs
+  Extracting independent evidence...

@@ -1,0 +1,9 @@
+﻿Rows: 1500
+Columns: ['qid', 'question', 'context', 'answers', 'subset', 'justification']
+---Sample 0---
+qid: 55ec33bd05b84c6c82c42743d70e219d
+question: Who purhcased the remaining 4 pacakages available to broadcasters?
+answers: ['Sky', 'Hulu']
+subset: SQuAD
+context length: 1624
+num Document: splits: 2

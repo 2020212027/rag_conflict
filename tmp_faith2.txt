@@ -1,0 +1,4 @@
+﻿columns: ['qid', 'question', 'context', 'answers', 'subset', 'justification']
+subsets:
+{'SQuAD': 150, 'NewsQA': 150, 'TriviaQA-web': 150, 'SearchQA': 150, 'HotpotQA': 150, 'NaturalQuestionsShort': 150, 'BioASQ': 150, 'TextbookQA': 150, 'RACE': 150, 'DROP': 150}
+answers sample: [['Sky', 'Hulu'], ['cyclosporin', 'aspirin'], ['1st century BC', '4th century AD'], ['Greater Sacramento', 'Greater Miami'], ['over three days', 'two weeks']]

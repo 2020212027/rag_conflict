@@ -1,0 +1,38 @@
+============================================================
+Step 3 E2E - CLEAN dataset (false positive check)
+Model: gpt-4o-mini
+============================================================
+Loaded 215 samples
+Checkpoint: 0 done, 215 remaining
+  [10/215] NEM=90.0->60.0% rm=1.2 | 1.0min ETA~20min
+  [20/215] NEM=80.0->60.0% rm=1.4 | 2.0min ETA~19min
+  [30/215] NEM=76.7->63.3% rm=1.2 | 3.0min ETA~19min
+  [40/215] NEM=77.5->62.5% rm=1.1 | 4.3min ETA~19min
+  [50/215] NEM=80.0->62.0% rm=1.1 | 5.7min ETA~19min
+  [60/215] NEM=80.0->63.3% rm=1.2 | 6.8min ETA~18min
+  [70/215] NEM=75.7->61.4% rm=1.3 | 7.6min ETA~16min
+  [80/215] NEM=72.5->60.0% rm=1.4 | 8.4min ETA~14min
+  [90/215] NEM=72.2->61.1% rm=1.5 | 9.3min ETA~13min
+  [100/215] NEM=72.0->61.0% rm=1.5 | 10.2min ETA~12min
+  [110/215] NEM=72.7->60.9% rm=1.5 | 11.1min ETA~11min
+  [120/215] NEM=72.5->61.7% rm=1.5 | 12.0min ETA~9min
+  [130/215] NEM=72.3->62.3% rm=1.6 | 12.9min ETA~8min
+  [140/215] NEM=71.4->60.7% rm=1.6 | 13.7min ETA~7min
+  [150/215] NEM=70.7->61.3% rm=1.7 | 14.6min ETA~6min
+  [160/215] NEM=70.6->62.5% rm=1.8 | 15.6min ETA~5min
+  [170/215] NEM=70.6->62.9% rm=1.8 | 16.6min ETA~4min
+  [180/215] NEM=69.4->62.2% rm=1.8 | 17.4min ETA~3min
+  [190/215] NEM=71.1->64.2% rm=1.8 | 18.4min ETA~2min
+  [200/215] NEM=70.5->64.0% rm=1.9 | 19.3min ETA~1min
+  [210/215] NEM=70.0->64.3% rm=1.9 | 20.4min ETA~0min
+  [215/215] NEM=70.2->64.2% rm=1.9 | 20.8min ETA~0min
+
+============================================================
+FINAL CLEAN (N=215)
+============================================================
+  Naive NEM:  70.2%
+  Dedup NEM:  64.2%
+  Delta NEM:  -6.0pp
+  Avg removed: 1.9
+  Flipped good: 6 | Flipped bad: 19
+Saved: d:\pythonProject\results_e2e_full_clean.jsonl

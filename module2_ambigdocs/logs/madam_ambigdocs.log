@@ -1,0 +1,72 @@
+=== MADAM-RAG on AmbigDocs (N=1000) ===
+Model: gpt-4o-mini, Rounds: 3
+Output: D:\pythonProject\module2_ambigdocs\results\results_madam_ambigdocs.jsonl
+
+  [0] recall=0.50 strict=N | docs=2 | calls=8
+  [1] recall=0.75 strict=N | docs=4 | calls=9
+  [2] recall=1.00 strict=Y | docs=2 | calls=5
+  [3] recall=0.00 strict=N | docs=2 | calls=9
+  [4] recall=0.00 strict=N | docs=2 | calls=8
+  [5] recall=0.33 strict=N | docs=3 | calls=12
+  [6] recall=1.00 strict=Y | docs=2 | calls=5
+  [7] recall=1.00 strict=Y | docs=2 | calls=5
+  [8] recall=0.50 strict=N | docs=2 | calls=5
+  [9] recall=0.50 strict=N | docs=2 | calls=8
+  [10] recall=0.33 strict=N | docs=3 | calls=12
+  [11] recall=0.67 strict=N | docs=3 | calls=7
+  [12] recall=1.00 strict=Y | docs=2 | calls=9
+  [13] recall=0.00 strict=N | docs=2 | calls=8
+  [14] recall=0.25 strict=N | docs=4 | calls=15
+  [15] recall=1.00 strict=Y | docs=2 | calls=5
+  [16] recall=0.00 strict=N | docs=3 | calls=12
+  [17] recall=1.00 strict=Y | docs=2 | calls=5
+  [18] recall=1.00 strict=Y | docs=2 | calls=8
+  [19] recall=1.00 strict=Y | docs=2 | calls=5
+
+--- Progress: 20/1000 ---
+  MADAM Answer Recall: 59.2%
+  MADAM Strict ACC:    40.0%
+  Avg API calls:       8.0
+
+  [20] recall=0.50 strict=N | docs=2 | calls=8
+  [21] recall=0.00 strict=N | docs=2 | calls=9
+  [22] recall=0.50 strict=N | docs=2 | calls=9
+  [23] recall=0.00 strict=N | docs=5 | calls=18
+  [24] recall=0.50 strict=N | docs=2 | calls=5
+  [25] recall=1.00 strict=Y | docs=2 | calls=5
+  [26] recall=1.00 strict=Y | docs=2 | calls=5
+  [27] recall=0.75 strict=N | docs=4 | calls=9
+  [28] recall=0.00 strict=N | docs=3 | calls=12
+  [29] recall=0.33 strict=N | docs=3 | calls=11
+  [30] recall=0.00 strict=N | docs=2 | calls=8
+  [31] recall=1.00 strict=Y | docs=2 | calls=5
+  [32] recall=0.67 strict=N | docs=3 | calls=7
+  [33] recall=0.67 strict=N | docs=3 | calls=7
+  [34] recall=1.00 strict=Y | docs=3 | calls=11
+  [35] recall=1.00 strict=Y | docs=2 | calls=5
+  [36] recall=0.00 strict=N | docs=2 | calls=5
+  [37] recall=1.00 strict=Y | docs=2 | calls=5
+  [38] recall=0.50 strict=N | docs=2 | calls=9
+  [39] recall=0.50 strict=N | docs=2 | calls=9
+
+--- Progress: 40/1000 ---
+  MADAM Answer Recall: 56.9%
+  MADAM Strict ACC:    35.0%
+  Avg API calls:       8.1
+
+  [40] recall=0.80 strict=N | docs=5 | calls=11
+  [41] recall=0.80 strict=N | docs=5 | calls=17
+  [42] recall=0.50 strict=N | docs=2 | calls=9
+  [43] recall=0.33 strict=N | docs=3 | calls=11
+  [44] recall=0.67 strict=N | docs=3 | calls=7
+  [45] recall=0.50 strict=N | docs=2 | calls=5
+  [46] recall=1.00 strict=Y | docs=2 | calls=5
+  [47] recall=0.33 strict=N | docs=3 | calls=12
+  [48] recall=1.00 strict=Y | docs=3 | calls=7
+  [49] recall=1.00 strict=Y | docs=2 | calls=5
+  [50] recall=0.50 strict=N | docs=2 | calls=5
+  [51] recall=1.00 strict=Y | docs=2 | calls=5
+  [52] recall=0.50 strict=N | docs=2 | calls=9
+  [53] recall=1.00 strict=Y | docs=2 | calls=5
+  [54] recall=0.50 strict=N | docs=2 | calls=9
+  [55] recall=0.00 strict=N | docs=4 | calls=15

@@ -1,0 +1,42 @@
+============================================================
+Step 4: Layered E2E - AMP8
+Model: gpt-4o-mini | Jaccard threshold: 0.2
+============================================================
+Loaded 215 samples
+Checkpoint: 0 done, 215 remaining
+  [10/215] NEM=60.0->60.0% rm=5.7 L2=286 | 9.9min ETA~203min
+  [20/215] NEM=45.0->50.0% rm=5.7 L2=615 | 20.7min ETA~202min
+  [30/215] NEM=40.0->43.3% rm=6.0 L2=936 | 31.5min ETA~194min
+  [40/215] NEM=37.5->40.0% rm=5.9 L2=1223 | 41.1min ETA~180min
+  [50/215] NEM=34.0->42.0% rm=5.8 L2=1476 | 49.5min ETA~163min
+  [60/215] NEM=35.0->41.7% rm=5.6 L2=1692 | 56.9min ETA~147min
+  [70/215] NEM=31.4->40.0% rm=5.6 L2=1934 | 65.2min ETA~135min
+  [80/215] NEM=30.0->40.0% rm=5.5 L2=2160 | 73.1min ETA~123min
+  [90/215] NEM=28.9->40.0% rm=5.3 L2=2378 | 80.3min ETA~112min
+  [100/215] NEM=26.0->38.0% rm=5.2 L2=2628 | 88.3min ETA~102min
+  [110/215] NEM=27.3->39.1% rm=5.1 L2=2865 | 96.1min ETA~92min
+  [120/215] NEM=25.8->38.3% rm=5.0 L2=3090 | 112.1min ETA~89min
+  [130/215] NEM=29.2->40.0% rm=4.9 L2=3265 | 118.1min ETA~77min
+  [140/215] NEM=28.6->41.4% rm=4.9 L2=3475 | 125.1min ETA~67min
+  [150/215] NEM=28.7->40.0% rm=4.9 L2=3663 | 131.4min ETA~57min
+  [160/215] NEM=27.5->40.6% rm=4.8 L2=3816 | 136.6min ETA~47min
+  [170/215] NEM=28.2->41.2% rm=4.8 L2=3980 | 142.3min ETA~38min
+  [180/215] NEM=29.4->41.1% rm=4.8 L2=4202 | 149.8min ETA~29min
+  [190/215] NEM=31.1->42.1% rm=4.8 L2=4370 | 155.7min ETA~20min
+  [200/215] NEM=31.0->44.0% rm=4.8 L2=4519 | 160.8min ETA~12min
+  [210/215] NEM=30.5->43.8% rm=4.8 L2=4708 | 167.3min ETA~4min
+  [215/215] NEM=30.7->43.7% rm=4.8 L2=4777 | 169.8min ETA~0min
+
+============================================================
+FINAL AMP8 (N=215)
+============================================================
+  Naive NEM:  30.7%
+  Dedup NEM:  43.7%
+  Delta NEM:  +13.0pp
+  Avg removed: 4.8
+  Flipped good: 35 | Flipped bad: 7
+  Total Layer2 calls: 4777
+  Cluster sizes: mean=5.4 max=10 count=232
+Saved: d:\pythonProject\results_layered_amp8.jsonl
+0 count=232
+Saved: d:\pythonProject\results_layered_amp8.jsonl

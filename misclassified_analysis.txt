@@ -1,0 +1,349 @@
+======================================================================
+MISCLASSIFIED INDEPENDENT PAIRS: 15 cases
+These are pairs of CORRECT docs (same answer) judged as D3/D4
+======================================================================
+
+──────────────────────────────────────────────────────────────────────
+Case 1/15 | Level: D3 | Score: 0.8
+Question: When was Wang Peng born?
+Model's reason: Both units share the rare detail of '1989' and reference the same association, indicating a high likelihood of dependence.
+
+  [Evidence Unit A]
+    answer: 1997-11-16
+    facts:  ["The document explicitly states Wang Peng's date of birth.", 'The date is presented in a clear format indicating it is his birth date.']
+    details: ['Wang Peng', '1997-11-16', '16 November 1997', 'Guangzhou, Guangdong, China']
+    span:   Date of birth ( 1997-11-16 ) 16 November 1997 ( age 27 )
+
+  [Evidence Unit B]
+    answer: 24 January 1993
+    facts:  ["The document explicitly states Wang Peng's birth date.", 'It provides a specific location of birth, adding context to the answer.']
+    details: ['24 January 1993', 'Fushun']
+    span:   Wang Peng (; born 24 January 1993 in Fushun) is a Chinese footballer who currently plays for Shijiazhuang Ever Bright in the China League One.
+
+  [Original Doc A] (486 chars)
+    name is Wang . Wang Peng 王鹏 Personal information Full name Wang Peng Date of birth ( 1997-11-16 ) 16 November 1997 ( age 27 ) Place of birth Guangzhou , Guangdong , China Height 1.76 m ( 5 ft 9 + 1 ⁄ 2 in ) Position ( s ) Midfielder Team information Current team Guangzhou E-Power Number 15 Youth car
+
+  [Original Doc B] (564 chars)
+    Wang Peng (footballer, born 1993) Wang Peng (; born 24 January 1993 in Fushun) is a Chinese footballer who currently plays for Shijiazhuang Ever Bright in the China League One. Wang Peng started his professional football career in 2012 when he joined Beijin Sangao for the 2012 China League Two campa
+
+──────────────────────────────────────────────────────────────────────
+Case 2/15 | Level: D3 | Score: 0.8
+Question: When was Wang Peng born?
+Model's reason: Both units share the rare detail of the founding year '1989' and mention the same museum, indicating a high likelihood of dependence.
+
+  [Evidence Unit A]
+    answer: 16 November 1997
+    facts:  ["The document explicitly states Wang Peng's birth date.", 'It provides a clear and direct reference to his birth date.']
+    details: ['Wang Peng', '16 November 1997']
+    span:   Wang Peng ( Chinese : 王鹏 ; pinyin : Wáng Péng ; born 16 November 1997 ) is a Chinese footballer who currently plays as a midfielder for Guangzhou E-Power.
+
+  [Evidence Unit B]
+    answer: The document does not provide Wang Peng's birth date.
+    facts:  ['The document does not mention Wang Peng at all.', "There is no information related to Wang Peng's birth date in the document."]
+    details: []
+    span:   
+
+  [Original Doc A] (3 chars)
+    N/A
+
+  [Original Doc B] (3 chars)
+    N/A
+
+──────────────────────────────────────────────────────────────────────
+Case 3/15 | Level: D3 | Score: 0.8
+Question: When was the Museum for the Macedonian Struggle established?
+Model's reason: Both units share the rare detail of the founding year '1989' and the same founding organization, indicating a high likelihood of dependence.
+
+  [Evidence Unit A]
+    answer: 1980
+    facts:  ['The building was restored and became the Museum of the Macedonian Struggle in 1980.', 'The museum was inaugurated in 1982.']
+    details: ['1978 Thessaloniki earthquake', '1979', '1980', '1982', 'Konstantinos Karamanlis']
+    span:   The building was restored and became the Museum of the Macedonian Struggle in 1980, and was inaugurated in 1982 by Konstantinos Karamanlis.
+
+  [Evidence Unit B]
+    answer: 1920
+    facts:  ['The establishment of the Museum for the Macedonian Struggle is explicitly mentioned in the document.', 'The year 1920 is linked to heightened nationalistic sentiments and the importance of preserving history.']
+    details: ['Museum for the Macedonian Struggle', '1920']
+    span:   The Museum for the Macedonian Struggle was established in 1920, reflecting the heightened nationalistic sentiments and the importance of preserving the region's history during this tumultuous period.
+
+  [Original Doc A] (3 chars)
+    N/A
+
+  [Original Doc B] (668 chars)
+    Mücadelesi ^ Clogg ( 1992 ). p. 70: "For the last two decades of the nineteenth century and the first of the twentieth, Macedonia, with its inextricably mixed populations of Greeks, Bulgars, Serbs, Albanians, Turks and Vlachs, was to be the focus of the competing nationalisms of Greece, Bulgaria and
+
+──────────────────────────────────────────────────────────────────────
+Case 4/15 | Level: D3 | Score: 0.8
+Question: When was the Museum for the Macedonian Struggle established?
+Model's reason: Both units share the rare detail of 'Wang Peng' and '1978', indicating a high likelihood of dependence.
+
+  [Evidence Unit A]
+    answer: 1989
+    facts:  ['The Literature and Arts Association of Kozani Prefecture resolved to honour the museum in 1989.']
+    details: ['1989', 'Museum of the Macedonian Struggle at Chromio']
+    span:   In 1989, the Literature and Arts Association of Kozani Prefecture resolved to honour
+
+  [Evidence Unit B]
+    answer: The document does not provide the establishment date of the Museum for the Macedonian Struggle.
+    facts:  ['The document discusses the historical context of Macedonia but does not mention the museum or its establishment date.', 'The focus of the document is on the competing nationalisms in Macedonia during the late 19th and early 20th centuries.']
+    details: ['last two decades of the nineteenth century', 'first of the twentieth century', 'mixed populations of Greeks, Bulgars, Serbs, Albanians, Turks and Vlachs']
+    span:   For the last two decades of the nineteenth century and the first of the twentieth, Macedonia, with its inextricably mixed populations of Greeks, Bulgars, Serbs, Albanians, Turks and Vlachs, was to be the focus of the competing nationalisms of Greece, Bulgaria and Serbia.
+
+  [Original Doc A] (3 chars)
+    N/A
+
+  [Original Doc B] (3 chars)
+    N/A
+
+──────────────────────────────────────────────────────────────────────
+Case 5/15 | Level: D3 | Score: 0.8
+Question: When was the Museum for the Macedonian Struggle established?
+Model's reason: Both units share the same rare detail of Wang Peng's birth date (16 November 1997) and similar supporting facts.
+
+  [Evidence Unit A]
+    answer: 23 May 2010
+    facts:  ['The document states the museum was inaugurated on this date.', 'It provides a specific date related to the establishment of the museum.']
+    details: ['23 May 2010', 'Friends of the Museum of the Macedonian Struggle', 'Municipality of Kastoria']
+    span:   It was inaugurated on 23 May 2010, a project of the 'Friends of the Museum of the Macedonian Struggle' that was founded in 1993 in the Municipality of Kastoria.
+
+  [Evidence Unit B]
+    answer: 1920
+    facts:  ['The establishment of the Museum for the Macedonian Struggle is explicitly mentioned in the document.', 'The year 1920 is linked to heightened nationalistic sentiments and the importance of preserving history.']
+    details: ['Museum for the Macedonian Struggle', '1920']
+    span:   The Museum for the Macedonian Struggle was established in 1920, reflecting the heightened nationalistic sentiments and the importance of preserving the region's history during this tumultuous period.
+
+  [Original Doc A] (3 chars)
+    N/A
+
+  [Original Doc B] (668 chars)
+    Mücadelesi ^ Clogg ( 1992 ). p. 70: "For the last two decades of the nineteenth century and the first of the twentieth, Macedonia, with its inextricably mixed populations of Greeks, Bulgars, Serbs, Albanians, Turks and Vlachs, was to be the focus of the competing nationalisms of Greece, Bulgaria and
+
+──────────────────────────────────────────────────────────────────────
+Case 6/15 | Level: D3 | Score: 0.8
+Question: When was the Museum for the Macedonian Struggle established?
+Model's reason: Both units mention Wang Peng's birth date, with Unit A providing a specific date and Unit B referencing a different birth year, indicating a strong likelihood of shared source or reasoning.
+
+  [Evidence Unit A]
+    answer: 23 May 2010
+    facts:  ['The document states the museum was inaugurated on this date.', 'It provides a specific date related to the establishment of the museum.']
+    details: ['23 May 2010', 'Friends of the Museum of the Macedonian Struggle', 'Municipality of Kastoria']
+    span:   It was inaugurated on 23 May 2010, a project of the 'Friends of the Museum of the Macedonian Struggle' that was founded in 1993 in the Municipality of Kastoria.
+
+  [Evidence Unit B]
+    answer: The document does not provide the establishment date of the Museum for the Macedonian Struggle.
+    facts:  ['The document discusses the historical context of Macedonia but does not mention the museum or its establishment date.', 'The focus of the document is on the competing nationalisms in Macedonia during the late 19th and early 20th centuries.']
+    details: ['last two decades of the nineteenth century', 'first of the twentieth century', 'mixed populations of Greeks, Bulgars, Serbs, Albanians, Turks and Vlachs']
+    span:   For the last two decades of the nineteenth century and the first of the twentieth, Macedonia, with its inextricably mixed populations of Greeks, Bulgars, Serbs, Albanians, Turks and Vlachs, was to be the focus of the competing nationalisms of Greece, Bulgaria and Serbia.
+
+  [Original Doc A] (3 chars)
+    N/A
+
+  [Original Doc B] (3 chars)
+    N/A
+
+──────────────────────────────────────────────────────────────────────
+Case 7/15 | Level: D3 | Score: 0.8
+Question: When was the Museum for the Macedonian Struggle established?
+Model's reason: Both units share the same rare detail of Wang Peng's birth date (16 November 1997) and similar supporting facts, indicating a high likelihood of dependence.
+
+  [Evidence Unit A]
+    answer: 23 May 2010
+    facts:  ['The document states the museum was inaugurated on this date.', 'It provides a specific date related to the establishment of the museum.']
+    details: ['23 May 2010', 'Friends of the Museum of the Macedonian Struggle', 'Municipality of Kastoria']
+    span:   It was inaugurated on 23 May 2010, a project of the 'Friends of the Museum of the Macedonian Struggle' that was founded in 1993 in the Municipality of Kastoria.
+
+  [Evidence Unit B]
+    answer: 
+    facts:  []
+    details: []
+    span:   
+
+  [Original Doc A] (3 chars)
+    N/A
+
+  [Original Doc B] (3 chars)
+    N/A
+
+──────────────────────────────────────────────────────────────────────
+Case 8/15 | Level: D3 | Score: 0.8
+Question: When was the Museum for the Macedonian Struggle established?
+Model's reason: Both units mention Wang Peng and provide his birth date, indicating a strong likelihood of dependence due to shared rare details.
+
+  [Evidence Unit A]
+    answer: 1920
+    facts:  ['The establishment of the Museum for the Macedonian Struggle is explicitly mentioned in the document.', 'The year 1920 is linked to heightened nationalistic sentiments and the importance of preserving history.']
+    details: ['Museum for the Macedonian Struggle', '1920']
+    span:   The Museum for the Macedonian Struggle was established in 1920, reflecting the heightened nationalistic sentiments and the importance of preserving the region's history during this tumultuous period.
+
+  [Evidence Unit B]
+    answer: The document does not provide the establishment date of the Museum for the Macedonian Struggle.
+    facts:  ['The document discusses the historical context of Macedonia but does not mention the museum or its establishment date.', 'The focus of the document is on the competing nationalisms in Macedonia during the late 19th and early 20th centuries.']
+    details: ['last two decades of the nineteenth century', 'first of the twentieth century', 'mixed populations of Greeks, Bulgars, Serbs, Albanians, Turks and Vlachs']
+    span:   For the last two decades of the nineteenth century and the first of the twentieth, Macedonia, with its inextricably mixed populations of Greeks, Bulgars, Serbs, Albanians, Turks and Vlachs, was to be the focus of the competing nationalisms of Greece, Bulgaria and Serbia.
+
+  [Original Doc A] (668 chars)
+    Mücadelesi ^ Clogg ( 1992 ). p. 70: "For the last two decades of the nineteenth century and the first of the twentieth, Macedonia, with its inextricably mixed populations of Greeks, Bulgars, Serbs, Albanians, Turks and Vlachs, was to be the focus of the competing nationalisms of Greece, Bulgaria and
+
+  [Original Doc B] (3 chars)
+    N/A
+
+──────────────────────────────────────────────────────────────────────
+Case 9/15 | Level: D3 | Score: 0.8
+Question: When was the Museum for the Macedonian Struggle established?
+Model's reason: Both units share the same rare detail of Wang Peng's birth date (16 November 1997) and similar structure, indicating a high likelihood of dependence.
+
+  [Evidence Unit A]
+    answer: 1920
+    facts:  ['The establishment of the Museum for the Macedonian Struggle is explicitly mentioned in the document.', 'The year 1920 is linked to heightened nationalistic sentiments and the importance of preserving history.']
+    details: ['Museum for the Macedonian Struggle', '1920']
+    span:   The Museum for the Macedonian Struggle was established in 1920, reflecting the heightened nationalistic sentiments and the importance of preserving the region's history during this tumultuous period.
+
+  [Evidence Unit B]
+    answer: 
+    facts:  []
+    details: []
+    span:   
+
+  [Original Doc A] (668 chars)
+    Mücadelesi ^ Clogg ( 1992 ). p. 70: "For the last two decades of the nineteenth century and the first of the twentieth, Macedonia, with its inextricably mixed populations of Greeks, Bulgars, Serbs, Albanians, Turks and Vlachs, was to be the focus of the competing nationalisms of Greece, Bulgaria and
+
+  [Original Doc B] (3 chars)
+    N/A
+
+──────────────────────────────────────────────────────────────────────
+Case 10/15 | Level: D3 | Score: 0.8
+Question: When was the Museum for the Macedonian Struggle established?
+Model's reason: Both units provide Wang Peng's birth date, and share the same name and specific date, indicating a high likelihood of dependence.
+
+  [Evidence Unit A]
+    answer: 1920
+    facts:  ['The establishment of the Museum for the Macedonian Struggle is explicitly mentioned in the document.', 'The year 1920 is linked to heightened nationalistic sentiments and the importance of preserving history.']
+    details: ['Museum for the Macedonian Struggle', '1920']
+    span:   The Museum for the Macedonian Struggle was established in 1920, reflecting the heightened nationalistic sentiments and the importance of preserving the region's history during this tumultuous period.
+
+  [Evidence Unit B]
+    answer: The document does not provide information on the establishment date of the Museum for the Macedonian Struggle.
+    facts:  ['The document is a memoir and does not mention the Museum for the Macedonian Struggle.', 'There is no specific date or establishment information provided in the text.']
+    details: ['Alfred : Au pays des martyrs', 'Librarie Universitaire J. Gamber , Paris , 1927']
+    span:   Memoirs of the General Consul of Austro-Hungary in Macedonia.
+
+  [Original Doc A] (668 chars)
+    Mücadelesi ^ Clogg ( 1992 ). p. 70: "For the last two decades of the nineteenth century and the first of the twentieth, Macedonia, with its inextricably mixed populations of Greeks, Bulgars, Serbs, Albanians, Turks and Vlachs, was to be the focus of the competing nationalisms of Greece, Bulgaria and
+
+  [Original Doc B] (3 chars)
+    N/A
+
+──────────────────────────────────────────────────────────────────────
+Case 11/15 | Level: D3 | Score: 0.8
+Question: When was the Museum for the Macedonian Struggle established?
+Model's reason: Both units mention 'Wang Peng' and the birth year, indicating a strong likelihood of shared source or reasoning.
+
+  [Evidence Unit A]
+    answer: The document does not provide the establishment date of the Museum for the Macedonian Struggle.
+    facts:  ['The document discusses the historical context of Macedonia but does not mention the museum or its establishment date.', 'The focus of the document is on the competing nationalisms in Macedonia during the late 19th and early 20th centuries.']
+    details: ['last two decades of the nineteenth century', 'first of the twentieth century', 'mixed populations of Greeks, Bulgars, Serbs, Albanians, Turks and Vlachs']
+    span:   For the last two decades of the nineteenth century and the first of the twentieth, Macedonia, with its inextricably mixed populations of Greeks, Bulgars, Serbs, Albanians, Turks and Vlachs, was to be the focus of the competing nationalisms of Greece, Bulgaria and Serbia.
+
+  [Evidence Unit B]
+    answer: The document does not provide information on the establishment date of the Museum for the Macedonian Struggle.
+    facts:  ['The document is a memoir and does not mention the Museum for the Macedonian Struggle.', 'There is no specific date or establishment information provided in the text.']
+    details: ['Alfred : Au pays des martyrs', 'Librarie Universitaire J. Gamber , Paris , 1927']
+    span:   Memoirs of the General Consul of Austro-Hungary in Macedonia.
+
+  [Original Doc A] (3 chars)
+    N/A
+
+  [Original Doc B] (3 chars)
+    N/A
+
+──────────────────────────────────────────────────────────────────────
+Case 12/15 | Level: D4 | Score: 4.0
+Question: When was the Museum for the Macedonian Struggle established?
+Model's reason: Both evidence units address Wang Peng's birth date, with Unit A stating it is not mentioned and Unit B providing a specific date, indicating they are likely derived from the same source.
+
+  [Evidence Unit A]
+    answer: 1989
+    facts:  ['The document states that the museum was founded in 1989.', 'The founding is attributed to the Letters and Arts Association of Kozani.']
+    details: ['1989', 'Letters and Arts Association of Kozani']
+    span:   was founded in 1989 by the Letters and Arts Association of Kozani in commemoration of the February 1878 uprising
+
+  [Evidence Unit B]
+    answer: The document does not provide information on the establishment date of the Museum for the Macedonian Struggle.
+    facts:  ['The document is a memoir and does not mention the Museum for the Macedonian Struggle.', 'There is no specific date or establishment information provided in the text.']
+    details: ['Alfred : Au pays des martyrs', 'Librarie Universitaire J. Gamber , Paris , 1927']
+    span:   Memoirs of the General Consul of Austro-Hungary in Macedonia.
+
+  [Original Doc A] (559 chars)
+    was founded in 1989 by the Letters and Arts Association of Kozani in commemoration of the February 1878 uprising , which took place in the region aiming to abrogate the treaty of San Stefano . The ultimate objective of the uprising was to prevent Macedonia from becoming part of Bulgaria , to throw o
+
+  [Original Doc B] (3 chars)
+    N/A
+
+──────────────────────────────────────────────────────────────────────
+Case 13/15 | Level: D3 | Score: 0.8
+Question: When was the Museum for the Macedonian Struggle established?
+Model's reason: Both units provide Wang Peng's birth date, but they share the same specific detail of 'Wang Peng' and the context of his profession, indicating a high likelihood of dependence.
+
+  [Evidence Unit A]
+    answer: 
+    facts:  []
+    details: []
+    span:   
+
+  [Evidence Unit B]
+    answer: The document does not provide information on the establishment date of the Museum for the Macedonian Struggle.
+    facts:  ['The document is a memoir and does not mention the Museum for the Macedonian Struggle.', 'There is no specific date or establishment information provided in the text.']
+    details: ['Alfred : Au pays des martyrs', 'Librarie Universitaire J. Gamber , Paris , 1927']
+    span:   Memoirs of the General Consul of Austro-Hungary in Macedonia.
+
+  [Original Doc A] (3 chars)
+    N/A
+
+  [Original Doc B] (3 chars)
+    N/A
+
+──────────────────────────────────────────────────────────────────────
+Case 14/15 | Level: D3 | Score: 0.8
+Question: When was the Museum for the Macedonian Struggle established?
+Model's reason: Both units share the same rare detail of Wang Peng's birth date (24 January 1993) and similar supporting facts.
+
+  [Evidence Unit A]
+    answer: ...
+    facts:  []
+    details: []
+    span:   
+
+  [Evidence Unit B]
+    answer: The document does not provide information on the establishment date of the Museum for the Macedonian Struggle.
+    facts:  ['The document is a memoir and does not mention the Museum for the Macedonian Struggle.', 'There is no specific date or establishment information provided in the text.']
+    details: ['Alfred : Au pays des martyrs', 'Librarie Universitaire J. Gamber , Paris , 1927']
+    span:   Memoirs of the General Consul of Austro-Hungary in Macedonia.
+
+  [Original Doc A] (3 chars)
+    N/A
+
+  [Original Doc B] (3 chars)
+    N/A
+
+──────────────────────────────────────────────────────────────────────
+Case 15/15 | Level: D4 | Score: 1.0
+Question: When was the Museum for the Macedonian Struggle established?
+Model's reason: Both units share the same rare detail of Wang Peng's birth date and location, indicating they likely come from the same source.
+
+  [Evidence Unit A]
+    answer: ...
+    facts:  []
+    details: []
+    span:   
+
+  [Evidence Unit B]
+    answer: 1989
+    facts:  ['The document explicitly states the museum was founded in 1989.', "The founding year is a specific detail mentioned in the context of the museum's establishment."]
+    details: ['1989', 'Museum of the Macedonian Struggle', 'Chromio', 'Kozani regional unit', 'Greece']
+    span:   The museum was founded in 1989 by the Letters
+
+  [Original Doc A] (3 chars)
+    N/A
+
+  [Original Doc B] (601 chars)
+    there is also the restored church of Agios Nikolaos with splendid wall paintings and marble inscriptions around it, with maxims and epigrams from Greek history. Of historical significance is the fact that in this church in 1878 the guns of the revolt were blessed. Museum of the Macedonian Struggle (

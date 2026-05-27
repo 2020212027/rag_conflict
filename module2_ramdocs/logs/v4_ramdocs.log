@@ -1,0 +1,835 @@
+=== Module 2 V4 on RAMDocs (N=3) ===
+Output: D:\pythonProject\module2_ramdocs\results\results_v4_ramdocs.jsonl
+
+  [0] naive=✓ | v4=✗ | type=multi_answer_arbitrated | clusters=2 | wrong_in_output=False
+  [1] naive=✓ | v4=✓ | type=consensus | clusters=4 | wrong_in_output=False
+  [2] naive=✓ | v4=✓ | type=multi_answer_arbitrated | clusters=7 | wrong_in_output=False
+
+--- Progress: 3/3 ---
+  Naive ACC (strict): 100.0%
+  V4 ACC (strict):    66.7% (Δ=-33.3pp)
+  Wrong answer rate:  0.0%
+
+
+============================================================
+FINAL RESULTS — V4 on RAMDocs (N=3)
+============================================================
+  Naive ACC (strict):  100.0%
+  V4 ACC (strict):     66.7% (Δ=-33.3pp)
+  Wrong answer rate:   0.0%
+  Avg API calls:       6.7
+============================================================
+
+Reference: MADAM-RAG GPT-4o-mini on RAMDocs = 28.0%
+Resumed: 3 completed
+=== Module 2 V4 on RAMDocs (N=500) ===
+Output: D:\pythonProject\module2_ramdocs\results\results_v4_ramdocs.jsonl
+
+  [3] naive=✓ | v4=✓ | type=multi_answer_arbitrated | clusters=5 | wrong_in_output=False
+  [4] naive=✗ | v4=✓ | type=consensus | clusters=2 | wrong_in_output=False
+  [5] naive=✗ | v4=✓ | type=multi_answer_arbitrated | clusters=5 | wrong_in_output=False
+  [6] naive=✓ | v4=✗ | type=multi_answer_arbitrated | clusters=5 | wrong_in_output=True
+  [7] naive=✗ | v4=✗ | type=consensus | clusters=2 | wrong_in_output=True
+  [8] naive=✗ | v4=✓ | type=consensus | clusters=1 | wrong_in_output=False
+  [9] naive=✓ | v4=✗ | type=multi_answer_arbitrated | clusters=3 | wrong_in_output=True
+
+--- Progress: 10/500 ---
+  Naive ACC (strict): 60.0%
+  V4 ACC (strict):    60.0% (Δ=+0.0pp)
+  Wrong answer rate:  30.0%
+
+  [10] naive=✓ | v4=✓ | type=consensus | clusters=3 | wrong_in_output=False
+  [11] naive=✓ | v4=✓ | type=consensus | clusters=2 | wrong_in_output=False
+  [12] naive=✓ | v4=✓ | type=multi_answer_arbitrated | clusters=7 | wrong_in_output=False
+  [13] naive=✓ | v4=✓ | type=multi_answer_arbitrated | clusters=4 | wrong_in_output=False
+  [14] naive=✓ | v4=✓ | type=consensus | clusters=3 | wrong_in_output=False
+  [15] naive=✓ | v4=✗ | type=multi_answer_arbitrated | clusters=6 | wrong_in_output=True
+  [16] naive=✓ | v4=✓ | type=consensus | clusters=2 | wrong_in_output=False
+  [17] naive=✓ | v4=✓ | type=consensus | clusters=2 | wrong_in_output=False
+  [18] naive=✓ | v4=✓ | type=multi_answer_arbitrated | clusters=4 | wrong_in_output=False
+  [19] naive=✗ | v4=✗ | type=no_evidence | clusters=5 | wrong_in_output=False
+
+--- Progress: 20/500 ---
+  Naive ACC (strict): 75.0%
+  V4 ACC (strict):    70.0% (Δ=-5.0pp)
+  Wrong answer rate:  20.0%
+
+  [20] naive=✓ | v4=✗ | type=multi_answer_arbitrated | clusters=4 | wrong_in_output=True
+  [21] naive=✓ | v4=✗ | type=multi_answer_arbitrated | clusters=7 | wrong_in_output=True
+  [22] naive=✗ | v4=✓ | type=consensus | clusters=2 | wrong_in_output=False
+  [23] naive=✓ | v4=✗ | type=multi_answer_arbitrated | clusters=4 | wrong_in_output=True
+  [24] naive=✓ | v4=✓ | type=consensus | clusters=4 | wrong_in_output=False
+  [25] naive=✓ | v4=✗ | type=multi_answer_arbitrated | clusters=5 | wrong_in_output=True
+  [26] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=4 | wrong_in_output=False
+  [27] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=2 | wrong_in_output=True
+  [28] naive=✗ | v4=✗ | type=no_evidence | clusters=3 | wrong_in_output=False
+  [29] naive=✓ | v4=✓ | type=consensus | clusters=2 | wrong_in_output=False
+
+--- Progress: 30/500 ---
+  Naive ACC (strict): 70.0%
+  V4 ACC (strict):    56.7% (Δ=-13.3pp)
+  Wrong answer rate:  30.0%
+
+  [30] naive=✓ | v4=✓ | type=multi_answer_arbitrated | clusters=4 | wrong_in_output=False
+  [31] naive=✓ | v4=✓ | type=consensus | clusters=5 | wrong_in_output=False
+  [32] naive=✗ | v4=✓ | type=multi_answer_arbitrated | clusters=3 | wrong_in_output=False
+  [33] naive=✗ | v4=✓ | type=multi_answer_arbitrated | clusters=3 | wrong_in_output=False
+  [34] naive=✗ | v4=✗ | type=consensus | clusters=1 | wrong_in_output=False
+  [35] naive=✓ | v4=✓ | type=consensus | clusters=2 | wrong_in_output=False
+  [36] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=4 | wrong_in_output=True
+  [37] naive=✗ | v4=✓ | type=multi_answer_arbitrated | clusters=3 | wrong_in_output=False
+  [38] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=3 | wrong_in_output=True
+  [39] naive=✓ | v4=✓ | type=consensus | clusters=3 | wrong_in_output=False
+
+--- Progress: 40/500 ---
+  Naive ACC (strict): 62.5%
+  V4 ACC (strict):    60.0% (Δ=-2.5pp)
+  Wrong answer rate:  27.5%
+
+  [40] naive=✓ | v4=✓ | type=consensus | clusters=3 | wrong_in_output=False
+  [41] naive=✗ | v4=✓ | type=consensus | clusters=4 | wrong_in_output=False
+  [42] naive=✗ | v4=✗ | type=consensus | clusters=2 | wrong_in_output=False
+  [43] naive=✓ | v4=✓ | type=consensus | clusters=3 | wrong_in_output=False
+  [44] naive=✓ | v4=✓ | type=consensus | clusters=2 | wrong_in_output=False
+  [45] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=4 | wrong_in_output=True
+  [46] naive=✗ | v4=✓ | type=consensus | clusters=2 | wrong_in_output=False
+  [47] naive=✓ | v4=✗ | type=multi_answer_arbitrated | clusters=3 | wrong_in_output=True
+  [48] naive=✓ | v4=✗ | type=multi_answer_arbitrated | clusters=3 | wrong_in_output=True
+  [49] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=3 | wrong_in_output=True
+
+--- Progress: 50/500 ---
+  Naive ACC (strict): 60.0%
+  V4 ACC (strict):    58.0% (Δ=-2.0pp)
+  Wrong answer rate:  30.0%
+
+  [50] naive=✓ | v4=✓ | type=multi_answer_arbitrated | clusters=4 | wrong_in_output=False
+  [51] naive=✓ | v4=✗ | type=multi_answer_arbitrated | clusters=2 | wrong_in_output=True
+  [52] naive=✓ | v4=✓ | type=multi_answer_arbitrated | clusters=5 | wrong_in_output=False
+  [53] naive=✓ | v4=✗ | type=multi_answer_arbitrated | clusters=4 | wrong_in_output=True
+  [54] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=5 | wrong_in_output=True
+  [55] naive=✓ | v4=✓ | type=consensus | clusters=1 | wrong_in_output=False
+  [56] naive=✓ | v4=✓ | type=consensus | clusters=3 | wrong_in_output=False
+  [57] naive=✓ | v4=✓ | type=consensus | clusters=2 | wrong_in_output=False
+  [58] naive=✗ | v4=✗ | type=no_evidence | clusters=2 | wrong_in_output=False
+  [59] naive=✗ | v4=✗ | type=no_evidence | clusters=3 | wrong_in_output=False
+
+--- Progress: 60/500 ---
+  Naive ACC (strict): 61.7%
+  V4 ACC (strict):    56.7% (Δ=-5.0pp)
+  Wrong answer rate:  30.0%
+
+  [60] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=6 | wrong_in_output=True
+  [61] naive=✗ | v4=✓ | type=consensus | clusters=2 | wrong_in_output=False
+  [62] naive=✓ | v4=✓ | type=consensus | clusters=3 | wrong_in_output=False
+  [63] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=3 | wrong_in_output=False
+  [64] naive=✗ | v4=✓ | type=consensus | clusters=2 | wrong_in_output=False
+  [65] naive=✓ | v4=✓ | type=consensus | clusters=2 | wrong_in_output=False
+  [66] naive=✓ | v4=✓ | type=consensus | clusters=7 | wrong_in_output=False
+  [67] naive=✗ | v4=✗ | type=consensus | clusters=5 | wrong_in_output=True
+  [68] naive=✓ | v4=✗ | type=multi_answer_arbitrated | clusters=4 | wrong_in_output=True
+  [69] naive=✓ | v4=✗ | type=multi_answer_arbitrated | clusters=3 | wrong_in_output=True
+
+--- Progress: 70/500 ---
+  Naive ACC (strict): 60.0%
+  V4 ACC (strict):    55.7% (Δ=-4.3pp)
+  Wrong answer rate:  31.4%
+
+  [70] naive=✓ | v4=✓ | type=multi_answer_arbitrated | clusters=4 | wrong_in_output=False
+  [71] naive=✗ | v4=✓ | type=consensus | clusters=3 | wrong_in_output=False
+  [72] naive=✓ | v4=✓ | type=consensus | clusters=3 | wrong_in_output=False
+  [73] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=3 | wrong_in_output=True
+  [74] naive=✓ | v4=✗ | type=multi_answer_arbitrated | clusters=3 | wrong_in_output=True
+  [75] naive=✓ | v4=✓ | type=consensus | clusters=5 | wrong_in_output=False
+  [76] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=3 | wrong_in_output=True
+  [77] naive=✗ | v4=✓ | type=consensus | clusters=3 | wrong_in_output=False
+  [78] naive=✓ | v4=✓ | type=consensus | clusters=1 | wrong_in_output=False
+  [79] naive=✓ | v4=✓ | type=consensus | clusters=4 | wrong_in_output=False
+
+--- Progress: 80/500 ---
+  Naive ACC (strict): 60.0%
+  V4 ACC (strict):    57.5% (Δ=-2.5pp)
+  Wrong answer rate:  31.2%
+
+  [80] naive=✓ | v4=✓ | type=consensus | clusters=3 | wrong_in_output=False
+  [81] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=4 | wrong_in_output=True
+  [82] naive=✓ | v4=✗ | type=multi_answer_arbitrated | clusters=5 | wrong_in_output=True
+  [83] naive=✗ | v4=✗ | type=no_evidence | clusters=1 | wrong_in_output=False
+  [84] naive=✓ | v4=✓ | type=consensus | clusters=2 | wrong_in_output=False
+  [85] naive=✓ | v4=✓ | type=multi_answer_arbitrated | clusters=2 | wrong_in_output=False
+  [86] naive=✓ | v4=✓ | type=multi_answer_arbitrated | clusters=3 | wrong_in_output=False
+  [87] naive=✓ | v4=✓ | type=consensus | clusters=2 | wrong_in_output=False
+  [88] naive=✓ | v4=✓ | type=consensus | clusters=6 | wrong_in_output=False
+  [89] naive=✓ | v4=✓ | type=consensus | clusters=3 | wrong_in_output=False
+
+--- Progress: 90/500 ---
+  Naive ACC (strict): 62.2%
+  V4 ACC (strict):    58.9% (Δ=-3.3pp)
+  Wrong answer rate:  30.0%
+
+  [90] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=3 | wrong_in_output=True
+  [91] naive=✓ | v4=✓ | type=consensus | clusters=4 | wrong_in_output=False
+  [92] naive=✓ | v4=✓ | type=multi_answer_arbitrated | clusters=2 | wrong_in_output=False
+  [93] naive=✓ | v4=✓ | type=multi_answer_arbitrated | clusters=3 | wrong_in_output=False
+  [94] naive=✗ | v4=✓ | type=multi_answer_arbitrated | clusters=2 | wrong_in_output=False
+  [95] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=4 | wrong_in_output=True
+  [96] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=5 | wrong_in_output=True
+  [97] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=4 | wrong_in_output=True
+  [98] naive=✓ | v4=✓ | type=consensus | clusters=1 | wrong_in_output=False
+  [99] naive=✓ | v4=✓ | type=consensus | clusters=1 | wrong_in_output=False
+
+--- Progress: 100/500 ---
+  Naive ACC (strict): 61.0%
+  V4 ACC (strict):    59.0% (Δ=-2.0pp)
+  Wrong answer rate:  31.0%
+
+  [100] naive=✗ | v4=✓ | type=multi_answer_arbitrated | clusters=3 | wrong_in_output=False
+  [101] naive=✗ | v4=✓ | type=multi_answer_arbitrated | clusters=8 | wrong_in_output=False
+  [102] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=5 | wrong_in_output=True
+  [103] naive=✓ | v4=✓ | type=multi_answer_arbitrated | clusters=2 | wrong_in_output=False
+  [104] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=5 | wrong_in_output=True
+  [105] naive=✗ | v4=✓ | type=multi_answer_arbitrated | clusters=5 | wrong_in_output=False
+  [106] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=6 | wrong_in_output=False
+  [107] naive=✗ | v4=✗ | type=consensus | clusters=3 | wrong_in_output=False
+  [108] naive=✓ | v4=✓ | type=multi_answer_arbitrated | clusters=2 | wrong_in_output=False
+  [109] naive=✓ | v4=✓ | type=multi_answer_arbitrated | clusters=4 | wrong_in_output=False
+
+--- Progress: 110/500 ---
+  Naive ACC (strict): 58.2%
+  V4 ACC (strict):    59.1% (Δ=+0.9pp)
+  Wrong answer rate:  30.0%
+
+  [110] naive=✗ | v4=✓ | type=multi_answer_arbitrated | clusters=6 | wrong_in_output=False
+  [111] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=5 | wrong_in_output=True
+  [112] naive=✗ | v4=✓ | type=multi_answer_arbitrated | clusters=2 | wrong_in_output=False
+  [113] naive=✓ | v4=✓ | type=multi_answer_arbitrated | clusters=5 | wrong_in_output=False
+  [114] naive=✗ | v4=✓ | type=multi_answer_arbitrated | clusters=7 | wrong_in_output=False
+  [115] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=7 | wrong_in_output=False
+  [116] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=8 | wrong_in_output=True
+  [117] naive=✗ | v4=✓ | type=multi_answer_arbitrated | clusters=4 | wrong_in_output=False
+  [118] naive=✗ | v4=✓ | type=multi_answer_arbitrated | clusters=4 | wrong_in_output=False
+  [119] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=5 | wrong_in_output=True
+
+--- Progress: 120/500 ---
+  Naive ACC (strict): 54.2%
+  V4 ACC (strict):    59.2% (Δ=+5.0pp)
+  Wrong answer rate:  30.0%
+
+  [120] naive=✓ | v4=✓ | type=multi_answer_arbitrated | clusters=2 | wrong_in_output=False
+  [121] naive=✗ | v4=✓ | type=multi_answer_arbitrated | clusters=3 | wrong_in_output=False
+  [122] naive=✗ | v4=✓ | type=multi_answer_arbitrated | clusters=4 | wrong_in_output=False
+  [123] naive=✗ | v4=✓ | type=multi_answer_arbitrated | clusters=3 | wrong_in_output=False
+  [124] naive=✗ | v4=✓ | type=multi_answer_arbitrated | clusters=3 | wrong_in_output=False
+  [125] naive=✓ | v4=✓ | type=multi_answer_arbitrated | clusters=3 | wrong_in_output=False
+  [126] naive=✗ | v4=✓ | type=multi_answer_arbitrated | clusters=7 | wrong_in_output=False
+  [127] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=8 | wrong_in_output=True
+  [128] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=4 | wrong_in_output=False
+  [129] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=5 | wrong_in_output=False
+
+--- Progress: 130/500 ---
+  Naive ACC (strict): 51.5%
+  V4 ACC (strict):    60.0% (Δ=+8.5pp)
+  Wrong answer rate:  28.5%
+
+  [130] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=5 | wrong_in_output=True
+  [131] naive=✗ | v4=✓ | type=multi_answer_arbitrated | clusters=6 | wrong_in_output=False
+  [132] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=5 | wrong_in_output=False
+  [133] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=8 | wrong_in_output=True
+  [134] naive=✗ | v4=✓ | type=multi_answer_arbitrated | clusters=2 | wrong_in_output=False
+  [135] naive=✗ | v4=✓ | type=multi_answer_arbitrated | clusters=3 | wrong_in_output=False
+  [136] naive=✗ | v4=✓ | type=multi_answer_arbitrated | clusters=5 | wrong_in_output=False
+  [137] naive=✗ | v4=✓ | type=multi_answer_arbitrated | clusters=3 | wrong_in_output=False
+  [138] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=5 | wrong_in_output=True
+  [139] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=7 | wrong_in_output=True
+
+--- Progress: 140/500 ---
+  Naive ACC (strict): 47.9%
+  V4 ACC (strict):    59.3% (Δ=+11.4pp)
+  Wrong answer rate:  29.3%
+
+  [140] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=2 | wrong_in_output=False
+  [141] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=5 | wrong_in_output=True
+  [142] naive=✓ | v4=✓ | type=multi_answer_arbitrated | clusters=5 | wrong_in_output=False
+  [143] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=4 | wrong_in_output=False
+  [144] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=8 | wrong_in_output=False
+  [145] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=3 | wrong_in_output=False
+  [146] naive=✓ | v4=✗ | type=multi_answer_arbitrated | clusters=7 | wrong_in_output=True
+  [147] naive=✓ | v4=✓ | type=multi_answer_arbitrated | clusters=5 | wrong_in_output=False
+  [148] naive=✗ | v4=✗ | type=consensus | clusters=3 | wrong_in_output=False
+  [149] naive=✗ | v4=✓ | type=multi_answer_arbitrated | clusters=5 | wrong_in_output=False
+
+--- Progress: 150/500 ---
+  Naive ACC (strict): 46.7%
+  V4 ACC (strict):    57.3% (Δ=+10.7pp)
+  Wrong answer rate:  28.7%
+
+  [150] naive=✗ | v4=✗ | type=consensus | clusters=4 | wrong_in_output=False
+  [151] naive=✗ | v4=✓ | type=multi_answer_arbitrated | clusters=3 | wrong_in_output=False
+  [152] naive=✓ | v4=✓ | type=multi_answer_arbitrated | clusters=5 | wrong_in_output=False
+  [153] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=5 | wrong_in_output=False
+  [154] naive=✗ | v4=✓ | type=multi_answer_arbitrated | clusters=5 | wrong_in_output=False
+  [155] naive=✗ | v4=✓ | type=multi_answer_arbitrated | clusters=7 | wrong_in_output=False
+  [156] naive=✗ | v4=✓ | type=multi_answer_arbitrated | clusters=7 | wrong_in_output=False
+  [157] naive=✗ | v4=✓ | type=multi_answer_arbitrated | clusters=4 | wrong_in_output=False
+  [158] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=9 | wrong_in_output=True
+  [159] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=5 | wrong_in_output=True
+
+--- Progress: 160/500 ---
+  Naive ACC (strict): 44.4%
+  V4 ACC (strict):    57.5% (Δ=+13.1pp)
+  Wrong answer rate:  28.1%
+
+  [160] naive=✗ | v4=✓ | type=multi_answer_arbitrated | clusters=6 | wrong_in_output=False
+  [161] naive=✗ | v4=✓ | type=multi_answer_arbitrated | clusters=3 | wrong_in_output=False
+  [162] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=4 | wrong_in_output=True
+  [163] naive=✗ | v4=✗ | type=no_evidence | clusters=5 | wrong_in_output=False
+  [164] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=4 | wrong_in_output=True
+  [165] naive=✗ | v4=✓ | type=multi_answer_arbitrated | clusters=4 | wrong_in_output=False
+  [166] naive=✗ | v4=✓ | type=multi_answer_arbitrated | clusters=7 | wrong_in_output=False
+  [167] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=6 | wrong_in_output=True
+  [168] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=7 | wrong_in_output=False
+  [169] naive=✗ | v4=✓ | type=multi_answer_arbitrated | clusters=3 | wrong_in_output=False
+
+--- Progress: 170/500 ---
+  Naive ACC (strict): 41.8%
+  V4 ACC (strict):    57.1% (Δ=+15.3pp)
+  Wrong answer rate:  28.2%
+
+  [170] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=4 | wrong_in_output=False
+  [171] naive=✗ | v4=✗ | type=consensus | clusters=3 | wrong_in_output=False
+  [172] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=4 | wrong_in_output=True
+  [173] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=7 | wrong_in_output=True
+  [174] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=4 | wrong_in_output=False
+  [175] naive=✓ | v4=✓ | type=multi_answer_arbitrated | clusters=8 | wrong_in_output=False
+  [176] naive=✗ | v4=✓ | type=multi_answer_arbitrated | clusters=7 | wrong_in_output=False
+  [177] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=5 | wrong_in_output=True
+  [178] naive=✗ | v4=✓ | type=multi_answer_arbitrated | clusters=2 | wrong_in_output=False
+  [179] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=4 | wrong_in_output=False
+
+--- Progress: 180/500 ---
+  Naive ACC (strict): 40.0%
+  V4 ACC (strict):    55.6% (Δ=+15.6pp)
+  Wrong answer rate:  28.3%
+
+  [180] naive=✗ | v4=✓ | type=multi_answer_arbitrated | clusters=6 | wrong_in_output=False
+  [181] naive=✗ | v4=✗ | type=consensus | clusters=4 | wrong_in_output=False
+  [182] naive=✗ | v4=✓ | type=multi_answer_arbitrated | clusters=5 | wrong_in_output=False
+  [183] naive=✗ | v4=✓ | type=multi_answer_arbitrated | clusters=6 | wrong_in_output=False
+  [184] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=5 | wrong_in_output=False
+  [185] naive=✓ | v4=✓ | type=multi_answer_arbitrated | clusters=4 | wrong_in_output=False
+  [186] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=6 | wrong_in_output=False
+  [187] naive=✗ | v4=✓ | type=multi_answer_arbitrated | clusters=6 | wrong_in_output=False
+  [188] naive=✗ | v4=✓ | type=multi_answer_arbitrated | clusters=3 | wrong_in_output=False
+  [189] naive=✓ | v4=✗ | type=multi_answer_arbitrated | clusters=4 | wrong_in_output=False
+
+--- Progress: 190/500 ---
+  Naive ACC (strict): 38.9%
+  V4 ACC (strict):    55.8% (Δ=+16.8pp)
+  Wrong answer rate:  26.8%
+
+  [190] naive=✗ | v4=✗ | type=consensus | clusters=4 | wrong_in_output=False
+  [191] naive=✗ | v4=✗ | type=consensus | clusters=2 | wrong_in_output=False
+  [192] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=5 | wrong_in_output=False
+  [193] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=4 | wrong_in_output=True
+  [194] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=4 | wrong_in_output=False
+  [195] naive=✓ | v4=✗ | type=multi_answer_arbitrated | clusters=2 | wrong_in_output=False
+  [196] naive=✓ | v4=✓ | type=multi_answer_arbitrated | clusters=2 | wrong_in_output=False
+  [197] naive=✗ | v4=✓ | type=multi_answer_arbitrated | clusters=2 | wrong_in_output=False
+  [198] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=8 | wrong_in_output=True
+  [199] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=3 | wrong_in_output=False
+
+--- Progress: 200/500 ---
+  Naive ACC (strict): 38.0%
+  V4 ACC (strict):    54.0% (Δ=+16.0pp)
+  Wrong answer rate:  26.5%
+
+  [200] naive=✗ | v4=✓ | type=multi_answer_arbitrated | clusters=3 | wrong_in_output=False
+  [201] naive=✗ | v4=✓ | type=multi_answer_arbitrated | clusters=5 | wrong_in_output=False
+  [202] naive=✗ | v4=✓ | type=multi_answer_arbitrated | clusters=5 | wrong_in_output=False
+  [203] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=7 | wrong_in_output=True
+  [204] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=6 | wrong_in_output=True
+  [205] naive=✗ | v4=✗ | type=consensus | clusters=6 | wrong_in_output=False
+  [206] naive=✗ | v4=✗ | type=consensus | clusters=7 | wrong_in_output=True
+  [207] naive=✗ | v4=✓ | type=multi_answer_arbitrated | clusters=5 | wrong_in_output=False
+  [208] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=6 | wrong_in_output=False
+  [209] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=4 | wrong_in_output=True
+
+--- Progress: 210/500 ---
+  Naive ACC (strict): 36.2%
+  V4 ACC (strict):    53.3% (Δ=+17.1pp)
+  Wrong answer rate:  27.1%
+
+  [210] naive=✗ | v4=✓ | type=multi_answer_arbitrated | clusters=2 | wrong_in_output=False
+  [211] naive=✗ | v4=✓ | type=multi_answer_arbitrated | clusters=2 | wrong_in_output=False
+  [212] naive=✗ | v4=✗ | type=consensus | clusters=6 | wrong_in_output=False
+  [213] naive=✗ | v4=✓ | type=multi_answer_arbitrated | clusters=5 | wrong_in_output=False
+  [214] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=5 | wrong_in_output=True
+  [215] naive=✗ | v4=✓ | type=multi_answer_arbitrated | clusters=4 | wrong_in_output=False
+  [216] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=2 | wrong_in_output=False
+  [217] naive=✓ | v4=✓ | type=multi_answer_arbitrated | clusters=2 | wrong_in_output=False
+  [218] naive=✗ | v4=✓ | type=multi_answer_arbitrated | clusters=3 | wrong_in_output=False
+  [219] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=2 | wrong_in_output=False
+
+--- Progress: 220/500 ---
+  Naive ACC (strict): 35.0%
+  V4 ACC (strict):    53.6% (Δ=+18.6pp)
+  Wrong answer rate:  26.4%
+
+  [220] naive=✗ | v4=✓ | type=multi_answer_arbitrated | clusters=5 | wrong_in_output=False
+  [221] naive=✗ | v4=✓ | type=multi_answer_arbitrated | clusters=6 | wrong_in_output=False
+  [222] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=4 | wrong_in_output=False
+  [223] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=7 | wrong_in_output=True
+  [224] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=2 | wrong_in_output=False
+  [225] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=6 | wrong_in_output=True
+  [226] naive=✗ | v4=✓ | type=multi_answer_arbitrated | clusters=4 | wrong_in_output=False
+  [227] naive=✓ | v4=✓ | type=multi_answer_arbitrated | clusters=6 | wrong_in_output=False
+  [228] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=3 | wrong_in_output=False
+  [229] naive=✗ | v4=✓ | type=multi_answer_arbitrated | clusters=2 | wrong_in_output=False
+
+--- Progress: 230/500 ---
+  Naive ACC (strict): 33.9%
+  V4 ACC (strict):    53.5% (Δ=+19.6pp)
+  Wrong answer rate:  26.1%
+
+  [230] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=4 | wrong_in_output=False
+  [231] naive=✓ | v4=✓ | type=multi_answer_arbitrated | clusters=2 | wrong_in_output=False
+  [232] naive=✗ | v4=✓ | type=multi_answer_arbitrated | clusters=4 | wrong_in_output=False
+  [233] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=6 | wrong_in_output=True
+  [234] naive=✗ | v4=✓ | type=multi_answer_arbitrated | clusters=6 | wrong_in_output=False
+  [235] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=6 | wrong_in_output=False
+  [236] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=5 | wrong_in_output=True
+  [237] naive=✗ | v4=✓ | type=multi_answer_arbitrated | clusters=3 | wrong_in_output=False
+  [238] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=5 | wrong_in_output=False
+  [239] naive=✓ | v4=✓ | type=multi_answer_arbitrated | clusters=2 | wrong_in_output=False
+
+--- Progress: 240/500 ---
+  Naive ACC (strict): 33.3%
+  V4 ACC (strict):    53.3% (Δ=+20.0pp)
+  Wrong answer rate:  25.8%
+
+  [240] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=8 | wrong_in_output=True
+  [241] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=4 | wrong_in_output=True
+  [242] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=6 | wrong_in_output=True
+  [243] naive=✗ | v4=✗ | type=consensus | clusters=2 | wrong_in_output=False
+  [244] naive=✗ | v4=✓ | type=multi_answer_arbitrated | clusters=4 | wrong_in_output=False
+  [245] naive=✓ | v4=✓ | type=multi_answer_arbitrated | clusters=5 | wrong_in_output=False
+  [246] naive=✓ | v4=✓ | type=multi_answer_arbitrated | clusters=4 | wrong_in_output=False
+  [247] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=5 | wrong_in_output=False
+  [248] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=5 | wrong_in_output=False
+  [249] naive=✗ | v4=✓ | type=multi_answer_arbitrated | clusters=4 | wrong_in_output=False
+
+--- Progress: 250/500 ---
+  Naive ACC (strict): 32.8%
+  V4 ACC (strict):    52.8% (Δ=+20.0pp)
+  Wrong answer rate:  26.0%
+
+  [250] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=4 | wrong_in_output=False
+  [251] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=5 | wrong_in_output=False
+  [252] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=7 | wrong_in_output=False
+  [253] naive=✗ | v4=✓ | type=multi_answer_arbitrated | clusters=3 | wrong_in_output=False
+  [254] naive=✗ | v4=✓ | type=multi_answer_arbitrated | clusters=7 | wrong_in_output=False
+  [255] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=5 | wrong_in_output=False
+  [256] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=4 | wrong_in_output=True
+  [257] naive=✗ | v4=✓ | type=multi_answer_arbitrated | clusters=3 | wrong_in_output=False
+  [258] naive=✗ | v4=✓ | type=multi_answer_arbitrated | clusters=6 | wrong_in_output=False
+  [259] naive=✗ | v4=✓ | type=multi_answer_arbitrated | clusters=2 | wrong_in_output=False
+
+--- Progress: 260/500 ---
+  Naive ACC (strict): 31.5%
+  V4 ACC (strict):    52.7% (Δ=+21.2pp)
+  Wrong answer rate:  25.4%
+
+  [260] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=2 | wrong_in_output=False
+  [261] naive=✗ | v4=✓ | type=multi_answer_arbitrated | clusters=4 | wrong_in_output=False
+  [262] naive=✓ | v4=✓ | type=multi_answer_arbitrated | clusters=5 | wrong_in_output=False
+  [263] naive=✗ | v4=✗ | type=consensus | clusters=3 | wrong_in_output=False
+  [264] naive=✗ | v4=✓ | type=multi_answer_arbitrated | clusters=4 | wrong_in_output=False
+  [265] naive=✗ | v4=✗ | type=consensus | clusters=4 | wrong_in_output=True
+  [266] naive=✗ | v4=✓ | type=multi_answer_arbitrated | clusters=4 | wrong_in_output=False
+  [267] naive=✓ | v4=✓ | type=multi_answer_arbitrated | clusters=4 | wrong_in_output=False
+  [268] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=3 | wrong_in_output=False
+  [269] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=4 | wrong_in_output=False
+
+--- Progress: 270/500 ---
+  Naive ACC (strict): 31.1%
+  V4 ACC (strict):    52.6% (Δ=+21.5pp)
+  Wrong answer rate:  24.8%
+
+  [270] naive=✗ | v4=✓ | type=multi_answer_arbitrated | clusters=6 | wrong_in_output=False
+  [271] naive=✗ | v4=✓ | type=multi_answer_arbitrated | clusters=5 | wrong_in_output=False
+  [272] naive=✗ | v4=✓ | type=multi_answer_arbitrated | clusters=5 | wrong_in_output=False
+  [273] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=10 | wrong_in_output=False
+  [274] naive=✗ | v4=✗ | type=consensus | clusters=4 | wrong_in_output=False
+  [275] naive=✗ | v4=✓ | type=multi_answer_arbitrated | clusters=5 | wrong_in_output=False
+  [276] naive=✗ | v4=✓ | type=multi_answer_arbitrated | clusters=6 | wrong_in_output=False
+  [277] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=4 | wrong_in_output=False
+  [278] naive=✗ | v4=✓ | type=multi_answer_arbitrated | clusters=3 | wrong_in_output=False
+  [279] naive=✓ | v4=✓ | type=multi_answer_arbitrated | clusters=5 | wrong_in_output=False
+
+--- Progress: 280/500 ---
+  Naive ACC (strict): 30.4%
+  V4 ACC (strict):    53.2% (Δ=+22.9pp)
+  Wrong answer rate:  23.9%
+
+  [280] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=4 | wrong_in_output=False
+  [281] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=4 | wrong_in_output=False
+  [282] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=6 | wrong_in_output=True
+  [283] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=7 | wrong_in_output=True
+  [284] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=3 | wrong_in_output=False
+  [285] naive=✗ | v4=✓ | type=multi_answer_arbitrated | clusters=6 | wrong_in_output=False
+  [286] naive=✗ | v4=✓ | type=multi_answer_arbitrated | clusters=5 | wrong_in_output=False
+  [287] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=4 | wrong_in_output=False
+  [288] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=6 | wrong_in_output=True
+  [289] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=8 | wrong_in_output=True
+
+--- Progress: 290/500 ---
+  Naive ACC (strict): 29.3%
+  V4 ACC (strict):    52.1% (Δ=+22.8pp)
+  Wrong answer rate:  24.5%
+
+  [290] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=6 | wrong_in_output=True
+  [291] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=3 | wrong_in_output=False
+  [292] naive=✓ | v4=✓ | type=multi_answer_arbitrated | clusters=3 | wrong_in_output=False
+  [293] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=2 | wrong_in_output=False
+  [294] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=7 | wrong_in_output=True
+  [295] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=6 | wrong_in_output=True
+  [296] naive=✗ | v4=✓ | type=multi_answer_arbitrated | clusters=5 | wrong_in_output=False
+  [297] naive=✗ | v4=✓ | type=multi_answer_arbitrated | clusters=6 | wrong_in_output=False
+  [298] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=4 | wrong_in_output=False
+  [299] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=5 | wrong_in_output=False
+
+--- Progress: 300/500 ---
+  Naive ACC (strict): 28.7%
+  V4 ACC (strict):    51.3% (Δ=+22.7pp)
+  Wrong answer rate:  24.7%
+
+  [300] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=10 | wrong_in_output=True
+  [301] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=3 | wrong_in_output=False
+  [302] naive=✗ | v4=✓ | type=multi_answer_arbitrated | clusters=5 | wrong_in_output=False
+  [303] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=8 | wrong_in_output=True
+  [304] naive=✗ | v4=✓ | type=multi_answer_arbitrated | clusters=8 | wrong_in_output=False
+  [305] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=5 | wrong_in_output=False
+  [306] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=7 | wrong_in_output=False
+  [307] naive=✗ | v4=✓ | type=multi_answer_arbitrated | clusters=8 | wrong_in_output=False
+  [308] naive=✗ | v4=✓ | type=multi_answer_arbitrated | clusters=9 | wrong_in_output=False
+  [309] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=7 | wrong_in_output=False
+
+--- Progress: 310/500 ---
+  Naive ACC (strict): 27.7%
+  V4 ACC (strict):    51.0% (Δ=+23.2pp)
+  Wrong answer rate:  24.5%
+
+  [310] naive=✗ | v4=✓ | type=multi_answer_arbitrated | clusters=9 | wrong_in_output=False
+  [311] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=4 | wrong_in_output=False
+  [312] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=9 | wrong_in_output=True
+  [313] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=7 | wrong_in_output=True
+  [314] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=8 | wrong_in_output=True
+  [315] naive=✗ | v4=✓ | type=multi_answer_arbitrated | clusters=3 | wrong_in_output=False
+  [316] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=3 | wrong_in_output=False
+  [317] naive=✗ | v4=✓ | type=multi_answer_arbitrated | clusters=7 | wrong_in_output=False
+  [318] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=7 | wrong_in_output=False
+  [319] naive=✗ | v4=✓ | type=multi_answer_arbitrated | clusters=8 | wrong_in_output=False
+
+--- Progress: 320/500 ---
+  Naive ACC (strict): 26.9%
+  V4 ACC (strict):    50.6% (Δ=+23.8pp)
+  Wrong answer rate:  24.7%
+
+  [320] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=5 | wrong_in_output=False
+  [321] naive=✓ | v4=✓ | type=multi_answer_arbitrated | clusters=7 | wrong_in_output=False
+  [322] naive=✗ | v4=✓ | type=multi_answer_arbitrated | clusters=5 | wrong_in_output=False
+  [323] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=6 | wrong_in_output=True
+  [324] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=4 | wrong_in_output=True
+  [325] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=3 | wrong_in_output=False
+  [326] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=3 | wrong_in_output=False
+  [327] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=6 | wrong_in_output=False
+  [328] naive=✗ | v4=✓ | type=multi_answer_arbitrated | clusters=5 | wrong_in_output=False
+  [329] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=7 | wrong_in_output=True
+
+--- Progress: 330/500 ---
+  Naive ACC (strict): 26.4%
+  V4 ACC (strict):    50.0% (Δ=+23.6pp)
+  Wrong answer rate:  24.8%
+
+  [330] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=3 | wrong_in_output=False
+  [331] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=9 | wrong_in_output=True
+  [332] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=7 | wrong_in_output=False
+  [333] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=6 | wrong_in_output=False
+  [334] naive=✗ | v4=✓ | type=multi_answer_arbitrated | clusters=4 | wrong_in_output=False
+  [335] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=9 | wrong_in_output=True
+  [336] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=7 | wrong_in_output=False
+  [337] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=7 | wrong_in_output=False
+  [338] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=7 | wrong_in_output=False
+  [339] naive=✗ | v4=✓ | type=multi_answer_arbitrated | clusters=6 | wrong_in_output=False
+
+--- Progress: 340/500 ---
+  Naive ACC (strict): 25.6%
+  V4 ACC (strict):    49.1% (Δ=+23.5pp)
+  Wrong answer rate:  24.7%
+
+  [340] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=5 | wrong_in_output=False
+  [341] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=7 | wrong_in_output=False
+  [342] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=8 | wrong_in_output=True
+  [343] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=7 | wrong_in_output=False
+  [344] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=3 | wrong_in_output=False
+  [345] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=7 | wrong_in_output=False
+  [346] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=8 | wrong_in_output=False
+  [347] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=3 | wrong_in_output=False
+  [348] naive=✓ | v4=✗ | type=multi_answer_arbitrated | clusters=6 | wrong_in_output=False
+  [349] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=5 | wrong_in_output=False
+
+--- Progress: 350/500 ---
+  Naive ACC (strict): 25.1%
+  V4 ACC (strict):    47.7% (Δ=+22.6pp)
+  Wrong answer rate:  24.3%
+
+  [350] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=4 | wrong_in_output=False
+  [351] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=4 | wrong_in_output=False
+  [352] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=9 | wrong_in_output=False
+  [353] naive=✗ | v4=✓ | type=multi_answer_arbitrated | clusters=8 | wrong_in_output=False
+  [354] naive=✗ | v4=✓ | type=multi_answer_arbitrated | clusters=9 | wrong_in_output=False
+  [355] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=7 | wrong_in_output=False
+  [356] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=6 | wrong_in_output=True
+  [357] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=4 | wrong_in_output=False
+  [358] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=6 | wrong_in_output=False
+  [359] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=9 | wrong_in_output=True
+
+--- Progress: 360/500 ---
+  Naive ACC (strict): 24.4%
+  V4 ACC (strict):    46.9% (Δ=+22.5pp)
+  Wrong answer rate:  24.2%
+
+  [360] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=5 | wrong_in_output=False
+  [361] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=7 | wrong_in_output=False
+  [362] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=5 | wrong_in_output=False
+  [363] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=7 | wrong_in_output=True
+  [364] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=6 | wrong_in_output=True
+  [365] naive=✗ | v4=✓ | type=multi_answer_arbitrated | clusters=6 | wrong_in_output=False
+  [366] naive=✓ | v4=✓ | type=multi_answer_arbitrated | clusters=3 | wrong_in_output=False
+  [367] naive=✗ | v4=✓ | type=multi_answer_arbitrated | clusters=9 | wrong_in_output=False
+  [368] naive=✓ | v4=✓ | type=multi_answer_arbitrated | clusters=6 | wrong_in_output=False
+  [369] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=9 | wrong_in_output=True
+
+--- Progress: 370/500 ---
+  Naive ACC (strict): 24.3%
+  V4 ACC (strict):    46.8% (Δ=+22.4pp)
+  Wrong answer rate:  24.3%
+
+  [370] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=7 | wrong_in_output=False
+  [371] naive=✗ | v4=✓ | type=multi_answer_arbitrated | clusters=6 | wrong_in_output=False
+  [372] naive=✓ | v4=✓ | type=multi_answer_arbitrated | clusters=8 | wrong_in_output=False
+  [373] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=3 | wrong_in_output=False
+  [374] naive=✗ | v4=✓ | type=multi_answer_arbitrated | clusters=5 | wrong_in_output=False
+  [375] naive=✗ | v4=✓ | type=multi_answer_arbitrated | clusters=8 | wrong_in_output=False
+  [376] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=6 | wrong_in_output=True
+  [377] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=9 | wrong_in_output=True
+  [378] naive=✗ | v4=✓ | type=multi_answer_arbitrated | clusters=7 | wrong_in_output=False
+  [379] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=5 | wrong_in_output=False
+
+--- Progress: 380/500 ---
+  Naive ACC (strict): 23.9%
+  V4 ACC (strict):    46.8% (Δ=+22.9pp)
+  Wrong answer rate:  24.2%
+
+  [380] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=7 | wrong_in_output=False
+  [381] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=12 | wrong_in_output=True
+  [382] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=4 | wrong_in_output=False
+  [383] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=6 | wrong_in_output=False
+  [384] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=5 | wrong_in_output=False
+  [385] naive=✗ | v4=✓ | type=multi_answer_arbitrated | clusters=6 | wrong_in_output=False
+  [386] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=7 | wrong_in_output=True
+  [387] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=6 | wrong_in_output=False
+  [388] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=9 | wrong_in_output=False
+  [389] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=6 | wrong_in_output=False
+
+--- Progress: 390/500 ---
+  Naive ACC (strict): 23.3%
+  V4 ACC (strict):    45.9% (Δ=+22.6pp)
+  Wrong answer rate:  24.1%
+
+  [390] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=5 | wrong_in_output=False
+  [391] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=3 | wrong_in_output=False
+  [392] naive=✗ | v4=✓ | type=multi_answer_arbitrated | clusters=3 | wrong_in_output=False
+  [393] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=9 | wrong_in_output=False
+  [394] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=5 | wrong_in_output=False
+  [395] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=6 | wrong_in_output=False
+  [396] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=6 | wrong_in_output=False
+  [397] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=8 | wrong_in_output=True
+  [398] naive=✗ | v4=✓ | type=multi_answer_arbitrated | clusters=6 | wrong_in_output=False
+  [399] naive=✗ | v4=✓ | type=multi_answer_arbitrated | clusters=8 | wrong_in_output=False
+
+--- Progress: 400/500 ---
+  Naive ACC (strict): 22.8%
+  V4 ACC (strict):    45.5% (Δ=+22.8pp)
+  Wrong answer rate:  23.8%
+
+  [400] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=4 | wrong_in_output=False
+  [401] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=7 | wrong_in_output=False
+  [402] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=5 | wrong_in_output=False
+  [403] naive=✗ | v4=✓ | type=multi_answer_arbitrated | clusters=3 | wrong_in_output=False
+  [404] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=5 | wrong_in_output=False
+  [405] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=6 | wrong_in_output=True
+  [406] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=6 | wrong_in_output=False
+  [407] naive=✗ | v4=✓ | type=multi_answer_arbitrated | clusters=6 | wrong_in_output=False
+  [408] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=7 | wrong_in_output=True
+  [409] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=7 | wrong_in_output=True
+
+--- Progress: 410/500 ---
+  Naive ACC (strict): 22.2%
+  V4 ACC (strict):    44.9% (Δ=+22.7pp)
+  Wrong answer rate:  23.9%
+
+  [410] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=8 | wrong_in_output=False
+  [411] naive=✗ | v4=✓ | type=multi_answer_arbitrated | clusters=8 | wrong_in_output=False
+  [412] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=7 | wrong_in_output=False
+  [413] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=5 | wrong_in_output=False
+  [414] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=8 | wrong_in_output=True
+  [415] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=7 | wrong_in_output=True
+  [416] naive=✗ | v4=✓ | type=multi_answer_arbitrated | clusters=7 | wrong_in_output=False
+  [417] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=7 | wrong_in_output=False
+  [418] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=7 | wrong_in_output=False
+  [419] naive=✗ | v4=✓ | type=multi_answer_arbitrated | clusters=6 | wrong_in_output=False
+
+--- Progress: 420/500 ---
+  Naive ACC (strict): 21.7%
+  V4 ACC (strict):    44.5% (Δ=+22.9pp)
+  Wrong answer rate:  23.8%
+
+  [420] naive=✗ | v4=✓ | type=multi_answer_arbitrated | clusters=5 | wrong_in_output=False
+  [421] naive=✓ | v4=✗ | type=multi_answer_arbitrated | clusters=4 | wrong_in_output=False
+  [422] naive=✗ | v4=✓ | type=multi_answer_arbitrated | clusters=9 | wrong_in_output=False
+  [423] naive=✗ | v4=✓ | type=multi_answer_arbitrated | clusters=7 | wrong_in_output=False
+  [424] naive=✗ | v4=✓ | type=multi_answer_arbitrated | clusters=3 | wrong_in_output=False
+  [425] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=6 | wrong_in_output=True
+  [426] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=10 | wrong_in_output=True
+  [427] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=3 | wrong_in_output=False
+  [428] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=4 | wrong_in_output=False
+  [429] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=6 | wrong_in_output=False
+
+--- Progress: 430/500 ---
+  Naive ACC (strict): 21.4%
+  V4 ACC (strict):    44.4% (Δ=+23.0pp)
+  Wrong answer rate:  23.7%
+
+  [430] naive=✗ | v4=✓ | type=multi_answer_arbitrated | clusters=6 | wrong_in_output=False
+  [431] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=6 | wrong_in_output=True
+  [432] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=4 | wrong_in_output=False
+  [433] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=3 | wrong_in_output=False
+  [434] naive=✗ | v4=✓ | type=multi_answer_arbitrated | clusters=10 | wrong_in_output=False
+  [435] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=3 | wrong_in_output=False
+  [436] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=6 | wrong_in_output=False
+  [437] naive=✗ | v4=✓ | type=multi_answer_arbitrated | clusters=5 | wrong_in_output=False
+  [438] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=6 | wrong_in_output=False
+  [439] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=3 | wrong_in_output=False
+
+--- Progress: 440/500 ---
+  Naive ACC (strict): 20.9%
+  V4 ACC (strict):    44.1% (Δ=+23.2pp)
+  Wrong answer rate:  23.4%
+
+  [440] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=4 | wrong_in_output=False
+  [441] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=4 | wrong_in_output=False
+  [442] naive=✗ | v4=✓ | type=multi_answer_arbitrated | clusters=4 | wrong_in_output=False
+  [443] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=7 | wrong_in_output=True
+  [444] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=6 | wrong_in_output=False
+  [445] naive=✗ | v4=✓ | type=multi_answer_arbitrated | clusters=8 | wrong_in_output=False
+  [446] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=6 | wrong_in_output=False
+  [447] naive=✗ | v4=✓ | type=multi_answer_arbitrated | clusters=5 | wrong_in_output=False
+  [448] naive=✗ | v4=✓ | type=multi_answer_arbitrated | clusters=6 | wrong_in_output=False
+  [449] naive=✗ | v4=✓ | type=multi_answer_arbitrated | clusters=3 | wrong_in_output=False
+
+--- Progress: 450/500 ---
+  Naive ACC (strict): 20.4%
+  V4 ACC (strict):    44.2% (Δ=+23.8pp)
+  Wrong answer rate:  23.1%
+
+  [450] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=11 | wrong_in_output=True
+  [451] naive=✗ | v4=✓ | type=multi_answer_arbitrated | clusters=7 | wrong_in_output=False
+  [452] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=5 | wrong_in_output=True
+  [453] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=9 | wrong_in_output=False
+  [454] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=10 | wrong_in_output=False
+  [455] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=7 | wrong_in_output=False
+  [456] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=7 | wrong_in_output=False
+  [457] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=6 | wrong_in_output=True
+  [458] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=6 | wrong_in_output=False
+  [459] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=5 | wrong_in_output=False
+
+--- Progress: 460/500 ---
+  Naive ACC (strict): 20.0%
+  V4 ACC (strict):    43.5% (Δ=+23.5pp)
+  Wrong answer rate:  23.3%
+
+  [460] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=9 | wrong_in_output=False
+  [461] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=5 | wrong_in_output=False
+  [462] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=8 | wrong_in_output=False
+  [463] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=5 | wrong_in_output=False
+  [464] naive=✗ | v4=✓ | type=multi_answer_arbitrated | clusters=5 | wrong_in_output=False
+  [465] naive=✗ | v4=✓ | type=multi_answer_arbitrated | clusters=5 | wrong_in_output=False
+  [466] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=9 | wrong_in_output=True
+  [467] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=4 | wrong_in_output=True
+  [468] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=9 | wrong_in_output=True
+  [469] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=10 | wrong_in_output=True
+
+--- Progress: 470/500 ---
+  Naive ACC (strict): 19.6%
+  V4 ACC (strict):    43.0% (Δ=+23.4pp)
+  Wrong answer rate:  23.6%
+
+  [470] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=5 | wrong_in_output=False
+  [471] naive=✗ | v4=✓ | type=multi_answer_arbitrated | clusters=8 | wrong_in_output=False
+  [472] naive=✗ | v4=✓ | type=multi_answer_arbitrated | clusters=5 | wrong_in_output=False
+  [473] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=3 | wrong_in_output=False
+  [474] naive=✗ | v4=✗ | type=consensus | clusters=5 | wrong_in_output=False
+  [475] naive=✗ | v4=✓ | type=multi_answer_arbitrated | clusters=7 | wrong_in_output=False
+  [476] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=8 | wrong_in_output=False
+  [477] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=8 | wrong_in_output=False
+  [478] naive=✗ | v4=✓ | type=multi_answer_arbitrated | clusters=6 | wrong_in_output=False
+  [479] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=7 | wrong_in_output=True
+
+--- Progress: 480/500 ---
+  Naive ACC (strict): 19.2%
+  V4 ACC (strict):    42.9% (Δ=+23.7pp)
+  Wrong answer rate:  23.3%
+
+  [480] naive=✗ | v4=✓ | type=multi_answer_arbitrated | clusters=7 | wrong_in_output=False
+  [481] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=4 | wrong_in_output=False
+  [482] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=9 | wrong_in_output=False
+  [483] naive=✗ | v4=✗ | type=consensus | clusters=6 | wrong_in_output=False
+  [484] naive=✓ | v4=✓ | type=multi_answer_arbitrated | clusters=6 | wrong_in_output=False
+  [485] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=3 | wrong_in_output=False
+  [486] naive=✗ | v4=✓ | type=multi_answer_arbitrated | clusters=7 | wrong_in_output=False
+  [487] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=10 | wrong_in_output=True
+  [488] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=11 | wrong_in_output=False
+  [489] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=5 | wrong_in_output=False
+
+--- Progress: 490/500 ---
+  Naive ACC (strict): 19.0%
+  V4 ACC (strict):    42.7% (Δ=+23.7pp)
+  Wrong answer rate:  23.1%
+
+  [490] naive=✗ | v4=✓ | type=multi_answer_arbitrated | clusters=6 | wrong_in_output=False
+  [491] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=7 | wrong_in_output=False
+  [492] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=5 | wrong_in_output=False
+  [493] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=6 | wrong_in_output=False
+  [494] naive=✗ | v4=✓ | type=multi_answer_arbitrated | clusters=4 | wrong_in_output=False
+  [495] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=4 | wrong_in_output=False
+  [496] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=10 | wrong_in_output=False
+  [497] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=5 | wrong_in_output=False
+  [498] naive=✗ | v4=✗ | type=multi_answer_arbitrated | clusters=7 | wrong_in_output=True
+  [499] naive=✗ | v4=✓ | type=multi_answer_arbitrated | clusters=9 | wrong_in_output=False
+
+--- Progress: 500/500 ---
+  Naive ACC (strict): 18.6%
+  V4 ACC (strict):    42.4% (Δ=+23.8pp)
+  Wrong answer rate:  22.8%
+
+
+============================================================
+FINAL RESULTS — V4 on RAMDocs (N=500)
+============================================================
+  Naive ACC (strict):  18.6%
+  V4 ACC (strict):     42.4% (Δ=+23.8pp)
+  Wrong answer rate:   22.8%
+  Avg API calls:       7.5
+============================================================
+
+Reference: MADAM-RAG GPT-4o-mini on RAMDocs = 28.0%

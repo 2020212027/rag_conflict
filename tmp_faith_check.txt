@@ -1,0 +1,4 @@
+﻿num parts after split: 3
+part0 len: 0
+part1[:200]:  Following a lengthy legal battle with the European Commission, which deemed the exclusivity of the rights to be against the interests of competition and the consumer, BSkyB's monopoly came to an end 
+part2[:200]:  Following a lengthy legal battle with the European Commission, which deemed the exclusivity of the rights to be against the interests of competition and the consumer, BSkyB's monopoly came to an end 

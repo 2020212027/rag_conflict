@@ -1,0 +1,40 @@
+============================================================
+Step 4: Layered E2E - CLEAN
+Model: gpt-4o-mini | Jaccard threshold: 0.2
+============================================================
+Loaded 215 samples
+Checkpoint: 0 done, 215 remaining
+  [10/215] NEM=90.0->70.0% rm=0.4 L2=8 | 0.6min ETA~13min
+  [20/215] NEM=80.0->70.0% rm=0.4 L2=16 | 1.2min ETA~12min
+  [30/215] NEM=76.7->70.0% rm=0.5 L2=29 | 2.0min ETA~12min
+  [40/215] NEM=77.5->67.5% rm=0.6 L2=37 | 2.7min ETA~12min
+  [50/215] NEM=80.0->72.0% rm=0.6 L2=50 | 3.6min ETA~12min
+  [60/215] NEM=80.0->73.3% rm=0.6 L2=67 | 4.5min ETA~12min
+  [70/215] NEM=75.7->71.4% rm=0.6 L2=85 | 5.4min ETA~11min
+  [80/215] NEM=72.5->67.5% rm=0.6 L2=99 | 6.3min ETA~11min
+  [90/215] NEM=72.2->67.8% rm=0.6 L2=118 | 7.2min ETA~10min
+  [100/215] NEM=72.0->69.0% rm=0.6 L2=135 | 8.2min ETA~9min
+  [110/215] NEM=72.7->69.1% rm=0.6 L2=156 | 9.3min ETA~9min
+  [120/215] NEM=72.5->68.3% rm=0.6 L2=179 | 10.4min ETA~8min
+  [130/215] NEM=72.3->67.7% rm=0.6 L2=196 | 11.4min ETA~7min
+  [140/215] NEM=71.4->66.4% rm=0.6 L2=209 | 12.2min ETA~7min
+  [150/215] NEM=70.7->66.7% rm=0.6 L2=240 | 13.6min ETA~6min
+  [160/215] NEM=70.6->67.5% rm=0.7 L2=268 | 14.8min ETA~5min
+  [170/215] NEM=70.6->67.6% rm=0.7 L2=285 | 15.8min ETA~4min
+  [180/215] NEM=69.4->66.1% rm=0.7 L2=304 | 16.8min ETA~3min
+  [190/215] NEM=71.1->67.4% rm=0.7 L2=335 | 18.3min ETA~2min
+  [200/215] NEM=71.0->67.0% rm=0.8 L2=364 | 19.7min ETA~1min
+  [210/215] NEM=70.5->66.7% rm=0.8 L2=398 | 21.2min ETA~1min
+  [215/215] NEM=70.7->66.5% rm=0.8 L2=421 | 22.0min ETA~0min
+
+============================================================
+FINAL CLEAN (N=215)
+============================================================
+  Naive NEM:  70.7%
+  Dedup NEM:  66.5%
+  Delta NEM:  -4.2pp
+  Avg removed: 0.8
+  Flipped good: 6 | Flipped bad: 15
+  Total Layer2 calls: 421
+  Cluster sizes: mean=2.1 max=6 count=149
+Saved: d:\pythonProject\results_layered_clean.jsonl

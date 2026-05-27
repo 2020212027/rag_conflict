@@ -1,0 +1,279 @@
+=== Module 2 V4 on AmbigDocs (N=1000) ===
+Output: D:\pythonProject\module2_ambigdocs\results\results_v4_ambigdocs.jsonl
+
+  [0] naive_r=1.00 v4_r=0.50 | type=consensus | clusters=2/2 | gold=2
+  [1] naive_r=0.50 v4_r=0.75 | type=multi_answer_arbitrated | clusters=4/4 | gold=4
+  [2] naive_r=1.00 v4_r=1.00 | type=multi_answer_arbitrated | clusters=2/2 | gold=2
+  [3] naive_r=0.00 v4_r=0.00 | type=multi_answer_arbitrated | clusters=2/2 | gold=2
+  [4] naive_r=0.00 v4_r=0.00 | type=consensus | clusters=2/2 | gold=2
+  [5] naive_r=0.00 v4_r=0.67 | type=multi_answer_arbitrated | clusters=3/3 | gold=3
+  [6] naive_r=1.00 v4_r=1.00 | type=multi_answer_arbitrated | clusters=2/2 | gold=2
+  [7] naive_r=1.00 v4_r=1.00 | type=multi_answer_arbitrated | clusters=2/2 | gold=2
+  [8] naive_r=0.00 v4_r=1.00 | type=multi_answer_arbitrated | clusters=2/2 | gold=2
+  [9] naive_r=0.50 v4_r=1.00 | type=multi_answer_arbitrated | clusters=2/2 | gold=2
+  [10] naive_r=0.00 v4_r=0.67 | type=multi_answer_arbitrated | clusters=3/3 | gold=3
+  [11] naive_r=0.67 v4_r=0.67 | type=multi_answer_arbitrated | clusters=3/3 | gold=3
+  [12] naive_r=0.50 v4_r=1.00 | type=multi_answer_arbitrated | clusters=2/2 | gold=2
+  [13] naive_r=0.00 v4_r=0.50 | type=multi_answer_arbitrated | clusters=2/2 | gold=2
+  [14] naive_r=0.00 v4_r=0.75 | type=multi_answer_arbitrated | clusters=4/4 | gold=4
+  [15] naive_r=1.00 v4_r=1.00 | type=multi_answer_arbitrated | clusters=2/2 | gold=2
+  [16] naive_r=0.00 v4_r=0.00 | type=multi_answer_arbitrated | clusters=3/3 | gold=3
+  [17] naive_r=1.00 v4_r=1.00 | type=multi_answer_arbitrated | clusters=2/2 | gold=2
+  [18] naive_r=0.00 v4_r=1.00 | type=multi_answer_arbitrated | clusters=2/2 | gold=2
+  [19] naive_r=1.00 v4_r=1.00 | type=multi_answer_arbitrated | clusters=2/2 | gold=2
+
+--- Progress: 20/1000 ---
+  Naive Answer Recall: 45.8%
+  V4 Answer Recall:    72.5% (Δ=+26.7pp)
+  Naive Strict ACC:    35.0%
+  V4 Strict ACC:       50.0% (Δ=+15.0pp)
+
+  [20] naive_r=1.00 v4_r=1.00 | type=multi_answer_arbitrated | clusters=2/2 | gold=2
+  [21] naive_r=0.00 v4_r=0.00 | type=multi_answer_arbitrated | clusters=2/2 | gold=2
+  [22] naive_r=0.50 v4_r=0.50 | type=consensus | clusters=2/2 | gold=2
+  [23] naive_r=0.00 v4_r=0.60 | type=multi_answer_arbitrated | clusters=5/5 | gold=5
+  [24] naive_r=0.50 v4_r=0.50 | type=multi_answer_arbitrated | clusters=2/2 | gold=2
+  [25] naive_r=1.00 v4_r=1.00 | type=multi_answer_arbitrated | clusters=2/2 | gold=2
+  [26] naive_r=1.00 v4_r=1.00 | type=multi_answer_arbitrated | clusters=2/2 | gold=2
+  [27] naive_r=0.50 v4_r=0.75 | type=multi_answer_arbitrated | clusters=4/4 | gold=4
+  [28] naive_r=0.00 v4_r=0.33 | type=consensus | clusters=3/3 | gold=3
+  [29] naive_r=0.00 v4_r=1.00 | type=multi_answer_arbitrated | clusters=3/3 | gold=3
+  [30] naive_r=0.00 v4_r=0.50 | type=multi_answer_arbitrated | clusters=2/2 | gold=2
+  [31] naive_r=1.00 v4_r=0.50 | type=consensus | clusters=2/2 | gold=2
+  [32] naive_r=1.00 v4_r=0.67 | type=multi_answer_arbitrated | clusters=3/3 | gold=3
+  [33] naive_r=0.67 v4_r=0.33 | type=consensus | clusters=3/3 | gold=3
+  [34] naive_r=0.67 v4_r=0.33 | type=multi_answer_arbitrated | clusters=3/3 | gold=3
+  [35] naive_r=1.00 v4_r=1.00 | type=multi_answer_arbitrated | clusters=2/2 | gold=2
+  [36] naive_r=0.50 v4_r=0.50 | type=multi_answer_arbitrated | clusters=2/2 | gold=2
+  [37] naive_r=0.00 v4_r=0.00 | type=multi_answer_arbitrated | clusters=2/2 | gold=2
+  [38] naive_r=0.50 v4_r=0.00 | type=consensus | clusters=2/2 | gold=2
+  [39] naive_r=0.00 v4_r=0.50 | type=multi_answer_arbitrated | clusters=2/2 | gold=2
+
+--- Progress: 40/1000 ---
+  Naive Answer Recall: 47.5%
+  V4 Answer Recall:    63.8% (Δ=+16.3pp)
+  Naive Strict ACC:    32.5%
+  V4 Strict ACC:       37.5% (Δ=+5.0pp)
+
+  [40] naive_r=0.60 v4_r=1.00 | type=multi_answer_arbitrated | clusters=5/5 | gold=5
+  [41] naive_r=0.80 v4_r=0.60 | type=multi_answer_arbitrated | clusters=5/5 | gold=5
+  [42] naive_r=0.00 v4_r=0.00 | type=multi_answer_arbitrated | clusters=2/2 | gold=2
+  [43] naive_r=0.33 v4_r=0.00 | type=consensus | clusters=3/3 | gold=3
+  [44] naive_r=1.00 v4_r=0.67 | type=multi_answer_arbitrated | clusters=3/3 | gold=3
+  [45] naive_r=0.50 v4_r=0.50 | type=multi_answer_arbitrated | clusters=2/2 | gold=2
+  [46] naive_r=1.00 v4_r=1.00 | type=multi_answer_arbitrated | clusters=2/2 | gold=2
+  [47] naive_r=0.67 v4_r=0.33 | type=multi_answer_arbitrated | clusters=3/3 | gold=3
+  [48] naive_r=1.00 v4_r=1.00 | type=multi_answer_arbitrated | clusters=3/3 | gold=3
+  [49] naive_r=1.00 v4_r=0.50 | type=consensus | clusters=2/2 | gold=2
+  [50] naive_r=0.00 v4_r=0.50 | type=multi_answer_arbitrated | clusters=2/2 | gold=2
+  [51] naive_r=1.00 v4_r=1.00 | type=multi_answer_arbitrated | clusters=2/2 | gold=2
+  [52] naive_r=0.00 v4_r=0.00 | type=consensus | clusters=2/2 | gold=2
+  [53] naive_r=1.00 v4_r=1.00 | type=multi_answer_arbitrated | clusters=2/2 | gold=2
+  [54] naive_r=0.50 v4_r=0.00 | type=consensus | clusters=2/2 | gold=2
+  [55] naive_r=0.00 v4_r=0.50 | type=multi_answer_arbitrated | clusters=4/4 | gold=4
+  [56] naive_r=0.00 v4_r=1.00 | type=multi_answer_arbitrated | clusters=3/3 | gold=3
+  [57] naive_r=1.00 v4_r=1.00 | type=multi_answer_arbitrated | clusters=3/3 | gold=3
+  [58] naive_r=0.00 v4_r=0.50 | type=multi_answer_arbitrated | clusters=2/2 | gold=2
+  [59] naive_r=0.25 v4_r=0.25 | type=multi_answer_arbitrated | clusters=4/4 | gold=4
+
+--- Progress: 60/1000 ---
+  Naive Answer Recall: 49.4%
+  V4 Answer Recall:    61.4% (Δ=+12.0pp)
+  Naive Strict ACC:    33.3%
+  V4 Strict ACC:       36.7% (Δ=+3.3pp)
+
+  [60] naive_r=0.00 v4_r=0.50 | type=consensus | clusters=2/2 | gold=2
+  [61] naive_r=0.00 v4_r=0.00 | type=consensus | clusters=2/2 | gold=2
+  [62] naive_r=0.00 v4_r=1.00 | type=multi_answer_arbitrated | clusters=2/2 | gold=2
+  [63] naive_r=0.40 v4_r=0.60 | type=multi_answer_arbitrated | clusters=5/5 | gold=5
+  [64] naive_r=0.25 v4_r=0.75 | type=multi_answer_arbitrated | clusters=4/4 | gold=4
+  [65] naive_r=0.00 v4_r=1.00 | type=multi_answer_arbitrated | clusters=2/2 | gold=2
+  [66] naive_r=0.50 v4_r=0.50 | type=consensus | clusters=2/2 | gold=2
+  [67] naive_r=0.33 v4_r=0.33 | type=multi_answer_arbitrated | clusters=3/3 | gold=3
+  [68] naive_r=0.00 v4_r=0.50 | type=consensus | clusters=2/2 | gold=2
+  [69] naive_r=0.33 v4_r=0.33 | type=multi_answer_arbitrated | clusters=3/3 | gold=3
+  [70] naive_r=0.50 v4_r=1.00 | type=multi_answer_arbitrated | clusters=2/2 | gold=2
+  [71] naive_r=1.00 v4_r=1.00 | type=multi_answer_arbitrated | clusters=2/2 | gold=2
+  [72] naive_r=0.00 v4_r=1.00 | type=multi_answer_arbitrated | clusters=2/2 | gold=2
+  [73] naive_r=0.50 v4_r=0.50 | type=multi_answer_arbitrated | clusters=4/4 | gold=4
+  [74] naive_r=0.00 v4_r=0.00 | type=no_evidence | clusters=2/2 | gold=2
+  [75] naive_r=0.50 v4_r=0.50 | type=multi_answer_arbitrated | clusters=2/2 | gold=2
+  [76] naive_r=0.00 v4_r=0.33 | type=multi_answer_arbitrated | clusters=6/6 | gold=6
+  [77] naive_r=0.50 v4_r=0.50 | type=multi_answer_arbitrated | clusters=2/2 | gold=2
+  [78] naive_r=0.00 v4_r=0.33 | type=multi_answer_arbitrated | clusters=3/3 | gold=3
+  [79] naive_r=0.00 v4_r=0.67 | type=multi_answer_arbitrated | clusters=3/3 | gold=3
+
+--- Progress: 80/1000 ---
+  Naive Answer Recall: 43.1%
+  V4 Answer Recall:    60.3% (Δ=+17.2pp)
+  Naive Strict ACC:    26.2%
+  V4 Strict ACC:       33.8% (Δ=+7.5pp)
+
+  [80] naive_r=0.50 v4_r=0.50 | type=multi_answer_arbitrated | clusters=4/4 | gold=4
+  [81] naive_r=0.50 v4_r=0.50 | type=multi_answer_arbitrated | clusters=4/4 | gold=4
+  [82] naive_r=0.00 v4_r=0.25 | type=multi_answer_arbitrated | clusters=4/4 | gold=4
+  [83] naive_r=0.00 v4_r=0.67 | type=multi_answer_arbitrated | clusters=3/3 | gold=3
+  [84] naive_r=0.25 v4_r=0.50 | type=multi_answer_arbitrated | clusters=4/4 | gold=4
+  [85] naive_r=0.50 v4_r=0.50 | type=multi_answer_arbitrated | clusters=2/2 | gold=2
+  [86] naive_r=0.00 v4_r=0.50 | type=consensus | clusters=2/2 | gold=2
+  [87] naive_r=0.50 v4_r=0.75 | type=multi_answer_arbitrated | clusters=4/4 | gold=4
+  [88] naive_r=1.00 v4_r=1.00 | type=multi_answer_arbitrated | clusters=2/2 | gold=2
+  [89] naive_r=0.00 v4_r=0.00 | type=multi_answer_arbitrated | clusters=5/5 | gold=5
+  [90] naive_r=0.50 v4_r=0.50 | type=consensus | clusters=2/2 | gold=2
+  [91] naive_r=0.00 v4_r=0.75 | type=multi_answer_arbitrated | clusters=4/4 | gold=4
+  [92] naive_r=0.00 v4_r=0.50 | type=consensus | clusters=2/2 | gold=2
+  [93] naive_r=0.00 v4_r=0.00 | type=multi_answer_arbitrated | clusters=2/2 | gold=2
+  [94] naive_r=0.00 v4_r=0.00 | type=consensus | clusters=3/3 | gold=3
+  [95] naive_r=0.17 v4_r=0.50 | type=multi_answer_arbitrated | clusters=6/6 | gold=6
+  [96] naive_r=0.50 v4_r=0.50 | type=multi_answer_arbitrated | clusters=2/2 | gold=2
+  [97] naive_r=0.00 v4_r=1.00 | type=multi_answer_arbitrated | clusters=2/2 | gold=2
+  [98] naive_r=0.00 v4_r=0.25 | type=multi_answer_arbitrated | clusters=4/4 | gold=4
+  [99] naive_r=0.00 v4_r=0.00 | type=multi_answer_arbitrated | clusters=2/2 | gold=2
+
+--- Progress: 100/1000 ---
+  Naive Answer Recall: 38.9%
+  V4 Answer Recall:    57.4% (Δ=+18.5pp)
+  Naive Strict ACC:    22.0%
+  V4 Strict ACC:       29.0% (Δ=+7.0pp)
+
+  [100] naive_r=1.00 v4_r=1.00 | type=multi_answer_arbitrated | clusters=3/3 | gold=3
+  [101] naive_r=1.00 v4_r=1.00 | type=multi_answer_arbitrated | clusters=5/5 | gold=5
+  [102] naive_r=0.00 v4_r=0.25 | type=multi_answer_arbitrated | clusters=4/4 | gold=4
+  [103] naive_r=0.00 v4_r=0.00 | type=multi_answer_arbitrated | clusters=2/2 | gold=2
+  [104] naive_r=0.00 v4_r=0.60 | type=multi_answer_arbitrated | clusters=5/5 | gold=5
+  [105] naive_r=0.00 v4_r=0.00 | type=consensus | clusters=3/3 | gold=3
+  [106] naive_r=1.00 v4_r=1.00 | type=multi_answer_arbitrated | clusters=2/2 | gold=2
+  [107] naive_r=0.00 v4_r=0.33 | type=consensus | clusters=3/3 | gold=3
+  [108] naive_r=0.00 v4_r=0.25 | type=consensus | clusters=4/4 | gold=4
+  [109] naive_r=0.50 v4_r=0.00 | type=no_evidence | clusters=2/2 | gold=2
+  [110] naive_r=0.67 v4_r=0.67 | type=multi_answer_arbitrated | clusters=3/3 | gold=3
+  [111] naive_r=0.00 v4_r=0.00 | type=multi_answer_arbitrated | clusters=3/3 | gold=3
+  [112] naive_r=0.00 v4_r=0.67 | type=multi_answer_arbitrated | clusters=3/3 | gold=3
+  [113] naive_r=0.50 v4_r=0.75 | type=multi_answer_arbitrated | clusters=4/4 | gold=4
+  [114] naive_r=0.00 v4_r=1.00 | type=multi_answer_arbitrated | clusters=2/2 | gold=2
+  [115] naive_r=0.00 v4_r=0.25 | type=multi_answer_arbitrated | clusters=4/4 | gold=4
+  [116] naive_r=0.00 v4_r=0.00 | type=multi_answer_arbitrated | clusters=2/2 | gold=2
+  [117] naive_r=0.25 v4_r=0.25 | type=multi_answer_arbitrated | clusters=4/4 | gold=4
+  [118] naive_r=0.00 v4_r=0.00 | type=consensus | clusters=2/2 | gold=2
+  [119] naive_r=0.00 v4_r=1.00 | type=multi_answer_arbitrated | clusters=2/2 | gold=2
+
+--- Progress: 120/1000 ---
+  Naive Answer Recall: 36.5%
+  V4 Answer Recall:    55.3% (Δ=+18.8pp)
+  Naive Strict ACC:    20.8%
+  V4 Strict ACC:       28.3% (Δ=+7.5pp)
+
+  [120] naive_r=0.00 v4_r=0.50 | type=multi_answer_arbitrated | clusters=4/4 | gold=4
+  [121] naive_r=0.50 v4_r=1.00 | type=multi_answer_arbitrated | clusters=2/2 | gold=2
+  [122] naive_r=0.00 v4_r=0.50 | type=multi_answer_arbitrated | clusters=2/2 | gold=2
+  [123] naive_r=0.00 v4_r=0.00 | type=consensus | clusters=2/2 | gold=2
+  [124] naive_r=0.00 v4_r=0.50 | type=multi_answer_arbitrated | clusters=4/4 | gold=4
+  [125] naive_r=0.00 v4_r=0.00 | type=multi_answer_arbitrated | clusters=2/2 | gold=2
+  [126] naive_r=1.00 v4_r=0.00 | type=consensus | clusters=2/2 | gold=2
+  [127] naive_r=0.33 v4_r=0.00 | type=multi_answer_arbitrated | clusters=3/3 | gold=3
+  [128] naive_r=1.00 v4_r=1.00 | type=multi_answer_arbitrated | clusters=2/2 | gold=2
+  [129] naive_r=1.00 v4_r=1.00 | type=multi_answer_arbitrated | clusters=2/2 | gold=2
+  [130] naive_r=1.00 v4_r=1.00 | type=multi_answer_arbitrated | clusters=2/2 | gold=2
+  [131] naive_r=1.00 v4_r=1.00 | type=multi_answer_arbitrated | clusters=2/2 | gold=2
+  [132] naive_r=0.33 v4_r=1.00 | type=multi_answer_arbitrated | clusters=3/3 | gold=3
+  [133] naive_r=0.00 v4_r=0.00 | type=consensus | clusters=2/2 | gold=2
+  [134] naive_r=0.00 v4_r=0.00 | type=multi_answer_arbitrated | clusters=2/2 | gold=2
+  [135] naive_r=0.00 v4_r=0.33 | type=consensus | clusters=3/3 | gold=3
+  [136] naive_r=0.00 v4_r=0.25 | type=multi_answer_arbitrated | clusters=4/4 | gold=4
+  [137] naive_r=1.00 v4_r=1.00 | type=multi_answer_arbitrated | clusters=2/2 | gold=2
+  [138] naive_r=0.67 v4_r=0.67 | type=multi_answer_arbitrated | clusters=3/3 | gold=3
+  [139] naive_r=0.00 v4_r=0.50 | type=multi_answer_arbitrated | clusters=4/4 | gold=4
+
+--- Progress: 140/1000 ---
+  Naive Answer Recall: 36.9%
+  V4 Answer Recall:    54.8% (Δ=+17.9pp)
+  Naive Strict ACC:    22.1%
+  V4 Strict ACC:       29.3% (Δ=+7.1pp)
+
+  [140] naive_r=0.00 v4_r=0.25 | type=multi_answer_arbitrated | clusters=4/4 | gold=4
+  [141] naive_r=1.00 v4_r=1.00 | type=multi_answer_arbitrated | clusters=3/3 | gold=3
+  [142] naive_r=0.33 v4_r=0.00 | type=consensus | clusters=3/3 | gold=3
+  [143] naive_r=0.00 v4_r=0.50 | type=consensus | clusters=2/2 | gold=2
+  [144] naive_r=0.50 v4_r=0.75 | type=multi_answer_arbitrated | clusters=4/4 | gold=4
+  [145] naive_r=0.50 v4_r=0.50 | type=consensus | clusters=2/2 | gold=2
+  [146] naive_r=0.00 v4_r=0.00 | type=consensus | clusters=2/2 | gold=2
+  [147] naive_r=1.00 v4_r=1.00 | type=multi_answer_arbitrated | clusters=2/2 | gold=2
+  [148] naive_r=0.67 v4_r=0.67 | type=multi_answer_arbitrated | clusters=3/3 | gold=3
+  [149] naive_r=0.50 v4_r=1.00 | type=multi_answer_arbitrated | clusters=2/2 | gold=2
+  [150] naive_r=0.00 v4_r=0.00 | type=consensus | clusters=2/2 | gold=2
+  [151] naive_r=0.00 v4_r=0.33 | type=multi_answer_arbitrated | clusters=3/3 | gold=3
+  [152] naive_r=0.33 v4_r=0.00 | type=no_evidence | clusters=3/3 | gold=3
+  [153] naive_r=0.00 v4_r=1.00 | type=multi_answer_arbitrated | clusters=2/2 | gold=2
+  [154] naive_r=0.50 v4_r=1.00 | type=multi_answer_arbitrated | clusters=2/2 | gold=2
+  [155] naive_r=1.00 v4_r=1.00 | type=multi_answer_arbitrated | clusters=2/2 | gold=2
+  [156] naive_r=0.00 v4_r=0.00 | type=multi_answer_arbitrated | clusters=2/2 | gold=2
+  [157] naive_r=0.67 v4_r=0.67 | type=multi_answer_arbitrated | clusters=3/3 | gold=3
+  [158] naive_r=0.25 v4_r=0.00 | type=consensus | clusters=4/4 | gold=4
+  [159] naive_r=0.33 v4_r=0.33 | type=multi_answer_arbitrated | clusters=3/3 | gold=3
+
+--- Progress: 160/1000 ---
+  Naive Answer Recall: 37.0%
+  V4 Answer Recall:    54.2% (Δ=+17.1pp)
+  Naive Strict ACC:    21.2%
+  V4 Strict ACC:       29.4% (Δ=+8.1pp)
+
+  [160] naive_r=0.50 v4_r=0.50 | type=multi_answer_arbitrated | clusters=2/2 | gold=2
+  [161] naive_r=0.00 v4_r=0.50 | type=multi_answer_arbitrated | clusters=4/4 | gold=4
+  [162] naive_r=0.50 v4_r=0.50 | type=multi_answer_arbitrated | clusters=2/2 | gold=2
+  [163] naive_r=0.00 v4_r=0.50 | type=consensus | clusters=2/2 | gold=2
+  [164] naive_r=0.50 v4_r=0.50 | type=multi_answer_arbitrated | clusters=2/2 | gold=2
+  [165] naive_r=0.00 v4_r=1.00 | type=multi_answer_arbitrated | clusters=3/3 | gold=3
+  [166] naive_r=0.00 v4_r=1.00 | type=multi_answer_arbitrated | clusters=2/2 | gold=2
+  [167] naive_r=0.50 v4_r=0.50 | type=multi_answer_arbitrated | clusters=2/2 | gold=2
+  [168] naive_r=0.00 v4_r=0.00 | type=consensus | clusters=3/3 | gold=3
+  [169] naive_r=0.50 v4_r=0.50 | type=multi_answer_arbitrated | clusters=2/2 | gold=2
+  [170] naive_r=0.00 v4_r=0.50 | type=consensus | clusters=2/2 | gold=2
+  [171] naive_r=0.00 v4_r=0.50 | type=multi_answer_arbitrated | clusters=2/2 | gold=2
+  [172] naive_r=0.00 v4_r=0.50 | type=multi_answer_arbitrated | clusters=2/2 | gold=2
+  [173] naive_r=0.50 v4_r=0.50 | type=consensus | clusters=2/2 | gold=2
+  [174] naive_r=0.00 v4_r=0.00 | type=multi_answer_arbitrated | clusters=2/2 | gold=2
+  [175] naive_r=0.50 v4_r=0.50 | type=multi_answer_arbitrated | clusters=2/2 | gold=2
+  [176] naive_r=0.50 v4_r=0.50 | type=multi_answer_arbitrated | clusters=2/2 | gold=2
+  [177] naive_r=0.00 v4_r=0.00 | type=multi_answer_arbitrated | clusters=2/2 | gold=2
+  [178] naive_r=0.00 v4_r=1.00 | type=multi_answer_arbitrated | clusters=2/2 | gold=2
+  [179] naive_r=1.00 v4_r=1.00 | type=multi_answer_arbitrated | clusters=2/2 | gold=2
+
+--- Progress: 180/1000 ---
+  Naive Answer Recall: 35.7%
+  V4 Answer Recall:    54.0% (Δ=+18.3pp)
+  Naive Strict ACC:    19.4%
+  V4 Strict ACC:       28.3% (Δ=+8.9pp)
+
+  [180] naive_r=0.00 v4_r=0.00 | type=multi_answer_arbitrated | clusters=3/3 | gold=3
+  [181] naive_r=1.00 v4_r=1.00 | type=multi_answer_arbitrated | clusters=2/2 | gold=2
+  [182] naive_r=0.33 v4_r=0.33 | type=consensus | clusters=3/3 | gold=3
+  [183] naive_r=0.00 v4_r=0.00 | type=multi_answer_arbitrated | clusters=4/4 | gold=4
+  [184] naive_r=0.00 v4_r=0.00 | type=multi_answer_arbitrated | clusters=4/4 | gold=4
+  [185] naive_r=0.00 v4_r=0.33 | type=consensus | clusters=3/3 | gold=3
+  [186] naive_r=0.50 v4_r=0.50 | type=multi_answer_arbitrated | clusters=2/2 | gold=2
+  [187] naive_r=0.33 v4_r=0.33 | type=multi_answer_arbitrated | clusters=3/3 | gold=3
+  [188] naive_r=0.00 v4_r=0.00 | type=no_evidence | clusters=2/2 | gold=2
+  [189] naive_r=0.00 v4_r=1.00 | type=multi_answer_arbitrated | clusters=3/3 | gold=3
+  [190] naive_r=1.00 v4_r=1.00 | type=multi_answer_arbitrated | clusters=2/2 | gold=2
+  [191] naive_r=1.00 v4_r=1.00 | type=multi_answer_arbitrated | clusters=2/2 | gold=2
+  [192] naive_r=0.00 v4_r=0.33 | type=multi_answer_arbitrated | clusters=3/3 | gold=3
+  [193] naive_r=0.67 v4_r=1.00 | type=multi_answer_arbitrated | clusters=3/3 | gold=3
+  [194] naive_r=0.00 v4_r=0.33 | type=multi_answer_arbitrated | clusters=3/3 | gold=3
+  [195] naive_r=0.50 v4_r=1.00 | type=multi_answer_arbitrated | clusters=2/2 | gold=2
+  [196] naive_r=1.00 v4_r=1.00 | type=multi_answer_arbitrated | clusters=2/2 | gold=2
+  [197] naive_r=0.50 v4_r=1.00 | type=multi_answer_arbitrated | clusters=2/2 | gold=2
+  [198] naive_r=0.00 v4_r=0.20 | type=consensus | clusters=5/5 | gold=5
+  [199] naive_r=0.00 v4_r=0.25 | type=multi_answer_arbitrated | clusters=4/4 | gold=4
+
+--- Progress: 200/1000 ---
+  Naive Answer Recall: 35.5%
+  V4 Answer Recall:    53.9% (Δ=+18.4pp)
+  Naive Strict ACC:    19.5%
+  V4 Strict ACC:       29.5% (Δ=+10.0pp)
+
+  [200] naive_r=0.33 v4_r=0.33 | type=consensus | clusters=3/3 | gold=3
+  [201] naive_r=1.00 v4_r=0.00 | type=multi_answer_arbitrated | clusters=2/2 | gold=2
+  [202] naive_r=0.00 v4_r=0.40 | type=multi_answer_arbitrated | clusters=5/5 | gold=5
+  [203] naive_r=0.00 v4_r=0.50 | type=multi_answer_arbitrated | clusters=4/4 | gold=4
+  [204] naive_r=1.00 v4_r=1.00 | type=multi_answer_arbitrated | clusters=3/3 | gold=3
+  [205] naive_r=0.00 v4_r=0.00 | type=multi_answer_arbitrated | clusters=2/2 | gold=2

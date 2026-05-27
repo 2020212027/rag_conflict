@@ -1,0 +1,7 @@
+﻿Total samples: 215
+api_calls field: {'module1': 21, 'extraction': 10, 'arbitration': 1, 'naive': 1, 'total': 33}
+Avg Module1: 19.2
+Avg Extraction: 9.5
+Avg Arbitration: 0.93
+Avg Total: 30.7
+Decision types: {'conflict_arbitrated': 199, 'consensus': 15, 'no_evidence': 1}

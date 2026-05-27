@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "D:\pythonProject\step_3_end_to_end.py", line 233, in <module>
+    main()
+  File "D:\pythonProject\step_3_end_to_end.py", line 225, in main
+    out = os.path.join(OUTPUT_DIR, "results_e2e_dedup.jsonl")
+NameError: name 'OUTPUT_DIR' is not defined

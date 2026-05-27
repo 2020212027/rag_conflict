@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "D:\pythonProject\module2\source_isolated_arbitration.py", line 550, in <module>
+    main()
+  File "D:\pythonProject\module2\source_isolated_arbitration.py", line 507, in main
+    result = process_sample(sample, idx, log_path)
+  File "D:\pythonProject\module2\source_isolated_arbitration.py", line 446, in process_sample
+    log(f"  [{idx}] naive={naive_answer[:30]}({'\u2713' if naive_correct else '\u2717'}) "
+  File "D:\pythonProject\module2\source_isolated_arbitration.py", line 94, in log
+    print(msg, flush=True)
+UnicodeEncodeError: 'gbk' codec can't encode character '\u2713' in position 25: illegal multibyte sequence
